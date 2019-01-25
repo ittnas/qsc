@@ -129,7 +129,7 @@ contains
     if(present(seed_in)) then
        this%seed = seed_in
     else
-       stop(1)
+       stop (1)
     end if
     if(present(a_in) .and. present(c_in) .and. present(m_in)) then
        this%a = a_in

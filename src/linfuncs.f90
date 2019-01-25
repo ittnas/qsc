@@ -352,7 +352,7 @@ function get_eye(dim) result(eye)
     !write(*,*) 'x', x
     if(x(dim_in) < xquery(dim) .or. xquery(1) < x(1)) then
        write(*,*) 'In interp1, the query point is outside of the range of the data points.'
-       stop(1)
+       stop (1)
     end if
 
     ya(1:n,:) = real(y)
@@ -398,7 +398,7 @@ function get_eye(dim) result(eye)
     ! First calculate the finite differences
     if(x(dim_in) < xquery(dim) .or. xquery(1) < x(1)) then
        write(*,*) 'In interp1, the query point is outside of the range of the data points.'
-       stop(1)
+       stop (1)
     end if
 
     fd = finite_difference(x,y)
@@ -511,7 +511,7 @@ function get_eye(dim) result(eye)
     complex(fp), dimension(dim,dim) :: sl1l2
     if(l1>dim .or. l2>dim) then
        write(*,*) 'Improper values for parameters in dephasing_operator.'
-       stop(1)
+       stop (1)
     endif
     
     sl1l2 = (0.0_fp,0.0_fp)

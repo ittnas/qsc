@@ -101,7 +101,7 @@ program test_linfuncs
   end do
   
   allocate(Hg_array(1))
-  call Hg_array(1)%initialize(dim,1,wg*0,0.0_fp,0.0_fp,hbar_in = 1.0_fp)
+  call Hg_array(1)%initialize(dim,1,wg*0,0.0_fp,0.0_fp,hbar_in = 1.0_fp,initial_sg_cont_size=5)
 
   call Hg%initialize(dim,1,wg*0,0.0_fp,0.0_fp,hbar_in = 1.0_fp)
   call signg%initialize(Hg%op%cc(:,:,1),1.0_fp)

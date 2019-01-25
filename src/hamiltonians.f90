@@ -396,7 +396,7 @@ contains
     real(fp),dimension(:),intent(in) :: wref_array
     if(size(wref_array) .ne. this%dim) then
        write(*,*) 'Size of wref_array is incorrect.'
-       stop(1)
+       stop (1)
     endif
     this%wref_array = wref_array
     this%use_wref_array = .TRUE.
@@ -658,7 +658,7 @@ contains
        !call print_matrix(this%wtlf_mat)
     else
        write(*,*) 'value_at_djch_tlf6 cannot be used with wref (you must provide wref_array)'
-       stop(1)
+       stop (1)
     end if
   end function value_at_djch_tlf6
 !--------------------------------------------------------------
@@ -679,7 +679,7 @@ contains
     end if
     if(this%dim < 1) then 
        write(*,*) 'Number of levels must be larger than 0.'
-       stop(1)
+       stop (1)
     end if
     
     if(present(ng)) then
@@ -690,7 +690,7 @@ contains
 
     if(d < 0 .or. d>1) then
        write(*,*) 'Error in initializing cpb. Junction assymetry d must be in interval [0,1].'
-       stop(1)
+       stop (1)
     endif
     
     allocate(this%H(this%dim,this%dim))
@@ -740,7 +740,7 @@ contains
     end if
     if(nel < 1) then 
        write(*,*) 'Number of levels must be larger than 0.'
-       stop(1)
+       stop (1)
     end if
     
     if(present(ng)) then
@@ -751,7 +751,7 @@ contains
 
     if(d < 0 .or. d>1) then
        write(*,*) 'Error in initializing cpb. Junction assymetry d must be in interval [0,1].'
-       stop(1)
+       stop (1)
     endif
     
     allocate(this%H(this%dim*2,this%dim*2))
@@ -880,7 +880,7 @@ contains
     real(fp),dimension(:),intent(in) :: wref_array
     if(size(wref_array) .ne. this%dim) then
        write(*,*) 'Size of wref_array is incorrect.'
-       stop(1)
+       stop (1)
     endif
     this%wref_array = wref_array
     this%use_wref_array = .TRUE.
@@ -966,7 +966,7 @@ contains
     real(fp),dimension(:),intent(in) :: wref_array
     if(size(wref_array) .ne. this%dim) then
        write(*,*) 'Size of wref_array is incorrect.'
-       stop(1)
+       stop (1)
     endif
     this%wref_array = wref_array
     this%use_wref_array = .TRUE.

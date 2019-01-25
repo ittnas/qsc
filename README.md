@@ -1,0 +1,1 @@
+# Quantum solver collection - qsc

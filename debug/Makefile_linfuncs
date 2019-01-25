@@ -1,0 +1,17 @@
+FC = gfortran
+#FCFLAGS = -Ofast -fopenmp -cpp -fbounds-check
+FCFLAGS = -Ofast -cpp -fbounds-check
+FCLIBS = -lqsc -llapack -lblas
+#LIBPATH = -L/home/kvantti/aalto/quantum_solver_collection/bin
+LIBPATH = -L../bin
+#INCLPATH = -I/home/kvantti/aalto/quantum_solver_collection/include
+INCLPATH = -I../include
+
+SRCS = test_linfuncs.f90
+
+TARGET = test_linfuncs
+
+all: $(TARGET)
+
+$(TARGET): $(SRCS)
+	$(FC) $(FCFLAGS) $(SRCS) -o $@ $(INCLPATH) $(LIBPATH) $(FCLIBS)

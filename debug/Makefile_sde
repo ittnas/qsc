@@ -1,0 +1,18 @@
+FC = gfortran
+FCFLAGS = -Ofast -fopenmp -cpp -fbounds-check -finit-real=nan
+FCLIBS = -lqsc -llapack -lblas
+#LIBPATH = -L/home/kvantti/aalto/quantum_solver_collection/bin
+LIBPATH = -L../bin
+#INCLPATH = -I/home/kvantti/aalto/quantum_solver_collection/include
+INCLPATH = -I../include
+EXTLIBS = -L../ext/SOFTWARE -lSparseBLAS_GNU
+EXTINCL = -I../ext/SOFTWARE
+
+SRCS = test_sde_solvers.f90
+
+TARGET = test_sde_solvers
+
+all: $(TARGET)
+
+$(TARGET): $(SRCS)
+	$(FC) $(FCFLAGS) $(SRCS) -o $@ $(INCLPATH) $(LIBPATH) $(FCLIBS) $(EXTLIBS) $(EXTINCL)

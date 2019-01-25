@@ -1,0 +1,14085 @@
+version: 1
+creator: callgrind-3.7.0
+pid: 25605
+cmd:  ./test_sde_solvers
+part: 1
+
+
+desc: I1 cache: 
+desc: D1 cache: 
+desc: LL cache: 
+
+desc: Timerange: Basic block 0 - 339625254
+desc: Trigger: Program termination
+
+positions: line
+events: Ir
+summary: 4926507125
+
+
+ob=(6) /usr/lib/i386-linux-gnu/libquadmath.so.0.0.0
+fl=(59) ???
+fn=(284) 0x00001e47
+0 3016
+
+fn=(300) 0x00001c80
+0 4
+cfn=(284)
+calls=1 0 
+0 2
+0 5
+cob=(3) /lib/i386-linux-gnu/libc-2.15.so
+cfi=(62) /build/buildd/eglibc-2.15/stdio-common/reg-type.c
+cfn=(316) register_printf_type
+calls=1 37 
+0 70529
+cob=(1) /lib/i386-linux-gnu/ld-2.15.so
+cfi=(60) /build/buildd/eglibc-2.15/elf/../sysdeps/i386/dl-trampoline.S
+cfn=(310) _dl_runtime_resolve
+calls=1 29 
+0 1723
+0 6
+cob=(3)
+cfi=(72) /build/buildd/eglibc-2.15/stdio-common/reg-modifier.c
+cfn=(358) register_printf_modifier
+calls=1 43 
+0 1743
+cob=(1)
+cfi=(60)
+cfn=(310)
+calls=1 29 
+0 1779
+0 9
+cob=(3)
+cfi=(75) /build/buildd/eglibc-2.15/stdio-common/reg-printf.c
+cfn=(376) register_printf_specifier
+calls=1 46 
+0 805
+cob=(1)
+cfi=(60)
+cfn=(310)
+calls=1 29 
+0 1795
+0 4
+cob=(3)
+cfi=(75)
+cfn=(376)
+calls=1 46 
+0 34
+0 4
+cob=(3)
+cfi=(75)
+cfn=(376)
+calls=1 46 
+0 34
+0 4
+cob=(3)
+cfi=(75)
+cfn=(376)
+calls=1 46 
+0 34
+0 4
+cob=(3)
+cfi=(75)
+cfn=(376)
+calls=1 46 
+0 34
+0 5
+cob=(3)
+cfi=(75)
+cfn=(376)
+calls=1 46 
+0 34
+0 4
+cob=(3)
+cfi=(75)
+cfn=(376)
+calls=1 46 
+0 34
+0 4
+cob=(3)
+cfi=(75)
+cfn=(376)
+calls=1 46 
+0 34
+0 5
+
+fn=(2024) 0x00054d2f
+0 3006
+
+fn=(2752) 0x00001b70
+0 2
+cfn=(284)
+calls=1 0 
+0 2
+0 10
+cob=(3)
+cfi=(75)
+cfn=(376)
+calls=1 46 
+0 34
+0 4
+cob=(3)
+cfi=(75)
+cfn=(376)
+calls=1 46 
+0 34
+0 4
+cob=(3)
+cfi=(75)
+cfn=(376)
+calls=1 46 
+0 34
+0 4
+cob=(3)
+cfi=(75)
+cfn=(376)
+calls=1 46 
+0 34
+0 4
+cob=(3)
+cfi=(75)
+cfn=(376)
+calls=1 46 
+0 34
+0 4
+cob=(3)
+cfi=(75)
+cfn=(376)
+calls=1 46 
+0 34
+0 4
+cob=(3)
+cfi=(75)
+cfn=(376)
+calls=1 46 
+0 34
+0 4
+cob=(3)
+cfi=(75)
+cfn=(376)
+calls=1 46 
+0 34
+0 3
+
+fn=(282) 0x00001e10
+0 4
+cfn=(284)
+calls=1 0 
+0 2
+0 9
+
+fn=(2778) 0x00001d90
+0 5
+cfn=(284)
+calls=1 0 
+0 2
+0 10
+cob=(3)
+cfi=(143) /build/buildd/eglibc-2.15/stdlib/cxa_finalize.c
+cfn=(2628) __cxa_finalize
+calls=1 31 
+0 72
+cob=(1)
+cfi=(60)
+cfn=(310)
+calls=1 29 
+0 1635
+0 14
+
+fn=(2022) 0x000545b0
+0 1503
+cfn=(2024)
+calls=1503 0 
+0 3006
+0 10521
+
+fn=(2030) 0x00054660
+0 4509
+cfn=(284)
+calls=1503 0 
+0 3006
+0 22545
+
+fn=(292) 0x000610a0
+0 5
+cfn=(284)
+calls=1 0 
+0 2
+0 8
+
+ob=(9) /usr/lib/libblas/libblas.so.3gf.0
+fl=(87) ???
+fn=(728) 0x000042a0
+0 4
+cfn=(730) 0x000042d7
+calls=1 0 
+0 2
+0 9
+
+fn=(1022) zgemv_
+0 122500
+cfn=(730)
+calls=17500 0 
+0 35000
+0 210000
+cob=(10) /usr/lib/lapack/liblapack.so.3gf.0
+cfi=(88) ???
+cfn=(1030) lsame_
+calls=17500 0 
+0 402500
+cob=(1)
+cfi=(60)
+cfn=(310)
+calls=1 29 
+0 590
+0 1064000
+cob=(10)
+cfi=(88)
+cfn=(1030)
+calls=10500 0 
+0 241500
+0 42000
+cob=(10)
+cfi=(88)
+cfn=(1030)
+calls=7000 0 
+0 161000
+0 105000
+cob=(10)
+cfi=(88)
+cfn=(1030)
+calls=17500 0 
+0 402500
+0 1085000
+cob=(10)
+cfi=(88)
+cfn=(1030)
+calls=10500 0 
+0 241500
+0 1213452464
+
+fn=(738) 0x00073bf0
+0 5
+cfn=(730)
+calls=1 0 
+0 2
+0 8
+
+fn=(730)
+0 35006
+
+fn=(2662) 0x00004220
+0 5
+cfn=(730)
+calls=1 0 
+0 2
+0 10
+cob=(3)
+cfi=(143)
+cfn=(2628)
+calls=1 31 
+0 72
+cob=(1)
+cfi=(60)
+cfn=(310)
+calls=1 29 
+0 1635
+0 14
+
+ob=(7) /lib/i386-linux-gnu/libgcc_s.so.1
+fl=(76) ???
+fn=(398) 0x00002050
+0 4
+cfn=(400) 0x00002087
+calls=1 0 
+0 2
+0 9
+
+fn=(2732) 0x00001fd0
+0 5
+cfn=(400)
+calls=1 0 
+0 2
+0 10
+cob=(3)
+cfi=(143)
+cfn=(2628)
+calls=1 31 
+0 72
+cob=(1)
+cfi=(60)
+cfn=(310)
+calls=1 29 
+0 1635
+0 14
+
+fn=(408) 0x00018cc0
+0 5
+cfn=(400)
+calls=1 0 
+0 2
+0 8
+
+fn=(992) __moddi3
+0 172172
+
+fn=(400)
+0 6
+
+ob=(10)
+fl=(88)
+fn=(750) 0x000151d0
+0 4
+cfn=(752) 0x00015207
+calls=1 0 
+0 2
+0 9
+
+fn=(1030)
+0 1449000
+
+fn=(760) 0x0076cee0
+0 5
+cfn=(752)
+calls=1 0 
+0 2
+0 8
+
+fn=(752)
+0 6
+
+fn=(2640) 0x00015150
+0 5
+cfn=(752)
+calls=1 0 
+0 2
+0 10
+cob=(3)
+cfi=(143)
+cfn=(2628)
+calls=1 31 
+0 72
+cob=(1)
+cfi=(60)
+cfn=(310)
+calls=1 29 
+0 1635
+0 14
+
+ob=(11) /home/kvantti/aalto/quantum_solver_collection/debug/test_sde_solvers
+fl=(89) ???
+fn=(982) __random_MOD_norm_rng
+0 21
+cob=(3)
+cfi=(63) /build/buildd/eglibc-2.15/malloc/malloc.c
+cfn=(334) malloc
+calls=1 2910 
+0 191
+0 16031
+cfn=(984) __random_MOD_uniform_rng
+calls=1 0 
+0 342157
+0 64077
+cob=(3)
+cfi=(63)
+cfn=(858) free
+calls=1 2954 
+0 131
+
+fn=(986) __random_MOD_uniform_lcg
+0 108133
+cob=(7)
+cfi=(76)
+cfn=(992)
+calls=4004 0 
+0 172172
+cob=(1)
+cfi=(60)
+cfn=(310)
+calls=1 29 
+0 1395
+0 36043
+
+fn=(1052) __fclass_MOD_fisrk15_delete
+0 12
+cob=(3)
+cfi=(63)
+cfn=(858)
+calls=1 2954 
+0 152
+0 7
+cob=(3)
+cfi=(63)
+cfn=(858)
+calls=1 2954 
+0 364
+0 5
+
+fn=(788) 0x08068c42
+0 2
+
+fn=(942) __signals_MOD_initialize_signal
+0 73
+cob=(3)
+cfi=(63)
+cfn=(334)
+calls=1 2910 
+0 195
+0 45
+cob=(3)
+cfi=(63)
+cfn=(334)
+calls=1 2910 
+0 352
+0 120738
+cob=(3)
+cfi=(63)
+cfn=(334)
+calls=1 2910 
+0 201
+0 15
+
+fn=(980) __sde_solvers_MOD_isrk15
+0 63
+cob=(3)
+cfi=(63)
+cfn=(334)
+calls=1 2910 
+0 189
+0 2275
+cob=(3)
+cfi=(63)
+cfn=(334)
+calls=1 2910 
+0 191
+0 37
+cob=(3)
+cfi=(63)
+cfn=(334)
+calls=1 2910 
+0 201
+0 17
+cfn=(982)
+calls=1 0 
+0 422608
+0 33025
+cfn=(994) __fclass_MOD_fisrk15_initialize
+calls=500 0 
+0 3418250116
+0 8500
+cfn=(1044) __equation_solvers_MOD_picard_iteration
+calls=500 0 
+0 1367297552
+0 6000
+cfn=(1048) __sclass_MOD_normalize_diff_schr
+calls=500 0 
+0 866500
+0 391004
+cfn=(1052)
+calls=1 0 
+0 540
+0 6
+cob=(3)
+cfi=(63)
+cfn=(858)
+calls=1 2954 
+0 135
+0 3
+cob=(3)
+cfi=(63)
+cfn=(858)
+calls=1 2954 
+0 152
+0 6
+cob=(3)
+cfi=(63)
+cfn=(858)
+calls=1 2954 
+0 95
+0 35514
+
+fn=(1046) __fclass_MOD_fisrk15_calculate_value_at
+0 55000
+cob=(3)
+cfi=(63)
+cfn=(334)
+calls=1000 2910 
+0 388500
+0 647000
+cob=(8) /usr/lib/i386-linux-gnu/libgfortran.so.3.0.0
+cfi=(77) ???
+cfn=(1002) _gfortran_internal_pack
+calls=1000 0 
+0 81000
+0 12000
+cfn=(996) __sclass_MOD_value_at_diff_schr
+calls=1000 0 
+0 1361274552
+0 1017000
+cob=(3)
+cfi=(63)
+cfn=(858)
+calls=1000 2954 
+0 150000
+
+fn=(870) MAIN__
+0 33
+cob=(3)
+cfi=(63)
+cfn=(334)
+calls=1 2910 
+0 186
+cob=(1)
+cfi=(60)
+cfn=(310)
+calls=1 29 
+0 1500
+0 11
+cfn=(876) __linfuncs_MOD_linspace
+calls=1 0 
+0 11845
+0 6
+cob=(3)
+cfi=(63)
+cfn=(334)
+calls=1 2910 
+0 189
+0 548
+cob=(3)
+cfi=(63)
+cfn=(334)
+calls=1 2910 
+0 189
+0 683
+cob=(5) /lib/i386-linux-gnu/libm-2.15.so
+cfi=(104) /build/buildd/eglibc-2.15/math/w_powf.c
+cfn=(888) powf
+calls=74 27 
+0 7180
+cob=(1)
+cfi=(60)
+cfn=(310)
+calls=1 29 
+0 1178
+0 302
+cob=(3)
+cfi=(63)
+cfn=(334)
+calls=1 2910 
+0 189
+0 5
+cob=(3)
+cfi=(63)
+cfn=(334)
+calls=1 2910 
+0 189
+0 42
+cob=(3)
+cfi=(63)
+cfn=(334)
+calls=1 2910 
+0 257
+0 21
+cob=(3)
+cfi=(63)
+cfn=(334)
+calls=1 2910 
+0 186
+0 22
+cfn=(898) __hamiltonians_MOD_initialize_djch
+calls=1 0 
+0 53874627
+0 33
+cfn=(942)
+calls=1 0 
+0 121619
+0 6
+cfn=(944) __envelopes_MOD_initialize_constant_envelope
+calls=1 0 
+0 9
+0 10
+cfn=(946) __signals_MOD_add_envelope_signal
+calls=1 0 
+0 31
+0 9
+cfn=(948) __hamiltonians_MOD_add_signal_djch
+calls=1 0 
+0 31
+0 8
+cfn=(950) __sclass_MOD_init_diff_schr
+calls=1 0 
+0 10
+0 33
+cfn=(952) __sclass_MOD_add_observable
+calls=1 0 
+0 58099
+0 8
+cfn=(954) __random_MOD_init_lcg
+calls=1 0 
+0 29
+0 32
+cob=(3)
+cfi=(63)
+cfn=(334)
+calls=1 2910 
+0 257
+0 42
+cob=(3)
+cfi=(63)
+cfn=(334)
+calls=1 2910 
+0 257
+0 266055
+cfn=(956) __fclass_MOD_initialize_fdlmtd
+calls=1 0 
+0 937
+0 13
+cfn=(958) __fclass_MOD_add_lindblad_operator_fdlmtd
+calls=1 0 
+0 103222
+0 8
+cfn=(954)
+calls=1 0 
+0 29
+0 5
+cob=(8)
+cfi=(77)
+cfn=(972) _gfortran_system_clock_4
+calls=1 0 
+0 1671
+cob=(1)
+cfi=(60)
+cfn=(310)
+calls=1 29 
+0 1391
+0 19
+cfn=(980)
+calls=1 0 
+0 4787314729
+0 5
+cob=(8)
+cfi=(77)
+cfn=(972)
+calls=1 0 
+0 61
+0 6
+cob=(8)
+cfi=(77)
+cfn=(1058) _gfortran_st_write
+calls=1 0 
+0 2016
+cob=(1)
+cfi=(60)
+cfn=(310)
+calls=1 29 
+0 1287
+0 4
+cob=(8)
+cfi=(77)
+cfn=(1294) _gfortran_transfer_character_write
+calls=1 0 
+0 1332
+cob=(1)
+cfi=(60)
+cfn=(310)
+calls=1 29 
+0 1543
+0 8
+cob=(8)
+cfi=(77)
+cfn=(1388) _gfortran_transfer_integer_write
+calls=1 0 
+0 1729
+cob=(1)
+cfi=(60)
+cfn=(310)
+calls=1 29 
+0 1527
+0 4
+cob=(8)
+cfi=(77)
+cfn=(1294)
+calls=1 0 
+0 378
+0 2
+cob=(8)
+cfi=(77)
+cfn=(1486) _gfortran_st_write_done
+calls=1 0 
+0 1873
+cob=(1)
+cfi=(60)
+cfn=(310)
+calls=1 29 
+0 1367
+0 57
+cob=(8)
+cfi=(77)
+cfn=(1634) _gfortran_reshape_c8
+calls=1 0 
+0 1089
+cob=(1)
+cfi=(60)
+cfn=(310)
+calls=1 29 
+0 1327
+0 20500
+cob=(8)
+cfi=(77)
+cfn=(1634)
+calls=500 0 
+0 394500
+0 12024
+cob=(3)
+cfi=(63)
+cfn=(334)
+calls=501 2910 
+0 94689
+0 364728
+cob=(8)
+cfi=(77)
+cfn=(1634)
+calls=501 0 
+0 395289
+0 6012
+cob=(8)
+cfi=(77)
+cfn=(924) _gfortran_matmul_c8
+calls=501 0 
+0 55533345
+0 3006
+cob=(3)
+cfi=(63)
+cfn=(858)
+calls=501 2954 
+0 67635
+0 3006
+cob=(3)
+cfi=(63)
+cfn=(858)
+calls=501 2954 
+0 76152
+0 2505
+cob=(3)
+cfi=(63)
+cfn=(858)
+calls=501 2954 
+0 76152
+0 8517
+cob=(8)
+cfi=(77)
+cfn=(1634)
+calls=501 0 
+0 14248440
+0 2505
+cob=(3)
+cfi=(63)
+cfn=(858)
+calls=501 2954 
+0 92864
+0 3017
+cob=(8)
+cfi=(77)
+cfn=(1648) _gfortran_st_open
+calls=1 0 
+0 8931
+cob=(1)
+cfi=(60)
+cfn=(310)
+calls=1 29 
+0 1287
+0 6
+cob=(8)
+cfi=(77)
+cfn=(1058)
+calls=1 0 
+0 449
+0 4009
+cob=(8)
+cfi=(77)
+cfn=(1058)
+calls=500 0 
+0 180500
+0 5006
+cob=(8)
+cfi=(77)
+cfn=(1974) _gfortran_transfer_real_write
+calls=501 0 
+0 4293380
+cob=(1)
+cfi=(60)
+cfn=(310)
+calls=1 29 
+0 1471
+0 4509
+cob=(8)
+cfi=(77)
+cfn=(1974)
+calls=501 0 
+0 4475261
+0 5010
+cob=(8)
+cfi=(77)
+cfn=(1974)
+calls=501 0 
+0 3579645
+0 1002
+cob=(8)
+cfi=(77)
+cfn=(1486)
+calls=501 0 
+0 325872
+0 1009
+cob=(8)
+cfi=(77)
+cfn=(2460) _gfortran_st_close
+calls=1 0 
+0 2847
+cob=(1)
+cfi=(60)
+cfn=(310)
+calls=1 29 
+0 1287
+0 5
+cob=(3)
+cfi=(63)
+cfn=(858)
+calls=1 2954 
+0 73
+0 4
+cob=(3)
+cfi=(63)
+cfn=(858)
+calls=1 2954 
+0 73
+0 3
+cob=(3)
+cfi=(63)
+cfn=(858)
+calls=1 2954 
+0 135
+0 4
+cob=(3)
+cfi=(63)
+cfn=(858)
+calls=1 2954 
+0 73
+0 3
+cob=(3)
+cfi=(63)
+cfn=(858)
+calls=1 2954 
+0 150
+0 4
+cob=(3)
+cfi=(63)
+cfn=(858)
+calls=1 2954 
+0 152
+0 6
+cob=(3)
+cfi=(63)
+cfn=(858)
+calls=1 2954 
+0 478
+0 6
+cob=(3)
+cfi=(63)
+cfn=(858)
+calls=1 2954 
+0 200
+0 6
+cob=(3)
+cfi=(63)
+cfn=(858)
+calls=1 2954 
+0 95
+0 6
+cob=(3)
+cfi=(63)
+cfn=(858)
+calls=1 2954 
+0 77
+0 6
+cob=(3)
+cfi=(63)
+cfn=(858)
+calls=1 2954 
+0 313
+0 4
+cob=(3)
+cfi=(63)
+cfn=(858)
+calls=1 2954 
+0 135
+0 5
+cob=(3)
+cfi=(63)
+cfn=(858)
+calls=1 2954 
+0 152
+0 6
+cob=(3)
+cfi=(63)
+cfn=(858)
+calls=1 2954 
+0 135
+0 9
+cob=(3)
+cfi=(63)
+cfn=(858)
+calls=1 2954 
+0 95
+0 7
+cob=(3)
+cfi=(63)
+cfn=(858)
+calls=1 2954 
+0 71
+0 7
+cob=(3)
+cfi=(63)
+cfn=(858)
+calls=1 2954 
+0 71
+0 7
+cob=(3)
+cfi=(63)
+cfn=(858)
+calls=1 2954 
+0 71
+0 7
+cob=(3)
+cfi=(63)
+cfn=(858)
+calls=1 2954 
+0 71
+0 7
+cob=(3)
+cfi=(63)
+cfn=(858)
+calls=1 2954 
+0 71
+0 7
+cob=(3)
+cfi=(63)
+cfn=(858)
+calls=1 2954 
+0 71
+0 7
+cob=(3)
+cfi=(63)
+cfn=(858)
+calls=1 2954 
+0 71
+0 7
+cob=(3)
+cfi=(63)
+cfn=(858)
+calls=1 2954 
+0 365
+0 4
+cob=(3)
+cfi=(63)
+cfn=(858)
+calls=1 2954 
+0 178
+0 6
+cob=(3)
+cfi=(63)
+cfn=(858)
+calls=1 2954 
+0 163
+0 6
+cob=(3)
+cfi=(63)
+cfn=(858)
+calls=1 2954 
+0 163
+0 6
+cob=(3)
+cfi=(63)
+cfn=(858)
+calls=1 2954 
+0 163
+0 6
+cob=(3)
+cfi=(63)
+cfn=(858)
+calls=1 2954 
+0 95
+0 6
+cob=(3)
+cfi=(63)
+cfn=(858)
+calls=1 2954 
+0 71
+0 6
+cob=(3)
+cfi=(63)
+cfn=(858)
+calls=1 2954 
+0 71
+0 6
+cob=(3)
+cfi=(63)
+cfn=(858)
+calls=1 2954 
+0 71
+0 4
+cob=(3)
+cfi=(63)
+cfn=(858)
+calls=1 2954 
+0 360
+0 6
+
+fn=(914) __linfuncs_MOD_kron_complex
+0 2004244
+
+fn=(812) main
+0 9
+cob=(8)
+cfi=(77)
+cfn=(818) _gfortran_set_args
+calls=1 0 
+0 8319
+cob=(1)
+cfi=(60)
+cfn=(310)
+calls=1 29 
+0 1303
+0 3
+cob=(8)
+cfi=(77)
+cfn=(868) _gfortran_set_options
+calls=1 0 
+0 47
+cob=(1)
+cfi=(60)
+cfn=(310)
+calls=1 29 
+0 1381
+0 1
+cfn=(870)
+calls=1 0 
+0 4926084694
+0 3
+
+fn=(900) __hamiltonians_MOD_initialize_jch
+0 37
+cob=(3)
+cfi=(63)
+cfn=(334)
+calls=1 2910 
+0 187
+0 19
+cob=(3)
+cfi=(85) /build/buildd/eglibc-2.15/string/../sysdeps/i386/i686/multiarch/memcpy-ssse3.S
+cfn=(610) __memcpy_ssse3
+calls=1 121 
+0 172
+cob=(1)
+cfi=(60)
+cfn=(310)
+calls=1 29 
+0 1510
+0 17
+cfn=(906) __operators_MOD_initialize
+calls=1 0 
+0 21646118
+0 25
+cob=(3)
+cfi=(63)
+cfn=(334)
+calls=1 2910 
+0 403
+0 956
+cob=(3)
+cfi=(63)
+cfn=(334)
+calls=1 2910 
+0 191
+0 37
+cob=(3)
+cfi=(63)
+cfn=(334)
+calls=1 2910 
+0 191
+0 6
+cfn=(938) __linfuncs_MOD_get_diag_matrix_real
+calls=1 0 
+0 86780
+0 27
+cob=(3)
+cfi=(63)
+cfn=(334)
+calls=1 2910 
+0 112
+0 6
+cfn=(908) __linfuncs_MOD_get_eye
+calls=1 0 
+0 108
+0 31
+cob=(3)
+cfi=(63)
+cfn=(334)
+calls=1 2910 
+0 348
+0 9
+cfn=(940) __linfuncs_MOD_kron_real
+calls=1 0 
+0 624687
+0 5
+cob=(3)
+cfi=(63)
+cfn=(858)
+calls=1 2954 
+0 135
+0 5
+cob=(3)
+cfi=(63)
+cfn=(858)
+calls=1 2954 
+0 95
+0 28826
+cob=(3)
+cfi=(63)
+cfn=(858)
+calls=1 2954 
+0 540
+0 48
+cob=(3)
+cfi=(63)
+cfn=(334)
+calls=1 2910 
+0 229
+0 27
+cob=(3)
+cfi=(63)
+cfn=(334)
+calls=1 2910 
+0 191
+0 5
+cfn=(938)
+calls=1 0 
+0 86780
+0 27
+cob=(3)
+cfi=(63)
+cfn=(334)
+calls=1 2910 
+0 112
+0 6
+cfn=(908)
+calls=1 0 
+0 108
+0 39
+cob=(3)
+cfi=(63)
+cfn=(334)
+calls=1 2910 
+0 348
+0 9
+cfn=(940)
+calls=1 0 
+0 624687
+0 5
+cob=(3)
+cfi=(63)
+cfn=(858)
+calls=1 2954 
+0 135
+0 5
+cob=(3)
+cfi=(63)
+cfn=(858)
+calls=1 2954 
+0 95
+0 40364
+cob=(8)
+cfi=(77)
+cfn=(924)
+calls=1 0 
+0 7475853
+0 12
+cob=(8)
+cfi=(77)
+cfn=(924)
+calls=1 0 
+0 7475704
+0 5
+cob=(3)
+cfi=(63)
+cfn=(858)
+calls=1 2954 
+0 178
+0 5
+cob=(3)
+cfi=(63)
+cfn=(858)
+calls=1 2954 
+0 163
+0 5
+cob=(3)
+cfi=(63)
+cfn=(858)
+calls=1 2954 
+0 163
+0 35196
+cob=(3)
+cfi=(63)
+cfn=(858)
+calls=1 2954 
+0 364
+0 44
+cob=(3)
+cfi=(63)
+cfn=(334)
+calls=1 2910 
+0 191
+0 74
+cob=(8)
+cfi=(77)
+cfn=(924)
+calls=1 0 
+0 7475861
+0 19
+cob=(3)
+cfi=(63)
+cfn=(334)
+calls=1 2910 
+0 191
+0 6
+cfn=(938)
+calls=1 0 
+0 86780
+0 27
+cob=(3)
+cfi=(63)
+cfn=(334)
+calls=1 2910 
+0 112
+0 6
+cfn=(908)
+calls=1 0 
+0 108
+0 44
+cob=(3)
+cfi=(63)
+cfn=(334)
+calls=1 2910 
+0 191
+0 9
+cfn=(940)
+calls=1 0 
+0 624687
+0 5
+cob=(3)
+cfi=(63)
+cfn=(858)
+calls=1 2954 
+0 135
+0 5
+cob=(3)
+cfi=(63)
+cfn=(858)
+calls=1 2954 
+0 95
+0 17
+cob=(3)
+cfi=(63)
+cfn=(334)
+calls=1 2910 
+0 627
+0 40303
+cob=(8)
+cfi=(77)
+cfn=(924)
+calls=1 0 
+0 7475704
+0 5
+cob=(3)
+cfi=(63)
+cfn=(858)
+calls=1 2954 
+0 175
+0 5
+cob=(3)
+cfi=(63)
+cfn=(858)
+calls=1 2954 
+0 163
+0 5
+cob=(3)
+cfi=(63)
+cfn=(858)
+calls=1 2954 
+0 163
+0 35121
+cob=(3)
+cfi=(63)
+cfn=(858)
+calls=1 2954 
+0 364
+0 25
+cob=(3)
+cfi=(63)
+cfn=(334)
+calls=1 2910 
+0 469
+0 20
+
+fn=(916) __linfuncs_MOD_get_annihilation_op
+0 138838
+
+fn=(940)
+0 1874061
+
+fn=(954)
+0 58
+
+fn=(1050) __linfuncs_MOD_l2norm_complex
+0 424500
+cob=(5)
+cfi=(111) /build/buildd/eglibc-2.15/math/s_csqrt.c
+cfn=(964) csqrt
+calls=500 29 
+0 45000
+0 3000
+
+fn=(800) 0x08068c50
+0 11
+
+fn=(944)
+0 9
+
+fn=(946)
+0 31
+
+fn=(1034) __signals_MOD_value_at_signal
+0 320043500
+cfn=(1036) __envelopes_MOD_value_at_constant_envelope
+calls=3500 0 
+0 28000
+0 241500
+cob=(5)
+cfi=(114) /build/buildd/eglibc-2.15/math/../sysdeps/i386/fpu/s_cexp.S
+cfn=(1042) cexp
+calls=3500 69 
+0 143500
+cob=(1)
+cfi=(60)
+cfn=(310)
+calls=1 29 
+0 1208
+0 42000
+cob=(5)
+cfi=(114)
+cfn=(1042)
+calls=3500 69 
+0 143500
+0 812577500
+
+fn=(1044)
+0 16500
+cob=(3)
+cfi=(63)
+cfn=(334)
+calls=500 2910 
+0 331500
+0 1015500
+cfn=(1046)
+calls=500 0 
+0 681728644
+0 11000
+cfn=(1046)
+calls=500 0 
+0 681896408
+0 1516000
+cob=(5)
+cfi=(111)
+cfn=(964)
+calls=1000 29 
+0 90000
+0 615500
+cob=(3)
+cfi=(63)
+cfn=(858)
+calls=500 2954 
+0 75000
+0 1500
+
+fn=(2604) 0x08048eb0
+0 18
+
+fn=(906)
+0 32
+cob=(3)
+cfi=(63)
+cfn=(334)
+calls=1 2910 
+0 201
+0 26
+cob=(3)
+cfi=(63)
+cfn=(334)
+calls=1 2910 
+0 201
+0 164
+cob=(3)
+cfi=(63)
+cfn=(334)
+calls=1 2910 
+0 257
+0 56
+cob=(3)
+cfi=(63)
+cfn=(334)
+calls=1 2910 
+0 257
+0 56
+cob=(3)
+cfi=(63)
+cfn=(334)
+calls=1 2910 
+0 257
+0 56
+cob=(3)
+cfi=(63)
+cfn=(334)
+calls=1 2910 
+0 257
+0 56
+cob=(3)
+cfi=(63)
+cfn=(334)
+calls=1 2910 
+0 257
+0 41
+cob=(3)
+cfi=(63)
+cfn=(334)
+calls=1 2910 
+0 195
+0 56
+cob=(3)
+cfi=(63)
+cfn=(334)
+calls=1 2910 
+0 257
+0 56
+cob=(3)
+cfi=(63)
+cfn=(334)
+calls=1 2910 
+0 257
+0 685470
+cob=(3)
+cfi=(63)
+cfn=(334)
+calls=2 2910 
+0 540
+0 12
+cfn=(908)
+calls=2 0 
+0 172794
+0 80478
+cob=(3)
+cfi=(63)
+cfn=(858)
+calls=2 2954 
+0 515
+0 58
+cob=(3)
+cfi=(63)
+cfn=(334)
+calls=2 2910 
+0 382
+0 12
+cfn=(908)
+calls=2 0 
+0 172794
+0 80476
+cob=(3)
+cfi=(63)
+cfn=(858)
+calls=2 2954 
+0 336
+0 308
+cob=(3)
+cfi=(63)
+cfn=(334)
+calls=2 2910 
+0 392
+0 12
+cfn=(908)
+calls=2 0 
+0 86505
+0 80
+cob=(3)
+cfi=(63)
+cfn=(334)
+calls=2 2910 
+0 547
+0 16
+cfn=(918) __linfuncs_MOD_kron_complex_real
+calls=2 0 
+0 895020
+0 10
+cob=(3)
+cfi=(63)
+cfn=(858)
+calls=2 2954 
+0 230
+0 114962
+cob=(3)
+cfi=(63)
+cfn=(858)
+calls=2 2954 
+0 697
+0 218
+cob=(3)
+cfi=(63)
+cfn=(334)
+calls=2 2910 
+0 392
+0 12
+cfn=(908)
+calls=2 0 
+0 86505
+0 68
+cob=(3)
+cfi=(63)
+cfn=(334)
+calls=2 2910 
+0 547
+0 18
+cfn=(918)
+calls=2 0 
+0 895020
+0 10
+cob=(3)
+cfi=(63)
+cfn=(858)
+calls=2 2954 
+0 230
+0 114978
+cob=(3)
+cfi=(63)
+cfn=(858)
+calls=4 2954 
+0 1394
+0 346
+cob=(3)
+cfi=(63)
+cfn=(334)
+calls=2 2910 
+0 396
+0 12
+cfn=(912) __linfuncs_MOD_get_creation_op
+calls=2 0 
+0 138247
+0 82
+cob=(3)
+cfi=(63)
+cfn=(334)
+calls=2 2910 
+0 548
+0 16
+cfn=(914)
+calls=2 0 
+0 1002122
+0 10
+cob=(3)
+cfi=(63)
+cfn=(858)
+calls=2 2954 
+0 278
+0 114960
+cob=(3)
+cfi=(63)
+cfn=(858)
+calls=2 2954 
+0 697
+0 224
+cob=(3)
+cfi=(63)
+cfn=(334)
+calls=2 2910 
+0 396
+0 12
+cfn=(916)
+calls=2 0 
+0 138838
+0 68
+cob=(3)
+cfi=(63)
+cfn=(334)
+calls=2 2910 
+0 547
+0 18
+cfn=(914)
+calls=2 0 
+0 1002122
+0 10
+cob=(3)
+cfi=(63)
+cfn=(858)
+calls=2 2954 
+0 278
+0 115097
+cob=(8)
+cfi=(77)
+cfn=(924)
+calls=1 0 
+0 7477244
+cob=(1)
+cfi=(60)
+cfn=(310)
+calls=1 29 
+0 1319
+0 5
+cob=(8)
+cfi=(77)
+cfn=(924)
+calls=1 0 
+0 7475704
+0 102686
+cob=(3)
+cfi=(63)
+cfn=(858)
+calls=2 2954 
+0 336
+0 678232
+cob=(3)
+cfi=(63)
+cfn=(858)
+calls=1 2954 
+0 95
+0 140
+
+fn=(918)
+0 1790040
+
+fn=(938)
+0 260340
+
+fn=(984)
+0 27
+cob=(3)
+cfi=(63)
+cfn=(334)
+calls=1 2910 
+0 191
+0 9
+cfn=(986)
+calls=1 0 
+0 317743
+0 24051
+cob=(3)
+cfi=(63)
+cfn=(858)
+calls=1 2954 
+0 131
+0 5
+
+fn=(1036)
+0 28000
+
+fn=(770) 0x08048e8c
+0 13
+cob=(3)
+cfi=(90) /build/buildd/eglibc-2.15/csu/libc-start.c
+cfn=(778) (below main)
+calls=1 96 
+0 4926114255
+cob=(1)
+cfi=(60)
+cfn=(310)
+calls=1 29 
+0 1721
+
+fn=(786) __libc_csu_init
+0 5
+cfn=(788)
+calls=1 0 
+0 2
+0 5
+cob=(2) ???
+cfi=(15) ???
+cfn=(790) 0x08048ae8
+calls=1 0 
+0 31
+0 13
+cfi=(92) /build/buildd/gcc-4.6-4.6.3/build/i686-linux-gnu/libgcc/../../../src/libgcc/../gcc/config/i386/crtfastmath.c
+cfn=(806) set_fast_math
+calls=1 41 
+0 185
+0 9
+
+fn=(794) 0x08048f10
+0 8
+
+fn=(908)
+0 518922
+
+fn=(898)
+0 36
+cfn=(900)
+calls=1 0 
+0 53874207
+0 10
+cob=(3)
+cfi=(63)
+cfn=(334)
+calls=1 2910 
+0 343
+0 31
+
+fn=(912)
+0 138247
+
+fn=(956)
+0 64
+cob=(3)
+cfi=(63)
+cfn=(334)
+calls=1 2910 
+0 257
+0 45
+cob=(3)
+cfi=(63)
+cfn=(334)
+calls=1 2910 
+0 257
+0 42
+cob=(3)
+cfi=(63)
+cfn=(334)
+calls=1 2910 
+0 257
+0 15
+
+fn=(958)
+0 54
+cob=(5)
+cfi=(111)
+cfn=(964)
+calls=1 29 
+0 84
+cob=(1)
+cfi=(60)
+cfn=(310)
+calls=1 29 
+0 1194
+0 101890
+
+fn=(948)
+0 31
+
+fn=(1048)
+0 11500
+cfn=(1050)
+calls=500 0 
+0 472500
+0 382500
+
+fn=(876)
+0 19
+cob=(3)
+cfi=(63)
+cfn=(334)
+calls=1 2910 
+0 186
+0 10048
+cob=(3)
+cfi=(63)
+cfn=(858)
+calls=1 2954 
+0 131
+cob=(1)
+cfi=(60)
+cfn=(310)
+calls=1 29 
+0 1461
+
+fn=(950)
+0 10
+
+fn=(952)
+0 57621
+cob=(3)
+cfi=(63)
+cfn=(334)
+calls=1 2910 
+0 257
+0 16
+cob=(3)
+cfi=(63)
+cfn=(334)
+calls=1 2910 
+0 193
+0 12
+
+fn=(994)
+0 32500
+cob=(3)
+cfi=(63)
+cfn=(334)
+calls=500 2910 
+0 196795
+0 1500
+cob=(3)
+cfi=(63)
+cfn=(334)
+calls=500 2910 
+0 191306
+0 1500
+cob=(3)
+cfi=(63)
+cfn=(334)
+calls=500 2910 
+0 191306
+0 1500
+cob=(3)
+cfi=(63)
+cfn=(334)
+calls=500 2910 
+0 188811
+0 7000
+cob=(3)
+cfi=(63)
+cfn=(334)
+calls=500 2910 
+0 188811
+0 1500
+cob=(3)
+cfi=(63)
+cfn=(334)
+calls=500 2910 
+0 179330
+0 1500
+cob=(3)
+cfi=(63)
+cfn=(334)
+calls=500 2910 
+0 174340
+0 1500
+cob=(3)
+cfi=(63)
+cfn=(334)
+calls=500 2910 
+0 169350
+0 1500
+cob=(3)
+cfi=(63)
+cfn=(334)
+calls=500 2910 
+0 161865
+0 6000
+cob=(3)
+cfi=(63)
+cfn=(334)
+calls=500 2910 
+0 56000
+0 1500
+cob=(3)
+cfi=(63)
+cfn=(334)
+calls=500 2910 
+0 165869
+0 1500
+cob=(3)
+cfi=(63)
+cfn=(334)
+calls=500 2910 
+0 156875
+0 1500
+cob=(3)
+cfi=(63)
+cfn=(334)
+calls=500 2910 
+0 151885
+0 1500
+cob=(3)
+cfi=(63)
+cfn=(334)
+calls=500 2910 
+0 183322
+0 1500
+cob=(3)
+cfi=(63)
+cfn=(334)
+calls=500 2910 
+0 75538
+0 4395494
+cfn=(996)
+calls=500 0 
+0 680587023
+0 2063500
+cfn=(996)
+calls=500 0 
+0 680617692
+0 9500
+cfn=(996)
+calls=500 0 
+0 680617692
+0 1607000
+cfn=(996)
+calls=500 0 
+0 680617692
+0 9500
+cfn=(996)
+calls=500 0 
+0 680617692
+0 3509500
+cob=(3)
+cfi=(63)
+cfn=(858)
+calls=500 2954 
+0 67500
+0 3000
+cob=(3)
+cfi=(63)
+cfn=(858)
+calls=500 2954 
+0 75000
+0 3000
+cob=(3)
+cfi=(63)
+cfn=(858)
+calls=500 2954 
+0 75000
+0 3000
+cob=(3)
+cfi=(63)
+cfn=(858)
+calls=500 2954 
+0 75000
+0 3000
+cob=(3)
+cfi=(63)
+cfn=(858)
+calls=500 2954 
+0 47500
+0 3000
+cob=(3)
+cfi=(63)
+cfn=(858)
+calls=500 2954 
+0 50500
+0 3000
+cob=(3)
+cfi=(63)
+cfn=(858)
+calls=500 2954 
+0 67500
+0 3000
+cob=(3)
+cfi=(63)
+cfn=(858)
+calls=500 2954 
+0 75000
+0 3000
+cob=(3)
+cfi=(63)
+cfn=(858)
+calls=500 2954 
+0 75000
+0 3000
+cob=(3)
+cfi=(63)
+cfn=(858)
+calls=500 2954 
+0 75000
+0 3000
+cob=(3)
+cfi=(63)
+cfn=(858)
+calls=500 2954 
+0 75000
+0 3000
+cob=(3)
+cfi=(63)
+cfn=(858)
+calls=500 2954 
+0 75000
+0 3000
+cob=(3)
+cfi=(63)
+cfn=(858)
+calls=500 2954 
+0 75000
+0 3000
+cob=(3)
+cfi=(63)
+cfn=(858)
+calls=500 2954 
+0 75000
+0 5500
+cob=(3)
+cfi=(63)
+cfn=(858)
+calls=500 2954 
+0 75000
+0 19
+cob=(3)
+cfi=(63)
+cfn=(334)
+calls=1 2910 
+0 189
+0 22
+cob=(3)
+cfi=(63)
+cfn=(334)
+calls=1 2910 
+0 189
+0 9
+
+fn=(996)
+0 210000
+cob=(3)
+cfi=(63)
+cfn=(334)
+calls=3500 2910 
+0 742658
+0 42000
+cob=(3)
+cfi=(63)
+cfn=(334)
+calls=3500 2910 
+0 1013649
+0 24500
+cob=(3)
+cfi=(63)
+cfn=(334)
+calls=3500 2910 
+0 1291843
+0 24500
+cob=(3)
+cfi=(63)
+cfn=(334)
+calls=3500 2910 
+0 795500
+0 542353000
+cob=(3)
+cfi=(63)
+cfn=(334)
+calls=3500 2910 
+0 742658
+0 219782500
+cob=(8)
+cfi=(77)
+cfn=(1002)
+calls=3500 0 
+0 343000
+cob=(1)
+cfi=(60)
+cfn=(310)
+calls=1 29 
+0 1375
+0 45500
+cob=(8)
+cfi=(77)
+cfn=(1002)
+calls=3500 0 
+0 283500
+0 63000
+cob=(9)
+cfi=(87)
+cfn=(1022)
+calls=3500 0 
+0 403860578
+cob=(1)
+cfi=(60)
+cfn=(310)
+calls=1 29 
+0 681
+0 24500
+cob=(3)
+cfi=(63)
+cfn=(858)
+calls=3500 2954 
+0 495716
+0 5435500
+cob=(3)
+cfi=(63)
+cfn=(334)
+calls=3500 2910 
+0 682500
+0 38500
+cfn=(1032) __hamiltonians_MOD_value_at_djch
+calls=3500 0 
+0 2135326709
+0 200336500
+cob=(3)
+cfi=(63)
+cfn=(858)
+calls=3500 2954 
+0 1214500
+0 417270000
+cob=(8)
+cfi=(77)
+cfn=(1002)
+calls=3500 0 
+0 283500
+0 66500
+cob=(9)
+cfi=(87)
+cfn=(1022)
+calls=3500 0 
+0 403859988
+0 5792500
+cob=(3)
+cfi=(63)
+cfn=(858)
+calls=3500 2954 
+0 1031500
+0 21000
+cob=(3)
+cfi=(63)
+cfn=(858)
+calls=3500 2954 
+0 1214500
+0 21000
+cob=(3)
+cfi=(63)
+cfn=(858)
+calls=3500 2954 
+0 332500
+0 38500
+cob=(3)
+cfi=(63)
+cfn=(858)
+calls=3500 2954 
+0 1898000
+0 87500
+cob=(8)
+cfi=(77)
+cfn=(1002)
+calls=3500 0 
+0 283500
+0 59500
+cob=(9)
+cfi=(87)
+cfn=(1022)
+calls=3500 0 
+0 403859988
+0 140000
+cob=(9)
+cfi=(87)
+cfn=(1022)
+calls=3500 0 
+0 2992500
+0 5698000
+cob=(5)
+cfi=(111)
+cfn=(964)
+calls=3500 29 
+0 294000
+0 80500
+cob=(8)
+cfi=(77)
+cfn=(1002)
+calls=3500 0 
+0 283500
+0 73500
+cob=(5)
+cfi=(111)
+cfn=(964)
+calls=3500 29 
+0 294000
+0 171500
+cob=(9)
+cfi=(87)
+cfn=(1022)
+calls=3500 0 
+0 2992500
+0 17500
+
+fn=(1032)
+0 779544500
+cob=(3)
+cfi=(63)
+cfn=(334)
+calls=3500 2910 
+0 1232001
+0 56000
+cfn=(1034)
+calls=3500 0 
+0 1133220708
+0 220006500
+
+ob=(2)
+fl=(15)
+fn=(416) 0x04979aa8
+0 8
+cob=(8)
+cfi=(77)
+cfn=(420) 0x00010320
+calls=1 0 
+0 15
+0 1
+cob=(8)
+cfi=(77)
+cfn=(430) 0x000e11e0
+calls=1 0 
+0 15
+0 3
+
+fn=(2710) 0x04a4c218
+0 5
+cob=(8)
+cfi=(77)
+cfn=(2712) 0x000102a0
+calls=1 0 
+0 1738
+0 3
+
+fn=(278) 0x04c61478
+0 8
+cob=(6)
+cfi=(59)
+cfn=(282)
+calls=1 0 
+0 15
+0 1
+cob=(6)
+cfi=(59)
+cfn=(292)
+calls=1 0 
+0 15
+0 3
+
+fn=(394) 0x04a99c40
+0 8
+cob=(7)
+cfi=(76)
+cfn=(398)
+calls=1 0 
+0 15
+0 1
+cob=(7)
+cfi=(76)
+cfn=(408)
+calls=1 0 
+0 15
+0 3
+
+fn=(2730) 0x04ab0cf8
+0 5
+cob=(7)
+cfi=(76)
+cfn=(2732)
+calls=1 0 
+0 1738
+0 3
+
+fn=(2638) 0x047abf18
+0 5
+cob=(10)
+cfi=(88)
+cfn=(2640)
+calls=1 0 
+0 1738
+0 3
+
+fn=(2602) 0x08068c7c
+0 5
+cob=(11)
+cfi=(89)
+cfn=(2604)
+calls=1 0 
+0 18
+0 3
+
+fn=(2612) 0x04025558
+0 5
+cob=(4) /usr/lib/valgrind/vgpreload_core-x86-linux.so
+cfi=(48) ???
+cfn=(2614) 0x00000370
+calls=1 0 
+0 1114
+0 3
+
+fn=(2660) 0x04961c28
+0 5
+cob=(9)
+cfi=(87)
+cfn=(2662)
+calls=1 0 
+0 1738
+
+ob=(11)
+fl=(89)
+fn=(1032)
+0 21000
+cob=(3)
+cfi=(63)
+cfn=(858)
+calls=3500 2954 
+0 1214500
+0 31500
+
+fl=(92)
+fn=(806)
+41 5
+fi=(93) /build/buildd/gcc-4.6-4.6.3/build/i686-linux-gnu/libgcc/../../../src/libgcc/../gcc/config/i386/cpuid.h
++88 10
++29 1
+fe=(92)
+41 1
+fi=(93)
+158 2
++5 4
++20 2
++3 4
+fe=(92)
+48 2
++41 5
+-39 2
++2 2
++2 1
+-4 1
++4 1
++28 3
+-8 5
+
+ob=(2)
+fl=(15)
+fn=(2660)
+0 3
+
+fn=(2776) 0x04cc10d8
+0 5
+cob=(6)
+cfi=(59)
+cfn=(2778)
+calls=1 0 
+0 1738
+0 3
+
+fn=(2796) 0x04a8aaf8
+0 5
+cob=(5)
+cfi=(57) ???
+cfn=(2798) 0x00004690
+calls=1 0 
+0 1738
+0 3
+
+fn=(790)
+0 8
+cob=(11)
+cfi=(89)
+cfn=(794)
+calls=1 0 
+0 8
+0 1
+cob=(11)
+cfi=(89)
+cfn=(800)
+calls=1 0 
+0 11
+0 3
+
+fn=(212) 0x040252f8
+0 8
+cob=(4)
+cfi=(48)
+cfn=(216) 0x000003f0
+calls=1 0 
+0 15
+0 1
+cob=(4)
+cfi=(48)
+cfn=(226) 0x00000520
+calls=1 0 
+0 15
+0 3
+
+fn=(256) 0x04a70310
+0 8
+cob=(5)
+cfi=(57)
+cfn=(260) 0x00004710
+calls=1 0 
+0 15
+0 1
+cob=(5)
+cfi=(57)
+cfn=(270) 0x0001eac0
+calls=1 0 
+0 15
+0 3
+
+fn=(746) 0x0404f19c
+0 8
+cob=(10)
+cfi=(88)
+cfn=(750)
+calls=1 0 
+0 15
+0 1
+cob=(10)
+cfi=(88)
+cfn=(760)
+calls=1 0 
+0 15
+0 3
+
+fn=(724) 0x048f1678
+0 8
+cob=(9)
+cfi=(87)
+cfn=(728)
+calls=1 0 
+0 15
+0 1
+cob=(9)
+cfi=(87)
+cfn=(738)
+calls=1 0 
+0 15
+0 3
+
+ob=(11)
+fl=(92)
+fn=(806)
+74 128
++2 1
++3 5
+
+ob=(8)
+fl=(77)
+fn=(420)
+0 4
+cfn=(422) 0x00010357
+calls=1 0 
+0 2
+0 9
+
+fn=(614) 0x000c50f0
+0 51
+cfn=(518) 0x00012c20
+calls=3 0 
+0 645
+0 3
+cfn=(518)
+calls=1 0 
+0 215
+0 20
+cfn=(518)
+calls=4 0 
+0 810
+0 40
+
+fn=(824) _gfortran_store_exe_path
+0 3
+cfn=(422)
+calls=1 0 
+0 2
+0 1047
+cob=(3)
+cfi=(95) /build/buildd/eglibc-2.15/io/../sysdeps/unix/sysv/linux/getcwd.c
+cfn=(830) getcwd
+calls=1 73 
+0 40
+cob=(1)
+cfi=(60)
+cfn=(310)
+calls=1 29 
+0 1491
+0 3
+cob=(3)
+cfi=(83) /build/buildd/eglibc-2.15/string/../sysdeps/i386/i686/multiarch/strlen-sse2-bsf.S
+cfn=(598) __strlen_sse2_bsf
+calls=1 43 
+0 43
+0 3
+cob=(3)
+cfi=(83)
+cfn=(598)
+calls=1 43 
+0 34
+0 3
+cob=(3)
+cfi=(63)
+cfn=(334)
+calls=1 2910 
+0 193
+0 10
+cob=(3)
+cfi=(96) /build/buildd/eglibc-2.15/debug/sprintf_chk.c
+cfn=(836) __sprintf_chk
+calls=1 28 
+0 2855
+cob=(1)
+cfi=(60)
+cfn=(310)
+calls=1 29 
+0 1643
+0 11
+
+fn=(1256) 0x000b85f0
+0 3514
+cfn=(1258) 0x000b6ee0
+calls=502 0 
+0 5522
+0 6526
+
+fn=(1358) 0x000c0060
+0 20
+cfn=(422)
+calls=2 0 
+0 4
+0 48
+cfn=(1314) 0x000b75b0
+calls=2 0 
+0 168
+0 24
+cob=(3)
+cfi=(85)
+cfn=(610)
+calls=2 121 
+0 42
+0 2
+
+fn=(1488) 0x000b9250
+0 21586
+cfn=(1538) 0x000b8a90
+calls=502 0 
+0 246563
+0 9538
+cfn=(1520) 0x000c5380
+calls=502 0 
+0 9036
+0 1004
+
+fn=(1520)
+0 18072
+
+fn=(1582) 0x000bd420
+0 56
+cfn=(422)
+calls=7 0 
+0 14
+0 77
+cob=(3)
+cfi=(118) /build/buildd/eglibc-2.15/io/../sysdeps/unix/syscall-template.S
+cfn=(1592) write
+calls=7 82 
+0 98
+cob=(1)
+cfi=(60)
+cfn=(310)
+calls=1 29 
+0 1476
+0 112
+
+fn=(1726) 0x000be9d0
+0 10
+cfn=(422)
+calls=2 0 
+0 4
+0 20
+cfn=(1732) 0x00012f50
+calls=2 0 
+0 16
+0 32
+cob=(3)
+cfi=(85)
+cfn=(1750) __memmove_ssse3
+calls=2 121 
+0 50
+cob=(1)
+cfi=(60)
+cfn=(310)
+calls=1 29 
+0 1548
+0 6
+
+fn=(1926) 0x000bdc60
+0 5010
+cfn=(422)
+calls=1002 0 
+0 2004
+0 18537
+
+fn=(1980) _gfortran_transfer_real
+0 13527
+cfn=(1982) 0x000b6b30
+calls=1503 0 
+0 7515
+0 12024
+cfn=(1302) 0x000c4dd0
+calls=1503 0 
+0 12284193
+0 6012
+
+fn=(1996) 0x000c19d0
+0 12024
+cfn=(422)
+calls=1503 0 
+0 3006
+0 75150
+cob=(3)
+cfi=(124) /build/buildd/eglibc-2.15/debug/snprintf_chk.c
+cfn=(2016) __snprintf_chk
+calls=1503 31 
+0 8923754
+cob=(1)
+cfi=(60)
+cfn=(310)
+calls=1 29 
+0 1635
+0 27054
+cfn=(518)
+calls=1503 0 
+0 184961
+0 241373
+cfn=(2104) 0x000c0ce0
+calls=503 0 
+0 328513
+0 3521
+cob=(3)
+cfi=(63)
+cfn=(858)
+calls=503 2954 
+0 47785
+cob=(1)
+cfi=(60)
+cfn=(310)
+calls=1 29 
+0 1461
+0 4024
+cfn=(1314)
+calls=503 0 
+0 40743
+0 7042
+cob=(3)
+cfi=(110) /build/buildd/eglibc-2.15/string/../sysdeps/i386/i686/multiarch/memset-sse2.S
+cfn=(936) __memset_sse2
+calls=503 100 
+0 11066
+0 36030
+cfn=(2104)
+calls=1000 0 
+0 1921425
+0 6000
+cob=(3)
+cfi=(63)
+cfn=(858)
+calls=1000 2954 
+0 95000
+0 5012
+
+fn=(1196) 0x000c5270
+0 3030
+cfn=(422)
+calls=505 0 
+0 1010
+0 13108
+cfn=(2258) 0x000bdef0
+calls=501 0 
+0 91147
+cfn=(1582)
+calls=1 0 
+0 1527
+0 2510
+
+fn=(1412) 0x000bff00
+0 3
+cfn=(422)
+calls=1 0 
+0 2
+0 14
+
+fn=(1444) 0x000d8240
+0 115
+
+fn=(1486)
+0 2510
+cfn=(1488)
+calls=502 0 
+0 287727
+0 5018
+cfn=(1610) 0x000b3cb0
+calls=502 0 
+0 10542
+0 2510
+cfn=(1618) 0x000bcca0
+calls=502 0 
+0 6024
+0 4524
+cfn=(1920) 0x000bd290
+calls=1 0 
+0 4
+0 6
+cfn=(2302) 0x000bcd80
+calls=1 0 
+0 1850
+0 2512
+cfn=(422)
+calls=502 0 
+0 1004
+0 3514
+
+fn=(1722) 0x000bf190
+0 12
+cfn=(422)
+calls=1 0 
+0 2
+0 6
+cfn=(1726)
+calls=1 0 
+0 1617
+0 9
+cob=(3)
+cfi=(120) /build/buildd/eglibc-2.15/io/../sysdeps/unix/sysv/linux/xstat64.c
+cfn=(1764) __xstat64@@GLIBC_2.2
+calls=1 47 
+0 17
+cob=(1)
+cfi=(60)
+cfn=(310)
+calls=1 29 
+0 1563
+0 10
+cfn=(1772) 0x000bd380
+calls=1 0 
+0 124
+0 16
+
+fn=(1732)
+0 16
+
+fn=(2574) 0x000bc190
+0 12
+cfn=(422)
+calls=4 0 
+0 8
+0 32
+cob=(3)
+cfi=(63)
+cfn=(858)
+calls=4 2954 
+0 588
+0 16
+
+fn=(714) 0x00011267
+0 2
+
+fn=(818)
+0 2
+cfn=(422)
+calls=1 0 
+0 2
+0 9
+cfn=(824)
+calls=1 0 
+0 7381
+cob=(1)
+cfi=(60)
+cfn=(310)
+calls=1 29 
+0 922
+0 3
+
+fn=(1060) 0x000b3c90
+0 3528
+
+fn=(1650) 0x00011fa0
+0 6
+cfn=(422)
+calls=1 0 
+0 2
+0 10
+
+fn=(2684) 0x000bd160
+0 3
+cfn=(422)
+calls=1 0 
+0 2
+0 11
+cfn=(2466) 0x000bcfa0
+calls=3 0 
+0 2803
+0 18
+
+fn=(720) _gfortran_random_seed_i4
+0 6
+cfn=(422)
+calls=1 0 
+0 2
+0 116
+
+fn=(1192) 0x000c5310
+0 24
+cfn=(1196)
+calls=2 0 
+0 52
+0 36
+
+fn=(1228) 0x000be320
+0 2008
+cfn=(422)
+calls=502 0 
+0 1004
+0 5524
+cob=(3)
+cfi=(115) /build/buildd/eglibc-2.15/libio/iofflush.c
+cfn=(1240) fflush
+calls=1 35 
+0 75
+cob=(1)
+cfi=(60)
+cfn=(310)
+calls=1 29 
+0 1484
+0 1
+
+fn=(1312) 0x000bfb10
+0 4016
+cfn=(1314)
+calls=502 0 
+0 40665
+0 6526
+
+fn=(1314)
+0 28120
+cfn=(422)
+calls=3515 0 
+0 7030
+0 133576
+cfn=(1328) 0x000c51d0
+calls=3515 0 
+0 98420
+0 17587
+
+fn=(1408) 0x000c0990
+0 3
+cfn=(422)
+calls=1 0 
+0 2
+0 14
+cfn=(1412)
+calls=1 0 
+0 19
+0 6
+cfn=(1426) 0x000c0890
+calls=1 0 
+0 353
+0 7
+cob=(3)
+cfi=(83)
+cfn=(598)
+calls=1 43 
+0 19
+0 7
+cfn=(1314)
+calls=1 0 
+0 84
+0 15
+cob=(3)
+cfi=(110)
+cfn=(936)
+calls=1 100 
+0 22
+0 5
+cob=(3)
+cfi=(85)
+cfn=(610)
+calls=1 121 
+0 21
+0 9
+
+fn=(1656) 0x000bc5a0
+0 6
+cfn=(422)
+calls=1 0 
+0 2
+0 58
+cfn=(514) 0x000bc270
+calls=1 0 
+0 462
+0 23
+
+fn=(1772)
+0 31
+cfn=(1773) 0x000bd380'2
+calls=2 0 
+0 77
+0 16
+
+fn=(1773)
+0 46
+cfn=(1773)
+calls=2 0 
+0 24
+0 31
+
+fn=(1914) 0x000b3d30
+0 9
+cfn=(1916) 0x000bf9d0
+calls=1 0 
+0 94
+0 5
+cfn=(1920)
+calls=1 0 
+0 4
+0 9
+
+fn=(2474) 0x000be1a0
+0 7
+cfn=(422)
+calls=1 0 
+0 2
+0 6
+cob=(3)
+cfi=(118)
+cfn=(2494) close
+calls=1 82 
+0 12
+cob=(1)
+cfi=(60)
+cfn=(310)
+calls=1 29 
+0 1484
+0 3
+cob=(3)
+cfi=(63)
+cfn=(858)
+calls=1 2954 
+0 150
+0 9
+cfn=(422)
+calls=1 0 
+0 2
+0 5
+cfn=(1962) 0x000bddf0
+calls=1 0 
+0 114
+0 5
+cob=(3)
+cfi=(63)
+cfn=(858)
+calls=1 2954 
+0 135
+0 5
+
+fn=(2554) 0x000c5170
+0 20
+cfn=(422)
+calls=4 0 
+0 8
+0 36
+cob=(3)
+cfi=(63)
+cfn=(858)
+calls=4 2954 
+0 568
+0 12
+cob=(3)
+cfi=(63)
+cfn=(858)
+calls=4 2954 
+0 398
+0 20
+
+fn=(2680) 0x00010210
+0 2
+cfn=(422)
+calls=1 0 
+0 2
+0 3
+cfn=(2684)
+calls=1 0 
+0 2837
+0 6
+cob=(3)
+cfi=(63)
+cfn=(858)
+calls=1 2954 
+0 615
+0 3
+
+fn=(442) 0x00011d80
+0 5
+cfn=(422)
+calls=1 0 
+0 2
+0 11
+cfn=(448) 0x000116d0
+calls=1 0 
+0 1961
+0 26
+cfn=(496) 0x00011b20
+calls=1 0 
+0 378
+cfn=(488) 0x000113c0
+calls=1 0 
+0 383
+cfn=(480) 0x00011630
+calls=1 0 
+0 383
+cfn=(478) 0x00011310
+calls=1 0 
+0 1
+cfn=(470) 0x00011320
+calls=7 0 
+0 2700
+cfn=(448)
+calls=2 0 
+0 774
+0 90
+
+fn=(470)
+0 35
+cfn=(422)
+calls=7 0 
+0 14
+0 28
+cob=(3)
+cfi=(78) /build/buildd/eglibc-2.15/stdlib/getenv.c
+cfn=(458) getenv
+calls=7 36 
+0 2560
+0 63
+
+fn=(640) 0x000befe0
+0 5
+cfn=(422)
+calls=1 0 
+0 2
+0 5
+cfn=(518)
+calls=1 0 
+0 207
+0 53
+cob=(3)
+cfi=(80) /build/buildd/eglibc-2.15/io/../sysdeps/unix/sysv/linux/fxstat64.c
+cfn=(580) __fxstat64@@GLIBC_2.2
+calls=1 46 
+0 17
+0 43
+
+fn=(1300) _gfortran_transfer_character
+0 10
+cfn=(422)
+calls=2 0 
+0 4
+0 28
+cfn=(1302)
+calls=2 0 
+0 662
+0 8
+
+fn=(1388)
+0 4
+cfn=(422)
+calls=1 0 
+0 2
+0 7
+cfn=(1394) _gfortran_transfer_integer
+calls=1 0 
+0 781
+cob=(1)
+cfi=(60)
+cfn=(310)
+calls=1 29 
+0 932
+0 3
+
+fn=(1610)
+0 3514
+cfn=(422)
+calls=502 0 
+0 1004
+0 6024
+
+fn=(1802) 0x000bed40
+0 5
+cfn=(422)
+calls=1 0 
+0 2
+0 5
+cfn=(518)
+calls=1 0 
+0 207
+0 53
+cob=(3)
+cfi=(80)
+cfn=(580)
+calls=1 46 
+0 17
+0 28
+cob=(3)
+cfi=(122) /build/buildd/eglibc-2.15/io/../sysdeps/posix/isatty.c
+cfn=(1870) isatty
+calls=1 26 
+0 50
+cob=(1)
+cfi=(60)
+cfn=(310)
+calls=1 29 
+0 1522
+0 18
+cfn=(518)
+calls=1 0 
+0 200
+0 13
+cfn=(422)
+calls=1 0 
+0 2
+0 11
+cfn=(1808) 0x000beb10
+calls=1 0 
+0 1665
+0 25
+
+fn=(1982)
+0 7515
+
+fn=(2322) 0x000be200
+0 3
+cfn=(422)
+calls=1 0 
+0 2
+0 9
+cfn=(1962)
+calls=1 0 
+0 114
+0 9
+cob=(3)
+cfi=(136) /build/buildd/eglibc-2.15/misc/../sysdeps/unix/sysv/linux/ftruncate64.c
+cfn=(2350) ftruncate64
+calls=1 40 
+0 22
+cob=(1)
+cfi=(60)
+cfn=(310)
+calls=1 29 
+0 1602
+0 10
+
+fn=(430)
+0 5
+cfn=(422)
+calls=1 0 
+0 2
+0 8
+
+fn=(518)
+0 3048
+cfn=(422)
+calls=1524 0 
+0 3048
+0 7620
+cob=(3)
+cfi=(63)
+cfn=(334)
+calls=1524 2910 
+0 167987
+cob=(1)
+cfi=(60)
+cfn=(310)
+calls=1 29 
+0 1500
+0 7620
+
+fn=(546) 0x000bc1e0
+0 12
+cfn=(422)
+calls=4 0 
+0 8
+0 35
+cfn=(547) 0x000bc1e0'2
+calls=2 0 
+0 81
+0 32
+cfn=(547)
+calls=1 0 
+0 43
+0 10
+
+fn=(547)
+0 18
+cfn=(422)
+calls=6 0 
+0 12
+0 70
+cfn=(547)
+calls=3 0 
+0 71
+0 24
+
+fn=(556) 0x000befd0
+0 5
+cfn=(422)
+calls=1 0 
+0 2
+0 5
+cfn=(518)
+calls=1 0 
+0 207
+0 53
+cob=(3)
+cfi=(80)
+cfn=(580)
+calls=1 46 
+0 17
+cob=(1)
+cfi=(60)
+cfn=(310)
+calls=1 29 
+0 1557
+0 43
+
+fn=(868)
+0 5
+cfn=(422)
+calls=1 0 
+0 2
+0 40
+
+fn=(1086) 0x000bc960
+0 3012
+cfn=(422)
+calls=502 0 
+0 1004
+0 23618
+
+fn=(1216) 0x000bd280
+0 2
+
+fn=(1302)
+0 12048
+cfn=(422)
+calls=1506 0 
+0 3012
+0 36146
+cfn=(1314)
+calls=1004 0 
+0 81330
+0 10040
+cob=(3)
+cfi=(85)
+cfn=(610)
+calls=1004 121 
+0 21084
+0 3026
+cfn=(1358)
+calls=2 0 
+0 308
+0 39141
+cfn=(1988) 0x000c4310
+calls=1503 0 
+0 12023172
+0 1508
+cfn=(1408)
+calls=1 0 
+0 586
+0 2511
+cfn=(1312)
+calls=502 0 
+0 51207
+0 502
+
+fn=(1634)
+0 12024
+cfn=(422)
+calls=1503 0 
+0 3006
+0 284568
+cfn=(1636) 0x000d22c0
+calls=1503 0 
+0 14400744
+0 37575
+cfn=(928) 0x00012c60
+calls=1002 0 
+0 209718
+0 91683
+
+fn=(1648)
+0 6
+cfn=(422)
+calls=1 0 
+0 2
+0 4
+cfn=(1060)
+calls=1 0 
+0 7
+0 55
+cfn=(1650)
+calls=1 0 
+0 18
+0 32
+cfn=(1656)
+calls=1 0 
+0 551
+0 9
+cfn=(1674) 0x000b4130
+calls=1 0 
+0 8223
+0 4
+cfn=(1618)
+calls=1 0 
+0 12
+0 8
+
+fn=(1916)
+0 6513
+cfn=(1920)
+calls=501 0 
+0 2004
+0 5010
+cfn=(1926)
+calls=501 0 
+0 13026
+0 3507
+cfn=(1926)
+calls=501 0 
+0 12525
+0 4509
+
+fn=(1974)
+0 6012
+cfn=(422)
+calls=1503 0 
+0 3006
+0 10521
+cfn=(1980)
+calls=1503 0 
+0 12323271
+cob=(1)
+cfi=(60)
+cfn=(310)
+calls=1 29 
+0 967
+0 4509
+
+fn=(2104)
+0 13527
+cfn=(422)
+calls=1503 0 
+0 3006
+0 24048
+cfn=(2110) 0x000c02b0
+calls=1503 0 
+0 36072
+0 12024
+cob=(3)
+cfi=(134) /build/buildd/eglibc-2.15/stdlib/strtol.c
+cfn=(2128) strtol
+calls=1503 109 
+0 272894
+cob=(1)
+cfi=(60)
+cfn=(310)
+calls=1 29 
+0 1563
+0 132321
+cfn=(1314)
+calls=1503 0 
+0 121743
+0 97962
+cob=(3)
+cfi=(110)
+cfn=(936)
+calls=1503 100 
+0 31563
+0 57611
+cob=(3)
+cfi=(85)
+cfn=(610)
+calls=1503 121 
+0 36569
+0 31521
+cob=(3)
+cfi=(124)
+cfn=(2016)
+calls=1000 31 
+0 1254372
+0 7000
+cob=(3)
+cfi=(85)
+cfn=(610)
+calls=1000 121 
+0 21000
+0 46557
+cfn=(2110)
+calls=503 0 
+0 12072
+0 8509
+cob=(3)
+cfi=(85)
+cfn=(610)
+calls=1000 121 
+0 21000
+0 7004
+
+fn=(2258)
+0 2505
+cfn=(422)
+calls=501 0 
+0 1002
+0 18052
+cfn=(1962)
+calls=4 0 
+0 456
+0 23460
+cob=(3)
+cfi=(85)
+cfn=(610)
+calls=497 121 
+0 35373
+0 4501
+cob=(3)
+cfi=(85)
+cfn=(610)
+calls=4 121 
+0 280
+0 5518
+
+fn=(2466)
+0 18
+cfn=(422)
+calls=3 0 
+0 6
+0 36
+cfn=(2484) 0x000bd7d0
+calls=3 0 
+0 462
+0 46
+cfn=(2516) 0x000bc140
+calls=3 0 
+0 77
+0 18
+cob=(3)
+cfi=(63)
+cfn=(858)
+calls=3 2954 
+0 297
+0 12
+cfn=(2542) 0x000acac0
+calls=3 0 
+0 480
+0 6
+cfn=(2554)
+calls=3 0 
+0 802
+0 48
+cfn=(2574)
+calls=3 0 
+0 489
+0 6
+
+fn=(2484)
+0 21
+cfn=(422)
+calls=3 0 
+0 6
+0 18
+cob=(3)
+cfi=(63)
+cfn=(858)
+calls=3 2954 
+0 399
+0 18
+
+fn=(2542)
+0 20
+cfn=(422)
+calls=4 0 
+0 8
+0 612
+
+fn=(422)
+0 95456
+
+fn=(478)
+0 1
+
+fn=(496)
+0 4
+cfn=(422)
+calls=1 0 
+0 2
+0 5
+cob=(3)
+cfi=(78)
+cfn=(458)
+calls=1 36 
+0 358
+0 9
+
+fn=(1002)
+0 1021500
+cfn=(422)
+calls=18500 0 
+0 37000
+0 499500
+
+fn=(1394)
+0 13
+cfn=(1302)
+calls=1 0 
+0 766
+0 2
+
+fn=(1426)
+0 6
+cfn=(422)
+calls=1 0 
+0 2
+0 21
+cfn=(1436) 0x000d8370
+calls=1 0 
+0 24
+0 24
+cfn=(1436)
+calls=4 0 
+0 96
+0 35
+cfn=(1444)
+calls=5 0 
+0 115
+0 30
+
+fn=(1562) 0x000bccd0
+0 4016
+cfn=(1564) 0x000bfa70
+calls=502 0 
+0 3514
+0 5012
+cfn=(1920)
+calls=501 0 
+0 2004
+0 6005
+cfn=(1916)
+calls=500 0 
+0 47000
+0 3006
+
+fn=(2302)
+0 16
+cfn=(2312) 0x000bfa90
+calls=1 0 
+0 3
+0 5
+cfn=(1564)
+calls=1 0 
+0 7
+0 5
+cfn=(1196)
+calls=1 0 
+0 28
+0 6
+cfn=(2322)
+calls=1 0 
+0 1771
+0 9
+
+fn=(448)
+0 21
+cfn=(422)
+calls=3 0 
+0 6
+0 12
+cob=(3)
+cfi=(78)
+cfn=(458)
+calls=3 36 
+0 1083
+cob=(1)
+cfi=(60)
+cfn=(310)
+calls=1 29 
+0 1577
+0 36
+
+fn=(686) 0x00012930
+0 2
+cfn=(422)
+calls=1 0 
+0 2
+0 4
+cob=(5)
+cfi=(86) /build/buildd/eglibc-2.15/math/../sysdeps/i386/fpu/fedisblxcpt.c
+cfn=(694) fedisableexcept
+calls=1 28 
+0 28
+cob=(1)
+cfi=(60)
+cfn=(310)
+calls=1 29 
+0 1355
+0 18
+
+fn=(712) 0x00011160
+0 1
+cfn=(714)
+calls=1 0 
+0 2
+0 9
+
+fn=(926) _gfortran_size0
+0 16224
+
+fn=(972)
+0 6
+cfn=(422)
+calls=2 0 
+0 4
+0 84
+cob=(3)
+cfi=(113) /build/buildd/eglibc-2.15/time/../sysdeps/unix/syscall-template.S
+cfn=(978) gettimeofday
+calls=2 82 
+0 22
+cob=(1)
+cfi=(60)
+cfn=(310)
+calls=1 29 
+0 1610
+0 6
+
+fn=(1294)
+0 8
+cfn=(422)
+calls=2 0 
+0 4
+0 14
+cfn=(1300)
+calls=2 0 
+0 712
+cob=(1)
+cfi=(60)
+cfn=(310)
+calls=1 29 
+0 966
+0 6
+
+fn=(1436)
+0 120
+
+fn=(1564)
+0 3521
+
+fn=(1618)
+0 1006
+cfn=(422)
+calls=503 0 
+0 1006
+0 4024
+
+fn=(1674)
+0 8
+cfn=(422)
+calls=1 0 
+0 2
+0 36
+cfn=(1722)
+calls=1 0 
+0 3376
+0 7
+cfn=(1802)
+calls=1 0 
+0 3823
+0 14
+cfn=(518)
+calls=1 0 
+0 215
+0 67
+cob=(3)
+cfi=(85)
+cfn=(1750)
+calls=1 121 
+0 25
+0 14
+cfn=(614)
+calls=1 0 
+0 447
+0 65
+cfn=(1914)
+calls=1 0 
+0 121
+0 3
+
+fn=(1920)
+0 4016
+
+fn=(1962)
+0 42
+cfn=(422)
+calls=7 0 
+0 14
+0 151
+cfn=(1582)
+calls=6 0 
+0 306
+0 192
+
+fn=(2110)
+0 6018
+cfn=(422)
+calls=2006 0 
+0 4012
+0 38114
+
+fn=(2712)
+0 5
+cfn=(422)
+calls=1 0 
+0 2
+0 10
+cob=(3)
+cfi=(143)
+cfn=(2628)
+calls=1 31 
+0 72
+cob=(1)
+cfi=(60)
+cfn=(310)
+calls=1 29 
+0 1635
+0 14
+
+fn=(438) 0x00010250
+0 2
+cfn=(422)
+calls=1 0 
+0 2
+0 4
+cfn=(442)
+calls=1 0 
+0 6714
+0 1
+cfn=(508) 0x000bc990
+calls=1 0 
+0 11374
+0 1
+cfn=(686)
+calls=1 0 
+0 1409
+0 1
+cfn=(712)
+calls=1 0 
+0 12
+0 4
+cfn=(720)
+calls=1 0 
+0 124
+0 3
+
+fn=(480)
+0 6
+cfn=(422)
+calls=1 0 
+0 2
+0 4
+cob=(3)
+cfi=(78)
+cfn=(458)
+calls=1 36 
+0 360
+0 11
+
+fn=(924)
+0 3549
+cfn=(422)
+calls=507 0 
+0 1014
+0 45123
+cfn=(926)
+calls=507 0 
+0 16224
+0 1521
+cfn=(928)
+calls=507 0 
+0 109320
+0 95198877
+cob=(3)
+cfi=(110)
+cfn=(936)
+calls=507 100 
+0 5010219
+cob=(1)
+cfi=(60)
+cfn=(310)
+calls=1 29 
+0 1540
+0 2028
+
+fn=(2516)
+0 76
+cfn=(2517) 0x000bc140'2
+calls=1 0 
+0 40
+0 17
+
+fn=(2517)
+0 31
+cfn=(2517)
+calls=1 0 
+0 25
+0 9
+
+fn=(508)
+0 4
+cfn=(422)
+calls=1 0 
+0 2
+0 7
+cfn=(514)
+calls=1 0 
+0 1884
+0 3
+cfn=(556)
+calls=1 0 
+0 1889
+0 21
+cob=(3)
+cfi=(83)
+cfn=(598)
+calls=1 43 
+0 19
+cob=(1)
+cfi=(60)
+cfn=(310)
+calls=1 29 
+0 1540
+0 3
+cfn=(518)
+calls=1 0 
+0 215
+0 6
+cob=(3)
+cfi=(85)
+cfn=(610)
+calls=1 121 
+0 23
+cob=(1)
+cfi=(60)
+cfn=(310)
+calls=1 29 
+0 1510
+0 3
+cfn=(614)
+calls=1 0 
+0 447
+0 7
+cfn=(514)
+calls=1 0 
+0 413
+0 3
+cfn=(640)
+calls=1 0 
+0 332
+0 20
+cob=(3)
+cfi=(83)
+cfn=(598)
+calls=1 43 
+0 24
+0 3
+cfn=(518)
+calls=1 0 
+0 215
+0 6
+cob=(3)
+cfi=(85)
+cfn=(610)
+calls=1 121 
+0 23
+0 3
+cfn=(614)
+calls=1 0 
+0 447
+0 7
+cfn=(514)
+calls=1 0 
+0 442
+0 3
+cfn=(664) 0x000beff0
+calls=1 0 
+0 332
+0 20
+cob=(3)
+cfi=(83)
+cfn=(598)
+calls=1 43 
+0 35
+0 3
+cfn=(518)
+calls=1 0 
+0 215
+0 6
+cob=(3)
+cfi=(85)
+cfn=(610)
+calls=1 121 
+0 23
+0 3
+cfn=(614)
+calls=1 0 
+0 443
+0 770
+
+fn=(514)
+0 12
+cfn=(422)
+calls=4 0 
+0 8
+0 28
+cfn=(518)
+calls=4 0 
+0 2304
+0 596
+cfn=(546)
+calls=4 0 
+0 221
+0 32
+
+fn=(1328)
+0 36153
+cfn=(422)
+calls=4017 0 
+0 8034
+0 68289
+
+fn=(1538)
+0 4016
+cfn=(422)
+calls=502 0 
+0 1004
+0 11546
+cfn=(1196)
+calls=502 0 
+0 112252
+0 6526
+cfn=(1258)
+calls=502 0 
+0 5522
+0 3514
+cfn=(1562)
+calls=502 0 
+0 70557
+0 3514
+cfn=(1520)
+calls=502 0 
+0 9036
+0 2008
+cfn=(1328)
+calls=502 0 
+0 14056
+0 3012
+
+fn=(1988)
+0 9018
+cfn=(422)
+calls=1503 0 
+0 3006
+0 19539
+cfn=(1996)
+calls=1503 0 
+0 11976579
+0 15030
+
+fn=(2312)
+0 3
+
+fn=(2462) 0x000bc590
+0 6
+cfn=(422)
+calls=1 0 
+0 2
+0 41
+
+fn=(488)
+0 5
+cfn=(422)
+calls=1 0 
+0 2
+0 5
+cob=(3)
+cfi=(78)
+cfn=(458)
+calls=1 36 
+0 360
+0 11
+
+fn=(664)
+0 5
+cfn=(422)
+calls=1 0 
+0 2
+0 5
+cfn=(518)
+calls=1 0 
+0 207
+0 53
+cob=(3)
+cfi=(80)
+cfn=(580)
+calls=1 46 
+0 17
+0 43
+
+fn=(928)
+0 3018
+cfn=(422)
+calls=1509 0 
+0 3018
+0 7545
+cob=(3)
+cfi=(63)
+cfn=(334)
+calls=1509 2910 
+0 288858
+0 16599
+
+fn=(1058)
+0 4518
+cfn=(422)
+calls=502 0 
+0 1004
+0 34136
+cfn=(1086)
+calls=502 0 
+0 27634
+0 76814
+cfn=(1192)
+calls=2 0 
+0 112
+0 12
+cfn=(1962)
+calls=1 0 
+0 21
+cfn=(1216)
+calls=1 0 
+0 2
+0 1006
+cfn=(1256)
+calls=502 0 
+0 15562
+0 2510
+cfn=(1228)
+calls=502 0 
+0 10096
+0 3514
+cfn=(1060)
+calls=502 0 
+0 3514
+0 2510
+
+fn=(1258)
+0 11044
+
+fn=(1636)
+0 12024
+cfn=(422)
+calls=1503 0 
+0 3006
+0 15030
+cob=(3)
+cfi=(85)
+cfn=(610)
+calls=1503 121 
+0 14358660
+0 12024
+
+fn=(1808)
+0 9
+cfn=(422)
+calls=1 0 
+0 2
+0 12
+cfn=(1726)
+calls=1 0 
+0 69
+0 22
+cob=(3)
+cfi=(121) /build/buildd/eglibc-2.15/io/../sysdeps/unix/sysv/linux/open64.c
+cfn=(1832) open64
+calls=1 30 
+0 32
+cob=(1)
+cfi=(60)
+cfn=(310)
+calls=1 29 
+0 1500
+0 19
+
+fn=(2460)
+0 3
+cfn=(422)
+calls=1 0 
+0 2
+0 8
+cfn=(1060)
+calls=1 0 
+0 7
+0 8
+cfn=(2462)
+calls=1 0 
+0 49
+0 20
+cfn=(422)
+calls=1 0 
+0 2
+0 12
+cfn=(2474)
+calls=1 0 
+0 1939
+0 16
+cfn=(2516)
+calls=1 0 
+0 56
+0 6
+cob=(3)
+cfi=(63)
+cfn=(858)
+calls=1 2954 
+0 95
+0 4
+cfn=(2542)
+calls=1 0 
+0 160
+0 2
+cfn=(2554)
+calls=1 0 
+0 260
+0 19
+cfn=(2574)
+calls=1 0 
+0 167
+0 12
+
+ob=(3)
+fl=(116) /build/buildd/eglibc-2.15/libio/fileops.c
+fn=(1242) _IO_file_sync@@GLIBC_2.1
+912 5
+cfi=(41) /build/buildd/eglibc-2.15/string/../sysdeps/i386/i686/multiarch/strcat.S
+cfn=(178) 0x0012ac73
+calls=1 55 
+* 2
+* 1
++5 4
++2 1
++1 2
++17 3
++4 4
+
+fl=(139) /build/buildd/eglibc-2.15/stdio-common/_itoa.c
+fn=(2408) _itoa_word
+175 4000
++4 1000
+-4 1000
+cfi=(41)
+cfn=(178)
+calls=1000 55 
+* 2000
+* 4000
++4 4000
++7 2000
++9 14372
++9 6000
+
+fl=(84) /build/buildd/eglibc-2.15/string/../sysdeps/i386/i686/multiarch/memcpy.S
+fn=(608) memcpy
+40 2
++3 2
+cfi=(41)
+cfn=(178)
+calls=2 +12 
+* 4
++1 2
++1 2
++1 2
++2 2
++1 2
++1 2
++1 2
++1 2
++1 2
++2 2
++3 2
+
+fl=(137) /build/buildd/eglibc-2.15/stdlib/mul.c
+fn=(2360) __mpn_mul
+58 9079
+cfi=(41)
+cfn=(178)
+calls=1297 -3 
+* 2594
+* 1297
++6 2594
++12 1297
++1 1297
+-1 2594
++5 2594
++1 2594
++9 10376
+cfi=(132) /build/buildd/eglibc-2.15/stdlib/../sysdeps/i386/mul_1.S
+cfn=(2048) __mpn_mul_1
+calls=1297 -50 
+* 56051
++2 6485
++5 1297
+-5 1297
++5 1297
++54 7782
+
+fl=(42) /build/buildd/eglibc-2.15/csu/../sysdeps/x86_64/multiarch/init-arch.c
+fn=(180) __init_cpu_features
+45 1
++8 1
+-8 2
+cfi=(41)
+cfn=(178)
+calls=1 +10 
+* 2
+* 2
++8 3
++3 1
+-11 2
++8 1
++3 5
++92 2
++22 1
+-1 1
++1 1
++2 1
++1 3
+-1 1
++1 3
+32 5
++7 1
+-1 1
++1 3
++26 1
+-27 1
+-6 1
++6 1
+-6 1
++37 2
+-37 1
++33 1
++4 1
+-4 1
++5 1
+-38 1
++33 1
++5 1
++5 1
++2 1
+-2 1
++3 1
++1 4
++11 1
+-32 1
++32 1
+
+fl=(51) /build/buildd/eglibc-2.15/string/../sysdeps/i386/i686/multiarch/../../strrchr.S
+fn=(238) __GI_strrchr
+37 1
++3 1
++3 1
++1 1
++2 1
++7 1
++1 1
++1 1
++1 1
++13 1
++1 1
++1 1
++1 1
++1 1
++2 1
++1 1
++1 1
++2 1
++1 1
++79 1
++1 1
++1 1
++1 1
++1 1
++8 1
++1 1
++1 1
++3 1
++2 1
++1 1
++1 1
++11 1
+-13 1
++1 1
++1 1
++11 1
++4 2
++3 2
++1 2
++4 2
++6 2
++2 2
++1 2
++3 2
++1 2
++1 2
++1 2
++2 2
++2 1
++1 1
++1 1
++3 1
++1 1
++1 1
++1 1
++2 1
++1 1
++2 1
++1 1
++3 1
++1 1
++1 1
++1 1
++2 1
++2 1
++1 1
++1 1
++3 1
++1 1
++1 1
++1 1
++2 1
++1 1
++2 1
++1 1
++3 1
++1 1
++1 1
++1 1
++2 1
++2 1
++1 1
++1 1
++3 1
++1 1
++1 1
++1 1
++2 1
++15 1
++1 1
++1 1
++8 1
++1 1
++2 1
++1 1
++2 1
++1 1
++2 1
++1 1
++15 1
++3 1
++5 1
+
+fl=(78)
+fn=(458)
+36 78
+cfi=(41)
+cfn=(178)
+calls=13 +19 
+* 26
+* 26
++1 26
+cfi=(79) /build/buildd/eglibc-2.15/string/../sysdeps/i386/i686/multiarch/../../i586/strlen.S
+cfn=(460) __GI_strlen
+calls=13 +10 
+* 938
+* 13
++4 65
++1 13
+-1 26
++3 26
+-2 13
++55 78
+-24 13
++6 13
+-1 13
++1 13
++2 13
+-3 13
++3 13
+-3 13
++3 2197
++9 1092
+
+fl=(40) /build/buildd/eglibc-2.15/string/../sysdeps/i386/i686/multiarch/strnlen.S
+fn=(176) strnlen
+37 1
++3 1
+cfi=(41)
+cfn=(178)
+calls=1 +15 
+* 2
++1 1
++1 1
++1 1
++1 1
+cfi=(42)
+cfn=(180)
+calls=1 +1 
+* 69
++1 1
++1 1
++1 1
++1 1
++1 1
++3 1
+
+fl=(72)
+fn=(358)
+43 7
+cfi=(41)
+cfn=(178)
+calls=1 +12 
+* 2
+* 1
++1 3
++9 2
++3 1
+-4 3
++1 2
++5 4
++7 5
++2 3
++11 3
+-1 3
+cfi=(63)
+cfn=(334)
+calls=1 2910 
+* 201
+cob=(1)
+cfi=(60)
+cfn=(310)
+calls=1 -48 
+* 914
+-13 1
++16 1
+-3 1
++3 1
++3 2
++1 1
+-1 2
++1 4
++1 3
+-1 1
++1 3
+cfi=(73) /build/buildd/eglibc-2.15/wcsmbs/wmemcpy.c
+cfn=(364) wmemcpy
+calls=1 -56 
+* 44
++2 3
++2 1
++3 4
++3 7
+-26 3
+cfi=(63)
+cfn=(324) calloc
+calls=1 3259 
+* 503
+-5 1
++7 1
+-2 1
++2 1
+
+fl=(74) /build/buildd/eglibc-2.15/string/../sysdeps/i386/i686/multiarch/../memcpy.S
+fn=(366) __GI_memcpy
+44 1
++1 1
++1 1
++1 1
++2 1
++1 1
++1 1
++1 1
++1 1
++1 1
++2 1
++1 1
++2 1
++1 1
++11 1
++1 1
++1 1
++1 1
++1 2
++2 1
++1 1
++2 1
++2 1
++1 1
++1 1
++4 1
+
+fl=(127) /build/buildd/eglibc-2.15/stdio-common/printf_fp.c
+fn=(2046) hack_digit.12671
+236 308115
++3 61623
+-3 61623
+cfi=(41)
+cfn=(178)
+calls=61623 55 
+* 123246
+* 61623
++3 205246
++2 61623
++2 61623
+-2 123246
++2 246492
++1 369738
+cfi=(132)
+cfn=(2048)
+calls=61623 41 
+* 2330317
+* 61623
++30 369738
+
+fn=(2036) __printf_fp
+163 9018
++57 1503
+-24 1503
++2 1503
+-35 1503
+cfi=(41)
+cfn=(178)
+calls=1503 55 
+* 3006
+* 1503
++57 6012
++59 1503
+-59 3006
++59 1503
++2 12024
++1 3006
++23 7515
++97 1503
++4 4509
+cfi=(128) /build/buildd/eglibc-2.15/math/../sysdeps/ieee754/dbl-64/s_isnan.c
+cfn=(2038) isnan
+calls=1503 32 
+* 24048
+* 4509
+-93 1503
+178 1503
+-1 1503
+356 1503
+-2 1503
++2 1503
+-2 1503
++67 4509
+cfi=(129) /build/buildd/eglibc-2.15/math/../sysdeps/ieee754/dbl-64/s_isinf.c
+cfn=(2040) isinf
+calls=1503 21 
+* 27054
+* 4509
+1274 10521
+477 1503
++12 1503
+-12 9018
++1 1503
++3 6012
++1 3006
++1 3006
+-2 1503
++2 1503
+-1 1503
++8 1503
+-7 1503
++7 1503
+-9 1503
++1 1503
++8 1503
+-53 13527
+cfi=(130) /build/buildd/eglibc-2.15/stdlib/../sysdeps/ieee754/dbl-64/dbl2mpn.c
+cfn=(2042) __mpn_extract_double
+calls=1503 34 
+* 53114
+* 1503
++4 6012
+661 3006
+828 3521
+cfi=(131) /build/buildd/eglibc-2.15/stdlib/../sysdeps/i386/lshift.S
+cfn=(2044) __mpn_lshift
+calls=503 35 
+* 14084
++1 503
+-1 503
++1 2012
++1 503
++4 503
++10 1006
+-10 503
++10 503
+-10 503
++10 1509
++2 503
+-2 503
++2 503
+-12 1000
++10 2000
+-10 1000
++10 1000
+-10 1000
++10 3000
++2 1000
+-2 1000
++2 1000
++58 1503
+-61 1503
++61 3006
++14 6012
++7 3006
+fi=(146) /build/buildd/eglibc-2.15/stdio-common/../nptl/sysdeps/pthread/allocalim.h
+28 3006
+fe=(127)
+935 9018
+-9 1503
++10 1503
++3 1503
+-3 1503
++3 1503
+-3 1503
++3 3503
++3 13527
++3 1503
+-1 1503
++1 1503
+cfn=(2046)
+calls=1503 236 
+* 108436
+-3 1503
++3 1503
+-3 4509
+160 1503
+942 1503
++6 4509
++3 1503
+-4 1503
++4 4509
++12 1503
++1 3006
++1 1503
++7 58617
+-7 120240
++1 3006
++3 58617
+-1 58617
++1 58617
+cfn=(2046)
+calls=58617 236 
+* 4229004
+* 58617
++1 175851
++2 87936
++9 3006
+cfn=(2046)
+calls=1503 236 
+* 108436
++1 3006
++4 1032
++23 1032
++5 4114
++2 3
+-2 3
++3 3
+-3 9
++2 49
+-2 49
++3 49
+-3 343
++5 1548
++2 1032
++2 3612
++11 2580
++70 3006
++7 3006
++3 4509
++13 4509
++2 4509
++19 1503
++1 7515
++4 4571
++1 62
+-1 62
+-4 31
++13 62
++1 31
+-1 124
++1 155
++1 31
+-1 31
++1 93
++2 31
+-2 62
++2 31
++1 4509
++6 10521
++1 1503
++1 4509
+213 1503
+1175 4509
++2 1503
+-2 1503
++2 1503
++3 3006
++5 4509
++2 3006
++9 4509
++8 6012
++2 3006
++2 1503
+-2 1503
+cfi=(79)
+cfn=(460)
+calls=1503 47 
+* 36072
++3 1503
+-3 1503
++2 4509
++5 3006
++1 3006
+-1 1503
++2 4509
++11 9018
++1 1503
++6 3006
+-6 1503
++6 7515
++3 132264
++3 132264
+-6 202905
++1 202905
++1 4509
++2 6012
+cfi=(103) /build/buildd/eglibc-2.15/string/../sysdeps/i386/i686/multiarch/../mempcpy.S
+cfn=(862) __GI_mempcpy
+calls=1503 44 
+* 22545
+* 3006
+-55 6012
++1 6012
++60 4509
+-1 1503
++18 24048
+cfi=(98) /build/buildd/eglibc-2.15/libio/genops.c
+cfn=(852) _IO_default_xsputn
+calls=1503 452 
+* 108216
+* 6012
++3 4509
++7 9018
++1 13527
+850 1503
+-2 1503
++2 10521
++4 1503
+-1 1503
+-4 1503
++1 3006
+1260 7515
+987 595
++4 177
++4 177
++5 59
+-1 59
++1 443
+669 7000
+cfi=(131)
+cfn=(2044)
+calls=1000 35 
+* 28000
++1 1000
++4 1000
+-9 1000
+-1 1000
++10 1000
+-5 1000
++1 4000
+160 2000
+694 1000
+160 1000
+666 1000
++7 1000
++1 1000
++20 1000
+-15 1000
++2 2000
+-2 10520
++2 21040
++7 6485
++9 7782
++4 1297
+-4 1297
++13 1297
+-13 1297
++4 6485
++1 3891
++1 2594
+-1 2594
++8 3891
++22 6225
++9 2334
+-1 1167
++1 2334
++5 1167
+-6 1167
++6 4668
++3 4668
+-8 96
+-1 48
++1 96
++5 48
+-6 48
++6 192
++3 192
+160 1
+749 14
++1 2430
++7 1215
++3 7288
++12 4650
++10 2325
+cfi=(138) /build/buildd/eglibc-2.15/stdlib/../sysdeps/i386/rshift.S
+cfn=(2362) __mpn_rshift
+calls=775 35 
+* 27990
+* 3
+cfi=(138)
+cfn=(2362)
+calls=1 35 
+* 36
++3 2328
++5 776
++2 1552
+-2 10744
++2 43056
++24 3000
+-83 390
++1 111
+-1 222
++1 111
+-1 222
++2 63
++1 4
+-42 14267
+cfi=(137)
+cfn=(2360)
+calls=1297 58 
+* 110525
+* 1297
+1183 12024
+712 222
++4 444
+-2 111
++2 222
++54 2
++13 1
+-1 2
++1 1
+-1 6
+1158 5888
+794 1472
++4 5704
+cfi=(132)
+cfn=(2048)
+calls=713 41 
+* 32291
++4 713
++1 713
+-4 713
++3 713
++1 2852
++3 180
+-1 540
+cfi=(131)
+cfn=(2044)
+calls=90 35 
+* 3204
++2 90
+-2 90
++2 90
++1 270
++4 90
++1 180
+-1 623
++1 1246
+1271 9018
+cfi=(133) /build/buildd/eglibc-2.15/libio/iopadn.c
+cfn=(2050) _IO_padn
+calls=1503 41 
+* 142785
+* 1503
+811 3738
+cfi=(138)
+cfn=(2362)
+calls=623 35 
+* 22896
+* 623
+1014 1868
+766 4390
+cfi=(131)
+cfn=(2044)
+calls=439 35 
+* 14926
++1 1317
++1 1756
+-19 6070
+1129 2000
+
+fl=(134)
+fn=(2128)
+109 1503
++1 1503
+-1 1503
+cfi=(41)
+cfn=(178)
+calls=1503 -54 
+* 3006
+* 3006
++1 16533
+cfi=(135) /build/buildd/eglibc-2.15/stdlib/strtol_l.c
+cfn=(2130) ____strtol_l_internal
+calls=1503 232 
+* 241331
++1 4509
+
+fl=(64) /build/buildd/eglibc-2.15/malloc/hooks.c
+fn=(326) malloc_hook_ini
+30 3
+cfi=(41)
+cfn=(178)
+calls=1 +25 
+* 2
+* 3
++1 2
++1 1
+cfi=(65) /build/buildd/eglibc-2.15/malloc/arena.c
+cfn=(328) ptmalloc_init
+calls=1 370 
+* 68023
++2 1
+-1 1
++1 2
+-1 1
+cfi=(63)
+cfn=(334)
+calls=1 2910 
+* 1236
+
+fl=(103)
+fn=(862)
+44 3007
++1 3007
++2 3007
++2 3007
++2 3007
++2 3007
++1 3007
++1 3007
++1 3007
++1 3007
++1 3007
++1 1
++1 19552
++2 3007
++2 3007
++5 3007
+
+fl=(135)
+fn=(2130)
+232 7515
++14 1503
+-14 1503
+cfi=(41)
+cfn=(178)
+calls=1503 55 
+* 3006
+* 1503
++14 1503
++12 4509
++22 1503
+-1 1503
++10 12024
++9 12024
++2 3006
++5 3006
++5 503
++1 1006
+-7 503
++7 503
++3 6012
++10 93
++7 3006
++48 1503
++1 1503
+-1 1503
++5 1503
+-4 1503
++58 3006
++2 7515
++16 1503
+-16 3006
++16 4509
+-14 13527
++7 3006
+-9 6012
++49 4509
++6 4509
++3 4509
+-2 3006
++17 9018
++18 9018
+334 6012
+-82 1503
++82 1503
++42 3006
++90 6012
++4 9018
++3 18036
++5 6012
++1 9018
+-41 13527
++46 3006
+316 11776
+-8 1000
+-1 2000
+
+fl=(66) /build/buildd/eglibc-2.15/elf/dl-addr.c
+fn=(330) _dl_addr
+127 4
++2 1
+-2 2
+cfi=(41)
+cfn=(178)
+calls=1 -72 
+* 2
+* 4
++5 4
+cob=(1)
+cfi=(2) /build/buildd/eglibc-2.15/elf/rtld.c
+cfn=(52) rtld_lock_default_lock_recursive
+calls=1 843 
+* 3
++3 6
+-10 1
++11 5
++1 38
++1 2
+-2 21
++10 4
+cob=(1)
+cfi=(2)
+cfn=(54) rtld_lock_default_unlock_recursive
+calls=1 849 
+* 3
++3 7
+31 3
++1 1
++3 2
++6 1
+-1 1
++6 1
+-5 1
+-1 1
++6 1
+-5 1
++2 1
+-3 1
++3 2
++3 1
++5 11
++2 3
++1 2
+-1 3030
++1 2020
++2 1818
++69 909
+-63 909
+-6 909
++69 3636
+-63 2727
++63 2872
+-63 4308
++2 9380
++1 19235
++7 11725
+-21 4045
++49 3
++1 2
++1 3
++3 3
++12 1
++24 1
+-24 1
++1 2
+
+fl=(55) /build/buildd/eglibc-2.15/stdlib/bsearch.c
+fn=(250) bsearch
+27 150
++20 30
+-13 120
++7 70
++1 63
+-8 126
++3 196
+-1 392
++1 588
++1 784
+cfi=(54) /build/buildd/eglibc-2.15/string/../sysdeps/x86_64/cacheinfo.c
+cfn=(252) intel_02_known_compare
+calls=196 145 
+* 2142
++1 392
++1 126
+-6 252
++13 23
++1 180
+
+fl=(125) /build/buildd/eglibc-2.15/debug/vsnprintf_chk.c
+fn=(2018) __vsnprintf_chk
+33 10012
+cfi=(41)
+cfn=(178)
+calls=2503 +22 
+* 5006
+* 2503
++5 2503
+-5 10012
++5 2503
++11 2503
+-5 2503
++5 10012
++6 17521
+cfi=(98)
+cfn=(840) _IO_no_init
+calls=2503 648 
+* 125150
++6 2503
+-5 5006
++1 2503
++4 5006
++1 2503
++2 15018
+cfi=(99) /build/buildd/eglibc-2.15/libio/strops.c
+cfn=(844) _IO_str_init_static_internal
+calls=2503 -24 
+* 162695
++1 15018
+cfi=(100) /build/buildd/eglibc-2.15/stdio-common/vfprintf.c
+cfn=(848) vfprintf
+calls=2503 211 
+* 9712568
++2 5006
++1 5006
++2 15018
+
+fl=(132)
+fn=(2048)
+41 63633
++2 63633
++2 63633
++2 63633
++3 63633
++2 63633
++2 63633
++1 63633
++8 63633
++1 63633
++1 63633
++1 127266
++4 63633
++1 63633
++1 63633
++1 63633
++1 63633
++1 63633
++2 63633
++1 63633
+-8 87571
++1 87571
++1 87571
++1 87571
++1 87571
++1 87571
++2 87571
++1 87571
++1 63633
++2 63633
++3 63633
++3 63633
++3 63633
++5 63633
+
+fl=(85)
+fn=(1750)
+121 3
++1 3
++1 3
++1 3
++3 3
++1 3
++1 3
++1 3
++1 3
++1 3
+1855 3
++1 3
++2 3
++1 3
++1 3
++1 3
++2 3
++6 6
+2175 3
+cfi=(41)
+cfn=(178)
+calls=3 55 
+* 6
+* 9
+
+fn=(610)
+121 6518
++1 6518
++1 6518
++1 6518
++17 6518
++1 6518
++4 4513
++1 4513
++2 4510
++1 4510
++1 4510
+cfi=(41)
+cfn=(178)
+calls=4510 -96 
+* 9020
+* 13530
++3 3
+cfi=(41)
+cfn=(178)
+calls=3 -99 
+* 6
+* 9
++6 2005
++1 2005
++1 2005
++1 2005
++1 2005
++2 2005
++1 2005
++1 2005
++1 2005
++1 2005
++6 2005
+cfi=(41)
+cfn=(178)
+calls=2005 55 
+* 4010
++1 2005
++1 2005
++6 2005
++1 2005
++1 2005
++1 2005
++2 974
+cfi=(41)
+cfn=(178)
+calls=974 55 
+* 1948
+* 2922
++6 1031
++1 1031
++1 1031
++1 1031
++1 1031
++1 29
++2 29
++1 29
++1 29
++1 29
++1 29
++1 29
++1 29
++2 29
++1 29
++1 29
++1 29
++1 29
++1 29
++1 29
++17 29
++1 29
++1 29
++1 29
++1 29
++1 29
+cfi=(41)
+cfn=(178)
+calls=29 55 
+* 58
+* 87
++9 1002
+cfi=(41)
+cfn=(178)
+calls=1002 55 
+* 2004
++1 1002
++1 1002
++6 1002
++1 1002
++1 1002
++2 9018
++1 9018
++1 9018
++1 9018
++1 9018
++1 9018
++1 9018
++1 9018
++1 9018
++1 9018
++1 9018
++1 9018
++1 9018
++1 9018
++1 9018
++1 9018
++1 9018
++1 9018
++1 9018
++2 9018
++1 1002
++1 1002
++1 1002
++17 1002
++1 1002
++1 1002
++1 1002
++1 1002
++1 1002
++1 1002
++1 1002
++1 1002
++2 1002
++1 1002
++7 1002
++1 1002
++1 1002
+cfi=(41)
+cfn=(178)
+calls=1002 55 
+* 2004
+* 3006
++75 29
++1 29
++1 29
++1 29
++1 29
++1 29
++1 29
++3 29
++1 29
++1 29
++1 29
++1 29
++1 29
++1 29
++1 29
++1 29
++2 29
++2 29
++1 29
++1 29
++1 29
++1 29
++1 29
++1 29
++1 29
++1 29
++2 29
++3 29
++1 29
++1 29
++1 29
++1 29
++1 58
++6 29
++1 29
++1 29
++1 29
++1 29
++1 29
++1 29
++3 29
++1 29
++1 29
++1 29
++1 29
++1 29
++1 29
++1 29
++1 29
++2 29
++2 29
++1 29
++1 29
++1 29
++1 29
++1 29
++1 29
++1 29
++1 29
++2 29
++3 29
++1 29
++1 29
++1 29
++1 29
++1 58
++6 29
++1 29
++1 29
++1 29
++1 29
++1 29
++1 29
++3 29
++1 29
++1 29
++1 29
++1 29
++1 29
++1 29
++1 29
++1 29
++2 29
++2 29
++1 29
++1 29
++1 29
++1 29
++1 29
++1 29
++1 29
++1 29
++2 29
++3 29
++1 29
++1 29
++1 29
++1 29
++1 58
++6 29
++1 29
++1 29
++1 29
++1 29
++1 29
++1 29
++3 29
++1 29
++1 29
++1 29
++1 29
++1 29
++1 29
++1 29
++1 29
++2 29
++2 29
++1 29
++1 29
++1 29
++1 29
++1 29
++1 29
++1 29
++1 29
++2 29
++3 29
++1 29
++1 29
++1 29
++1 29
++1 58
++6 29
++1 29
++1 29
++1 29
++1 29
++1 29
++1 29
++3 29
++1 29
++1 29
++1 29
++1 29
++1 29
++1 29
++1 29
++1 29
++2 29
++2 29
++1 29
++1 29
++1 29
++1 29
++1 29
++1 29
++1 29
++1 29
++2 29
++3 29
++1 29
++1 29
++1 29
++1 29
++1 58
++6 29
++1 29
++1 29
++1 29
++1 29
++1 29
++1 29
++3 29
++1 29
++1 29
++1 29
++1 29
++1 29
++1 29
++1 29
++1 29
++2 29
++2 29
++1 29
++1 29
++1 29
++1 29
++1 29
++1 29
++1 29
++1 29
++2 29
++3 29
++1 29
++1 29
++1 29
++1 29
++1 58
++6 29
++1 29
++1 29
++1 29
++1 29
++1 29
++1 29
++3 29
++1 29
++1 29
++1 29
++1 29
++1 29
++1 29
++1 29
++1 29
++2 29
++2 29
++1 29
++1 29
++1 29
++1 29
++1 29
++1 29
++1 29
++1 29
++2 29
++3 29
++1 29
++1 29
++1 29
++1 29
++1 58
++6 537
++1 537
++1 537
++1 537
++1 537
++1 537
++1 537
++3 537
++1 537
++1 537
++1 537
++1 537
++1 537
++1 537
++1 537
++1 537
++2 537
+-10 703910
++1 703910
++1 703910
++1 703910
++1 703910
++1 703910
++1 703910
++1 703910
++1 703910
++2 703910
++2 704412
++1 704412
++1 704412
++1 704412
++1 704412
++1 704412
++1 704412
++1 704412
++1 704412
++2 704412
++3 537
++1 537
++1 537
++1 537
++1 537
++1 1074
++6 34
++1 34
++1 34
++1 34
++1 34
++1 34
++1 34
++3 34
++1 34
++1 34
++1 34
++1 34
++1 34
++1 34
++1 34
++1 34
++2 34
++2 34
++1 34
++1 34
++1 34
++1 34
++1 34
++1 34
++1 34
++1 34
++2 34
++3 34
++1 34
++1 34
++1 34
++1 34
++1 68
++6 34
++1 34
++1 34
++1 34
++1 34
++1 34
++1 34
++3 34
++1 34
++1 34
++1 34
++1 34
++1 34
++1 34
++1 34
++1 34
++2 34
++2 34
++1 34
++1 34
++1 34
++1 34
++1 34
++1 34
++1 34
++1 34
++2 34
++3 34
++1 34
++1 34
++1 34
++1 34
++1 68
++6 34
++1 34
++1 34
++1 34
++1 34
++1 34
++1 34
++3 34
++1 34
++1 34
++1 34
++1 34
++1 34
++1 34
++1 34
++1 34
++2 34
++2 34
++1 34
++1 34
++1 34
++1 34
++1 34
++1 34
++1 34
++1 34
++2 34
++3 34
++1 34
++1 34
++1 34
++1 34
++1 68
++6 34
++1 34
++1 34
++1 34
++1 34
++1 34
++1 34
++3 34
++1 34
++1 34
++1 34
++1 34
++1 34
++1 34
++1 34
++1 34
++2 34
++2 34
++1 34
++1 34
++1 34
++1 34
++1 34
++1 34
++1 34
++1 34
++2 34
++3 34
++1 34
++1 34
++1 34
++1 34
++1 68
++6 34
++1 34
++1 34
++1 34
++1 34
++1 34
++1 34
++3 34
++1 34
++1 34
++1 34
++1 34
++1 34
++1 34
++1 34
++1 34
++2 34
++2 34
++1 34
++1 34
++1 34
++1 34
++1 34
++1 34
++1 34
++1 34
++2 34
++3 34
++1 34
++1 34
++1 34
++1 34
++1 68
++6 34
++1 34
++1 34
++1 34
++1 34
++1 34
++1 34
++3 34
++1 34
++1 34
++1 34
++1 34
++1 34
++1 34
++1 34
++1 34
++2 34
++2 34
++1 34
++1 34
++1 34
++1 34
++1 34
++1 34
++1 34
++1 34
++2 34
++3 34
++1 34
++1 34
++1 34
++1 34
++1 68
++6 30
++1 30
++1 30
++1 30
++1 30
++1 30
++1 30
++3 30
++1 30
++1 30
++1 30
++1 30
++1 30
++1 30
++1 30
++1 30
++2 30
++2 30
++1 30
++1 30
++1 30
++1 30
++1 30
++1 30
++1 30
++1 30
++2 30
++3 30
++1 30
++1 30
++1 30
++1 30
++1 60
++17 35
++1 35
++2 35
++1 35
++5 35
++3 70
+-9 1029
++1 1029
++5 1029
++3 2058
++13 503
++1 503
++2 503
++1 503
++6 503
++3 1006
+-10 1533
++1 1533
++6 1533
++3 3066
+-3 29
++3 58
++4 30
++1 30
++1 30
++1 30
++5 30
++3 60
++16 34
++1 34
++1 34
++1 34
++1 34
++1 34
++5 34
++3 68
++13 1000
++1 1000
++2 1000
++1 1000
++2 1000
++1 1000
++5 1000
++3 2000
+-12 34
++1 34
++2 34
++1 34
++5 34
++3 68
+-9 2033
++1 2033
++5 2033
++3 4066
++16 34
++1 34
++2 34
++1 34
++1 34
++1 34
++5 34
++3 68
+-11 31
++1 31
++1 31
++1 31
++5 31
++3 62
++16 34
++1 34
++2 34
++1 34
++5 34
++3 68
+-9 29
++1 29
++5 29
++3 58
++10 35
++1 35
++2 35
++1 35
++2 35
++1 35
++2 35
++1 35
++1 35
++1 35
++1 35
++1 35
++5 35
++3 70
++16 34
++1 34
++2 34
++1 34
++1 34
++1 34
++5 34
++3 68
+-11 29
++1 29
++1 29
++1 29
++5 29
++3 58
+1541 29
++1 29
++1 29
++1 29
++1 29
++1 29
++5 29
++3 58
+1743 1
++1 1
++2 1
++1 1
++3 1
++6 2
++44 1
++1 1
++2 1
++1 1
++2 1
++6 2
++46 1
++1 1
++1 1
++1 1
++2 1
++6 2
+
+fl=(123) /build/buildd/eglibc-2.15/termios/../sysdeps/unix/sysv/linux/tcgetattr.c
+fn=(1872) tcgetattr
+37 1
++4 1
+-4 1
++4 1
+-4 3
++4 1
+-4 2
+cfi=(41)
+cfn=(178)
+calls=1 +18 
+* 2
+* 1
++4 3
+cob=(1)
+cfi=(1) ???
+cfn=(346) _dl_sysinfo_int80
+calls=1 -41 
+* 2
+* 3
++39 6
+-39 6
+
+fl=(67) /build/buildd/eglibc-2.15/nptl/../nptl/sysdeps/unix/sysv/linux/register-atfork.c
+fn=(332) __linkin_atfork
+115 3
+cfi=(41)
+cfn=(178)
+calls=1 -60 
+* 2
+* 1
++2 2
++2 4
+-1 2
++2 2
+
+fl=(110)
+fn=(936)
+100 2514
++2 2514
++4 2514
++1 2514
++2 2514
++1 2514
++1 2514
++2 2514
++1 2514
++1 2514
++3 2007
+cfi=(41)
+cfn=(178)
+calls=2007 -63 
+* 4014
+* 8028
++73 503
++2 503
++1 503
++1 1006
+-2 1000
++1 1000
++1 2000
++16 1
++2 1
++1 1
++1 2
+-2 503
++1 503
++1 1006
++30 507
++1 507
++2 507
++1 507
++3 5
++1 5
++1 5
++1 5
++1 5
++1 5
++1 15
++4 5
++1 5
+-1 502
++1 502
++12 507
+cfi=(41)
+cfn=(178)
+calls=507 55 
+* 1014
++1 507
++1 507
++6 507
++1 507
++10 507
+cfi=(41)
+cfn=(178)
+calls=507 55 
+* 1014
++1 507
++1 507
++8 507
++34 356421
++1 356421
++1 356421
++1 356421
++1 356421
++1 356421
++1 356421
++1 356421
++1 356421
++1 356421
++1 356421
++1 356421
++1 356421
++1 356421
++3 507
+cfi=(41)
+cfn=(178)
+calls=507 55 
+* 1014
+* 2028
+546 502
++2 502
++1 1004
+712 5
++1 5
++1 10
+
+fl=(124)
+fn=(2016)
+31 2503
++4 2503
++1 30036
+cfi=(125)
+cfn=(2018)
+calls=2503 -3 
+* 10138078
++4 5006
+
+fl=(41)
+fn=(178)
+55 369696
++1 369696
+
+fl=(62)
+fn=(316)
+37 1
++2 1
+-2 1
++2 1
+-2 1
+cfi=(41)
+cfn=(178)
+calls=1 +18 
+* 2
+* 1
++2 4
++2 3
++8 3
++4 1
++1 1
+-1 1
++1 2
++4 4
++3 4
+-17 3
+cfi=(63)
+cfn=(324)
+calls=1 3259 
+* 69586
+cob=(1)
+cfi=(60)
+cfn=(310)
+calls=1 -15 
+* 906
++1 1
+-2 1
++2 1
+
+fl=(138)
+fn=(2362)
+35 1399
++2 1399
++2 1399
++3 1399
++2 1399
++2 1399
++1 1399
++7 1399
++1 1399
++1 1399
++2 1399
++3 1399
++1 1399
++1 1399
++1 1399
++1 1399
++2 1399
++1 1399
++1 2426
++3 1213
++1 1213
++1 1213
++1 1213
++1 1213
++1 1213
++1 1213
++1 1213
++1 1213
+-8 186
++1 186
++1 186
++1 186
++1 186
++1 186
++1 186
++1 186
++1 186
+-4 186
++1 186
++1 186
++1 186
++1 186
++2 1399
++1 1399
++2 1399
++3 1399
++3 1399
++3 1399
++5 1399
+
+fl=(141) /build/buildd/eglibc-2.15/stdlib/exit.c
+fn=(2594) exit
+99 2
+cfi=(41)
+cfn=(178)
+calls=1 -44 
+* 2
+* 2
++1 6
+cfn=(2596) __run_exit_handlers
+calls=1 -63 
+* 18058
+
+fn=(2596)
+37 6
+cfi=(41)
+cfn=(178)
+calls=1 +18 
+* 2
+* 5
++50 1
+-45 3
++37 1
+-33 2
++33 1
+-33 2
++3 1
+-1 4
++2 1
+-2 1
++2 4
++24 1
++4 2
+-2 2
++2 2
+cob=(1)
+cfi=(142) /build/buildd/eglibc-2.15/elf/dl-fini.c
+cfn=(2598) _dl_fini
+calls=1 +55 
+* 17844
++1 1
++4 1
++1 1
+-1 1
++1 1
++6 2
++1 5
+cfi=(98)
+cfn=(2818) _IO_cleanup
+calls=1 1007 
+* 153
+* 3
++2 2
+cfi=(145) /build/buildd/eglibc-2.15/posix/../sysdeps/unix/sysv/linux/i386/_exit.S
+cfn=(2822) _Exit
+calls=1 -68 
+* 3
+
+fl=(122)
+fn=(1870)
+26 3
+cfi=(41)
+cfn=(178)
+calls=1 +29 
+* 2
+* 1
++3 5
+cfi=(123)
+cfn=(1872)
+calls=1 +8 
+* 33
+* 2
++1 1
+-1 1
++1 2
+
+fl=(144) /build/buildd/eglibc-2.15/nptl/../nptl/sysdeps/unix/sysv/linux/unregister-atfork.c
+fn=(2630) __unregister_atfork
+29 42
+cfi=(41)
+cfn=(178)
+calls=7 +26 
+* 14
+* 21
++8 7
++3 14
++1 14
++5 7
+-6 14
++82 42
+
+fl=(71) /build/buildd/eglibc-2.15/string/../sysdeps/i386/i686/multiarch/../memset.S
+fn=(348) __GI_memset
+52 2507
++1 2507
++2 2507
++1 2507
++5 2507
++2 2507
++1 2507
++2 2507
++1 2507
++12 2507
++1 2507
++1 2507
++2 2507
++2 8532
++2 2507
++1 2507
++5 2507
++3 2507
++8 2507
+
+fl=(128)
+fn=(2038)
+32 1503
++2 6012
++5 1503
+-3 3006
+-1 1503
++1 4509
++1 3006
++1 1503
++1 1503
+
+fl=(49) /build/buildd/eglibc-2.15/csu/../sysdeps/unix/sysv/linux/init-first.c
+fn=(234) _init
+53 3
+cfi=(41)
+cfn=(178)
+calls=1 +2 
+* 2
+* 7
++6 3
++17 1
+-2 1
++1 1
++1 1
++14 4
+cfi=(50) /build/buildd/eglibc-2.15/misc/init-misc.c
+cfn=(236) __init_misc
+calls=1 -59 
+* 144
++13 5
+-5 1
+cfi=(52) /build/buildd/eglibc-2.15/ctype/ctype-info.c
+cfn=(240) __ctype_init
+calls=1 -67 
+* 27
+-30 2
+-9 1
++9 3
+
+fl=(63)
+fn=(324)
+3259 24
+cfi=(41)
+cfn=(178)
+calls=3 55 
+* 6
+* 3
++10 9
++3 12
++8 6
++1 6
++10 20
++7 2
++8 4
+-7 2
+-1 2
++1 2
++7 4
++7 6
+cfn=(336) _int_malloc
+calls=2 3455 
+* 280
++3 2
+-3 2
++3 18
++23 8
++4 6
++46 7
+-36 2
+-3 2
++3 4
+-13 2
++13 4
++10 2
++1 4
++1 4
++2 4
+-14 6
++15 8
+cfi=(71)
+cfn=(348)
+calls=2 52 
+* 806
++21 14
+3283 5
+cfi=(64)
+cfn=(326)
+calls=1 30 
+* 69275
++1 1
+-1 1
++1 1
++2 5
+cfi=(71)
+cfn=(348)
+calls=1 52 
+* 267
+* 2
+
+fn=(334)
+2910 111327
+cfi=(41)
+cfn=(178)
+calls=37109 55 
+* 74218
+* 185545
++5 74218
++1 74218
++3 111327
++2 259763
++3 111327
+cfn=(336)
+calls=37109 3455 
+* 8404019
++1 37109
+-1 37109
++1 37109
++20 148436
++1 296802
++3 259763
+
+fn=(336)
+3455 259777
+cfi=(41)
+cfn=(178)
+calls=37111 55 
+* 74222
+* 37111
++30 37111
+-30 37111
++30 296888
++8 37111
+-8 37111
++8 37111
++1 18072
++2 6024
+-2 6024
++6 6024
+-4 6024
++4 6024
+-5 1502
++8 3004
+-8 1502
++8 4506
++1 1502
+-1 1502
++1 3004
++2 9012
++8 1502
++1 1502
+-1 1502
++1 3004
+3938 59703
+3529 71218
++1 9068
++1 4534
++2 4534
+-3 4534
++3 9068
++1 1006
++3 503
++1 1006
++5 503
++1 503
++1 503
++2 503
+-4 503
++4 1006
+3877 10490
+-1 10490
++1 20980
++61 73430
+3570 196540
++1 62150
++1 1010
+cfn=(338) malloc_consolidate
+calls=505 4237 
+* 121495
+3925 35106
+-2 35106
++2 175530
+-2 70212
++2 526590
+3610 35106
+3925 210636
+3610 70212
+-19 70212
++65 504
++1 1512
++1 504
+-2 504
++47 3528
++7 504
+-6 504
++1 504
++1 504
++1 504
++3 504
+-7 76923
++7 10989
+-6 10989
++1 10989
++1 10989
++1 10989
++3 10989
+3591 139797
++2 11992
+-1 11992
++1 23984
++1 23984
++3 11992
++10 24982
++31 11992
++4 11992
+-5 11992
++1 11992
++4 11992
++13 22986
++6 45453
++1 998
++1 499
+-1 499
++1 499
+-1 499
++4 998
+-4 20980
++1 10490
+-1 10490
++1 10490
+-1 10490
++4 20980
+-5 111908
+-52 499
+-1 998
++92 43956
+-39 69214
++58 69214
++71 34607
++4 34607
+-3 69214
+-1 34607
++4 34607
+-3 34607
++1 69214
++1 69214
++6 160400
++2 146178
++2 72318
++2 41952
++1 10488
++4 31464
++1 10488
++2 20976
+-2 142364
++2 284728
+-3 315688
++7 15480
++3 30960
++1 5493
++1 5493
+-1 5493
++2 5493
+-2 10986
++60 5493
++18 24620
++1 73860
++2 49240
++17 14054
+3643 499
++1 499
+-1 499
++1 998
+3912 18092
+-1 18092
++1 36184
++26 126644
+3720 91728
++3 91728
+3570 237477
+3827 29961
++3 9987
+-3 9987
++3 9987
++5 239688
+-3 19974
++6 19974
++13 9987
++1 29961
+-6 19974
++17 9987
+-6 9987
++1 9987
++2 9987
+-1 9987
++4 9987
++1 1499
++1 19974
++2 9987
++1 9987
++2 79896
++2 19974
+-2 9987
++2 9987
++1 19974
+3570 166
+3904 17593
++2 35186
+-3 17593
++1 17593
++2 17593
+-1 17593
++1 52779
++2 17593
+-2 70372
++2 42213
+2370 7027
++11 7027
+-11 28108
++1 7027
++10 14096
++13 84
++4 28
++41 7013
++9 7013
+-9 7013
++9 7013
+-9 7013
++9 63110
++6 21036
+-6 2
++9 28052
+2742 14026
++1 8
++5 16
++3 16
+-3 14010
++3 14010
++2 7013
++2 7013
+-3 7013
++3 7013
+-2 7013
++2 7013
+-1 7013
++1 21039
++1 7013
+-1 14026
++3 7013
+-2 7013
+3933 56216
+2507 14026
++19 7013
+-19 7013
++8 7013
+-8 7013
++19 7013
+-19 7013
++19 7013
+-19 14026
++19 14026
++8 7013
+-8 7013
++8 7013
++1 35065
+cfi=(68) /build/buildd/eglibc-2.15/malloc/morecore.c
+cfn=(340) __default_morecore
+calls=7013 48 
+* 476913
++2 21039
+-2 7013
++2 7013
++2 14026
++1 14026
++17 14026
++26 21039
++1 1
++1 2
++6 1
+-6 2
++6 1
+-6 14024
++6 7012
+-6 14024
++6 21036
++1 35060
++2 4
++40 5
++19 2
++3 2
++1 3
++2 2
++1 4
+cfi=(68)
+cfn=(340)
+calls=1 48 
+* 35
++12 2
+-12 1
++12 1
++5 2
++1 2
++17 1
+3934 1
+2697 1
++1 1
+-1 2
++1 1
++11 1
+-13 1
++1 1
++1 1
++11 1
+-84 2
+2400 98
+cfi=(108) /build/buildd/eglibc-2.15/misc/../sysdeps/unix/sysv/linux/i386/mmap.S
+cfn=(896) mmap
+calls=14 35 
+* 350
++2 28
++12 42
++3 42
++4 70
++1 14
++2 14
++1 14
+-1 14
++1 14
++1 28
+
+fn=(338)
+4237 12045
++22 4015
+-22 12045
+cfi=(41)
+cfn=(178)
+calls=4015 55 
+* 8030
+* 12045
++22 12045
++1 12042
++2 4014
++10 4014
+-10 4014
++11 4014
+-1 4014
++18 4014
+-17 4014
++17 4014
+-15 12042
++1 8028
+-1 108378
++1 108376
++21 1505
++1 21070
++4 2012
++4 2012
+-3 2012
++1 2012
++2 2012
++1 1508
++1 1508
++3 4524
++1 1508
++1 1508
++1 1508
+-2 1508
++11 4524
+-12 1512
++1 504
++1 504
++1 504
+-2 504
++11 9544
+-41 505
+-3 505
++3 1010
++4 505
+-3 505
+-4 505
++5 1010
++2 505
+-4 4016
+-3 4016
++3 8032
++4 4016
+-3 4016
+-4 4016
++5 8032
++2 4016
++1 3012
++2 3012
+-1 3012
++2 42164
+-6 9042
++9 9042
++3 4024
++4 1014
+1913 127
++1 127
+-2 127
++2 254
+-2 127
++6 3
++5 2
++2 2
+4332 6
+-6 40140
+-90 80280
++90 80280
++6 24084
+-14 2509
++1 5018
++1 5018
+1922 3
+
+fn=(882) _int_free
+3946 296744
++13 37093
+-13 37093
+cfi=(41)
+cfn=(178)
+calls=37093 55 
+* 74186
+* 74186
++13 74186
++6 148372
++1 74186
++10 74186
++13 74186
++11 24092
++1 24092
++24 18069
++3 24092
++1 12046
++4 6023
+-3 6023
+-1 6023
++10 18069
+-5 6023
++5 24092
++9 13561
++2 6023
++2 36138
++2 13561
+4220 36138
+4065 62140
++1 31070
+3957 31070
+4066 62140
++18 124280
++6 31070
+-10 31070
++10 31070
++8 93210
++7 62140
++1 31070
+-2 31070
++2 62140
++6 93210
++4 62140
++1 1527
++2 1527
+-1 1527
++2 21374
++3 93210
++5 26092
++4 5034
++9 5034
+-1 5034
++1 5034
+-1 5034
++2 10068
+-1 8012
+-1 8012
++1 8012
+-1 8012
++2 16024
++7 13046
+-2 13046
++1 13046
++1 13046
++2 13042
++1 13042
++2 13042
++1 13042
++2 39126
+-3 13042
++4 13042
++30 26084
+-34 4
++1 4
++2 12
+-3 4
++4 4
++30 36056
++1 61620
++3 61620
+4075 217490
++2 62140
++52 112156
++1 14022
++78 93210
++1 93210
++1 155350
++10 186420
+-51 18024
++1 54072
++1 54072
++19 3510
+cfn=(338)
+calls=3510 +47 
+* 641150
+* 3510
++4 102700
++2 108144
+cfn=(910) sYSTRIm.isra.1
+calls=18024 2776 
+* 3496189
+* 18024
+-67 10010
++1 1001
+-1 5005
+-9 15
+-28 93210
+-2 62140
+
+fn=(858)
+2954 94250
+cfi=(41)
+cfn=(178)
+calls=47125 55 
+* 94250
+* 141375
++5 94250
++1 94250
++5 94250
++3 37107
++2 111321
++14 111279
++1 37093
++1 74186
+-1 37093
+cfn=(882)
+calls=37093 3946 
+* 8265684
+-12 42
++1 28
++1 8
++2 2
++1 2
++8 1
+-6 1
++6 1
+-6 1
+cfn=(2590) munmap_chunk
+calls=1 2836 
+* 45
++6 13
+-6 13
++6 13
+-6 13
+cfn=(2590)
+calls=13 2836 
+* 585
++6 30054
+
+fn=(910)
+2776 54072
++10 18024
+-10 54072
+cfi=(41)
+cfn=(178)
+calls=18024 55 
+* 36048
+* 18024
++10 18024
+-10 18024
++54 18024
+-44 18024
++3 36048
+-4 18024
++4 54072
++2 54072
++6 49533
+cfi=(68)
+cfn=(340)
+calls=16511 48 
+* 577885
+* 16511
++1 66044
++33 126168
+-21 99066
+cfi=(68)
+cfn=(340)
+calls=16511 48 
+* 1188792
++2 16511
++1 16511
+-1 16511
++1 33022
++2 16511
++15 16511
+-15 49533
+cfi=(68)
+cfn=(340)
+calls=16511 48 
+* 577885
++2 49533
++3 33022
++2 16511
++1 16511
++2 16511
+-2 33022
+-1 16511
++1 33022
+
+fn=(2590)
+2836 14
++1 14
+-1 28
+cfi=(41)
+cfn=(178)
+calls=14 55 
+* 28
+* 28
++3 14
+-3 14
++3 14
+-2 14
++11 14
+-7 28
+-4 14
++11 14
+-7 14
++1 14
++6 70
++7 14
++1 14
++5 42
+cfi=(140) /build/buildd/eglibc-2.15/misc/../sysdeps/unix/syscall-template.S
+cfn=(2592) munmap
+calls=14 82 
+* 154
++1 70
+
+fl=(94) /build/buildd/eglibc-2.15/setjmp/../sysdeps/i386/bsd-_setjmp.S
+fn=(810) _setjmp
+36 1
++1 1
++4 1
++1 1
++1 1
++1 1
++2 2
++2 1
++1 1
++2 2
++2 1
++2 1
++2 1
++1 1
+
+fl=(54)
+fn=(248) intel_check_word
+163 84
+cfi=(41)
+cfn=(178)
+calls=12 55 
+* 24
+* 12
++1 12
+-1 12
++1 12
++8 12
+-2 54
+273 9
+170 27
++14 60
++53 66
++21 2
++14 30
++1 240
+cfi=(55)
+cfn=(250)
+calls=30 27 
+* 5634
++2 60
++2 28
++14 10
++6 28
+172 56
++2 60
++2 60
+301 10
++1 72
+-44 2
++34 6
+-13 4
++2 4
++2 4
+
+fn=(252)
+145 196
++7 196
++1 196
+-1 784
++3 378
++1 392
+
+fn=(244) init_cacheinfo
+552 5
+cfi=(41)
+cfn=(178)
+calls=1 55 
+* 2
+* 2
++13 3
++7 2
++2 3
+cfn=(246) handle_intel
+calls=1 307 
+* 2481
++4 1
+-4 1
++4 2
+cfn=(246)
+calls=1 307 
+* 2498
+-1 1
++3 1
+-2 1
++2 1
++11 2
++18 5
++7 9
++6 2
+-6 12
++6 4
++3 15
++2 3
++6 5
++26 2
++12 4
++75 2
++2 2
++1 1
++2 1
+-3 1
++4 3
++1 1
++3 2
++2 1
++1 1
+-1 1
++3 1
+-3 1
++4 2
++1 1
+-1 1
++3 6
+-93 5
+-88 3
+cfn=(246)
+calls=1 307 
+* 1911
+-1 1
++1 2
+
+fn=(246)
+307 9
++6 3
+-6 6
++1 6
++13 6
++1 6
++2 3
+-5 6
++11 12
++5 3
+-5 9
++5 3
++7 15
+cfn=(248)
+calls=3 163 
+* 2763
++1 6
++3 15
+cfn=(248)
+calls=3 163 
+* 2028
++1 6
++3 15
+cfn=(248)
+calls=3 163 
+* 63
++1 6
++3 15
+cfn=(248)
+calls=3 163 
+* 1840
++1 6
+-31 5
++13 3
++1 3
+-1 7
++22 3
++2 4
++3 15
+
+fl=(113)
+fn=(978)
+82 10
+cob=(1)
+cfi=(1)
+cfn=(346)
+calls=2 -82 
+* 4
+* 6
++1 2
+
+fl=(131)
+fn=(2044)
+35 2032
++2 2032
++2 2032
++3 2032
++2 2032
++2 2032
++1 2032
++7 2032
++2 2032
++3 2032
++1 2032
++1 2032
++1 2032
++1 2032
++2 2032
++1 2032
++1 962
++3 481
++1 481
++1 481
++1 481
++1 481
++1 481
++1 481
++1 481
++1 481
+-8 48
++1 48
++1 48
++1 48
++1 48
++1 48
++1 48
++1 48
++1 48
+-4 1551
++1 1551
++1 1551
++1 1551
++1 1551
++2 2032
++1 2032
++2 2032
++3 2032
++3 2032
++3 2032
++5 2032
+
+fl=(82) /build/buildd/eglibc-2.15/string/../sysdeps/i386/i686/multiarch/strlen.S
+fn=(596) strlen
+40 1
++3 1
+cfi=(41)
+cfn=(178)
+calls=1 +12 
+* 2
++1 1
++1 1
++1 1
++2 1
++1 1
++1 1
++1 1
++1 1
++1 1
++2 1
++3 1
+
+fl=(91) /build/buildd/eglibc-2.15/stdlib/cxa_atexit.c
+fn=(782) __internal_atexit
+34 2
+cfi=(41)
+cfn=(178)
+calls=1 +21 
+* 2
+* 2
++1 3
+cfn=(784) __new_exitfn
+calls=1 +38 
+* 52
++2 2
++4 3
++2 1
++1 2
++1 2
++2 1
++1 1
++1 3
+
+fn=(784)
+73 1
++6 1
+-6 1
++6 1
+-6 4
+cfi=(41)
+cfn=(178)
+calls=1 -18 
+* 2
+* 1
++6 4
++2 8
++2 3
+-2 2
++10 1
+-10 2
++45 1
++1 2
++3 4
++3 7
+-35 2
++14 1
++1 2
+-19 2
+
+fn=(780) __cxa_atexit
+57 2
+cfi=(41)
+cfn=(178)
+calls=1 -2 
+* 2
+* 2
++1 9
+cfn=(782)
+calls=1 -24 
+* 76
++1 3
+
+fl=(96)
+fn=(836)
+28 1
++4 1
++1 10
+cfi=(97) /build/buildd/eglibc-2.15/debug/vsprintf_chk.c
+cfn=(838) __vsprintf_chk
+calls=1 +34 
+* 2841
++4 2
+
+fl=(99)
+fn=(844)
+40 10016
+cfi=(41)
+cfn=(178)
+calls=2504 +15 
+* 5008
+* 7512
++4 2504
+-4 10016
++4 2504
++6 15024
+cfi=(98)
+cfn=(846) _IO_setb
+calls=2504 404 
+* 57592
++5 5008
+-3 2504
++1 2504
++1 2504
++1 2504
++2 2504
++1 2504
++1 2504
++9 2504
++1 15024
+-23 2504
++1 10016
+
+fl=(145)
+fn=(2822)
+25 1
++4 1
++1 1
+
+fl=(118)
+fn=(1594) __write_nocancel
+82 42
+cob=(1)
+cfi=(1)
+cfn=(346)
+calls=7 -82 
+* 14
+* 28
+
+fn=(1592)
+82 14
+cfn=(1594)
+calls=7 * 
+* 84
+
+fn=(2496) __close_nocancel
+82 4
+cob=(1)
+cfi=(1)
+cfn=(346)
+calls=1 -82 
+* 2
+* 4
+
+fn=(2494)
+82 2
+cfn=(2496)
+calls=1 * 
+* 10
+
+fl=(80)
+fn=(580)
+46 4
++3 4
+-3 4
+cfi=(41)
+cfn=(178)
+calls=4 +9 
+* 8
+* 4
++3 16
+cob=(1)
+cfi=(1)
+cfn=(346)
+calls=4 -49 
+* 8
+* 12
++33 8
+
+fl=(115)
+fn=(1240)
+35 5
+cfi=(41)
+cfn=(178)
+calls=1 +20 
+* 2
+* 2
++1 2
++6 15
++1 4
+cfi=(116)
+cfn=(1242)
+calls=1 912 
+* 22
+* 1
+fi=(117) /build/buildd/eglibc-2.15/libio/libioP.h
+984 1
+fe=(115)
+43 2
+fi=(117)
+984 2
++1 11
+fe=(115)
+47 6
+
+fl=(130)
+fn=(2042)
+34 1503
++2 3006
++2 3006
+-4 1503
++9 1503
+-9 3006
++4 1503
+-4 3006
++4 1503
++1 1503
++4 1503
++14 1503
+-18 6012
++3 1503
++15 3006
+-14 1503
+-1 1503
++15 1503
++4 1006
++43 2000
++4 9018
+-47 1006
++2 1006
+
+fl=(65)
+fn=(328)
+370 5
+cfi=(41)
+cfn=(178)
+calls=1 55 
+* 2
+* 2
++1 3
++9 1
+-8 1
++8 2
++7 3
++1 1
+-1 1
++1 12
+cfi=(67)
+cfn=(332)
+calls=1 115 
+* 16
++2 5
+-58 4
++2 84
++16 42
+-18 126
+455 2
++5 2
++1 2
++2 1
++1 6
+-83 5
+cfi=(66)
+cfn=(330)
+calls=1 127 
+* 67680
+* 3
++1 4
+-47 4
++1 4
+
+fl=(136)
+fn=(2350)
+40 2
++11 1
+-11 1
++11 1
+-11 1
+cfi=(41)
+cfn=(178)
+calls=1 +15 
+* 2
+* 1
++11 4
+cob=(1)
+cfi=(1)
+cfn=(346)
+calls=1 -51 
+* 2
+* 3
++20 4
+
+fl=(79)
+fn=(460)
+47 1516
++2 1516
++2 1516
++2 1516
++1 1513
++2 6
++1 6
++2 6
++1 6
++2 6
++2 6
++1 6
++2 6
++2 1509
++1 1509
++2 1509
++1 1509
++26 1509
++1 1509
++2 1509
++1 1509
++2 1509
++1 1509
+-7 21
++1 21
++2 21
++1 21
++2 21
++1 21
++2 1528
++2 1528
++2 1528
++3 20
++1 20
++2 20
++1 20
++2 20
++1 20
++2 18
++2 18
++2 18
++3 14
++1 14
++2 14
++1 14
++2 14
++1 14
++2 14
++2 14
++2 14
++3 14
++1 14
++2 14
++1 14
++2 14
++1 14
++2 14
++2 14
++2 14
++3 1516
++1 1516
++2 1516
++1 1516
++2 11
++1 11
++2 11
++2 7
++1 7
++2 7
++1 7
++2 2
++3 2
++4 2
+-4 1514
++4 1514
+
+fl=(90)
+fn=(778)
+96 5
+cfi=(41)
+cfn=(178)
+calls=1 -41 
+* 2
+* 4
++10 4
++52 1
+-52 1
++52 1
++1 4
+cfi=(91)
+cfn=(780)
+calls=1 57 
+* 94
++22 4
++3 2
++1 8
+cob=(11)
+cfi=(89)
+cfn=(786)
+calls=1 0 
+* 250
++4 4
++15 2
++9 3
+cfi=(94)
+cfn=(810)
+calls=1 36 
+* 16
++1 2
++5 2
++1 2
++3 2
++3 8
+cob=(11)
+cfi=(89)
+cfn=(812)
+calls=1 0 
+* 4926095760
++32 2
+cfi=(141)
+cfn=(2594)
+calls=1 99 
+* 18070
+106 2
+
+fl=(101) /build/buildd/eglibc-2.15/string/../sysdeps/i386/strchrnul.S
+fn=(850) strchrnul
+38 5010
++4 5010
++1 5010
++7 5010
++1 5010
++1 5010
++1 5010
++13 5010
++1 5010
++1 4008
++1 4008
++1 4008
++1 1503
++1 1503
++56 1002
++1 1002
++2 1002
++1 1002
++10 1002
++4 1002
++3 1002
++1 1002
++4 1002
++6 1
++1 1
++1 1
++3 1
++90 1002
++1 1002
++1 1000
++1 1000
++20 5010
++5 5010
+
+fl=(129)
+fn=(2040)
+21 1503
++2 6012
++4 1503
+-3 6012
++1 4509
++1 6012
++1 1503
+
+fl=(43) /build/buildd/eglibc-2.15/string/../sysdeps/i386/i686/multiarch/strncase.S
+fn=(182) strncasecmp
+27 1
++3 1
+cfi=(41)
+cfn=(178)
+calls=1 +25 
+* 2
++1 1
++1 1
++1 1
++2 1
++1 1
++1 1
++1 1
++1 1
++1 1
++2 1
++3 1
+
+fl=(68)
+fn=(340)
+48 56547
++1 169641
+cfi=(69) /build/buildd/eglibc-2.15/misc/sbrk.c
+cfn=(342) sbrk
+calls=56547 -14 
+* 2312587
++2 169641
++2 113094
+
+fl=(119) /build/buildd/eglibc-2.15/string/../sysdeps/i386/i686/multiarch/memmove.S
+fn=(1748) memmove
+39 1
++3 1
+cfi=(41)
+cfn=(178)
+calls=1 +13 
+* 2
++1 1
++1 1
++1 1
++2 1
++1 1
++1 1
++1 1
++1 1
++1 1
++2 1
++3 1
+
+fl=(44) /build/buildd/eglibc-2.15/string/../sysdeps/i386/i686/multiarch/memrchr.S
+fn=(184) memrchr
+45 1
++2 1
+cfi=(41)
+cfn=(178)
+calls=1 +8 
+* 2
++1 1
++1 1
++1 1
++3 1
++1 1
++1 1
++1 1
++16 1
++1 1
++2 1
+
+fl=(98)
+fn=(2818)
+1007 5
+cfi=(41)
+cfn=(178)
+calls=1 55 
+* 2
+* 2
++3 2
+cfn=(2820) _IO_flush_all_lockp
+calls=1 823 
+* 99
+-59 2
++59 1
+-59 1
++11 2
+-9 9
++2 2
+-1 4
++3 3
++30 3
+-36 9
++71 7
+
+fn=(846)
+404 12520
+cfi=(41)
+cfn=(178)
+calls=2504 55 
+* 5008
+* 2504
++1 7512
++2 5008
++1 5008
++1 7512
++3 2504
++1 10016
+
+fn=(840)
+648 5008
++1 2504
+-1 2504
+cfi=(41)
+cfn=(178)
+calls=2504 55 
+* 5008
+* 17528
++1 7512
+cfn=(842) _IO_old_init
+calls=2504 -35 
+* 60096
++3 2504
+-2 2504
++2 2504
++18 2504
++1 15024
+
+fn=(852)
+452 10018
++4 10018
+-4 40072
++3 10018
+-3 10018
+cfi=(41)
+cfn=(178)
+calls=10018 55 
+* 20036
+* 20036
++3 35060
++5 20032
++2 15024
++3 10016
++10 21024
++5 10512
+-1 7008
++1 7560
+-1 12048
++2 3504
+-2 3504
++2 3504
++2 3504
++2 7008
+-2 1504
++2 3008
+-17 7520
+cfi=(103)
+cfn=(862)
+calls=1504 44 
+* 39106
++5 3008
+-5 3008
++21 10016
++1 60108
+
+fn=(842)
+614 5008
++1 5008
++1 2504
++1 2504
++1 2504
++1 2504
++1 2504
++1 2504
++1 2504
++1 2504
++1 2504
++1 2504
++2 2504
++1 2504
++1 2504
++1 2504
++1 2504
++2 2504
++3 7512
++1 2504
+
+fn=(2820)
+823 7
+cfi=(41)
+cfn=(178)
+calls=1 55 
+* 2
+* 1
++6 3
++6 1
+-1 1
+-10 1
++12 2
++4 3
+-1 3
+-1 3
++1 3
++3 9
++2 6
++1 6
++7 6
++4 3
+-2 3
++2 6
++7 3
+-27 6
++31 2
++2 3
++4 7
+-31 9
+
+fl=(73)
+fn=(364)
+29 2
++1 1
+-1 1
+cfi=(41)
+cfn=(178)
+calls=1 +26 
+* 2
+* 1
++1 7
+cfi=(74)
+cfn=(366)
+calls=1 +14 
+* 27
++1 3
+
+fl=(53) /build/buildd/eglibc-2.15/elf/dl-altinit.c
+fn=(242) dlinit_alt
+41 2
+cfi=(41)
+cfn=(178)
+calls=1 +14 
+* 2
+* 1
+-8 4
++10 2
+
+fl=(56) /build/buildd/eglibc-2.15/libio/oldstdfiles.c
+fn=(254) _IO_check_libio
+78 3
+cfi=(41)
+cfn=(178)
+calls=1 -23 
+* 2
+* 1
++1 3
++13 3
+
+fl=(108)
+fn=(896)
+35 14
++2 14
++2 14
++2 14
++3 14
++2 14
++1 14
++1 14
++2 14
++2 14
++2 14
++1 14
++1 14
++1 14
++2 14
++3 14
+cob=(1)
+cfi=(1)
+cfn=(346)
+calls=14 -62 
+* 28
++3 14
++3 14
++3 14
++3 14
++24 14
++1 14
++4 14
+
+fl=(140)
+fn=(2592)
+82 70
+cob=(1)
+cfi=(1)
+cfn=(346)
+calls=14 -82 
+* 28
+* 42
++1 14
+
+fl=(100)
+fn=(848)
+211 2504
++35 2504
+-35 12520
+cfi=(41)
+cfn=(178)
+calls=2504 55 
+* 5008
+* 7512
++35 2504
+1265 2504
+246 7512
+1265 17528
++4 15024
++4 5008
++1 15024
++17 2504
+fi=(126) /build/buildd/eglibc-2.15/stdio-common/printf-parse.h
+99 10016
+cfi=(101)
+cfn=(850)
+calls=2504 -61 
+* 35056
+fe=(100)
+1306 2504
+fi=(126)
+99 2504
+fe=(100)
+1306 7512
++4 27544
+cfi=(98)
+cfn=(852)
+calls=2504 452 
+* 50080
+* 5008
+2019 7512
+cfi=(63)
+cfn=(858)
+calls=2504 2954 
+* 40064
++1 7512
+cfi=(63)
+cfn=(858)
+calls=2504 2954 
+* 40064
++2 7512
++1 7512
++3 17528
+1265 5008
++8 7512
++10 2504
+-3 5008
++30 7512
++4 7512
++4 7512
+2017 5008
+-42 1025
++31 3000
+cfi=(63)
+cfn=(858)
+calls=1000 2954 
+* 16000
+* 4518
+cfi=(63)
+cfn=(858)
+calls=1506 2954 
+* 24096
++4 35084
+cfi=(98)
+cfn=(852)
+calls=2506 452 
+* 50120
+* 22554
+1846 22544
++23 12530
++2 2506
+-2 7518
++1 7518
++1 2506
+-1 2506
++1 7518
++1 10024
++1 7518
++1 7518
++1 10024
++1 12530
++1 10024
++1 2506
++2 7518
++2 2506
+-4 2506
++1 2506
++3 2506
++6 2506
+-9 2506
++2 2506
++7 2506
+-7 2506
++7 2506
++4 3000
++2 1000
+-2 1000
+-1 1000
++3 1000
++10 7518
++4 4509
++2 1503
+-2 1503
+-1 1503
++3 1503
++9 2506
+-34 2506
++34 2506
+-34 2506
+-1 2506
++35 10024
++23 2506
+-1 2506
++1 2506
+-1 2506
++2 12530
++2 7515
++4 1503
+-4 3006
++4 3006
+210 3006
+1949 3006
+210 4509
+1949 3006
++2 1503
+-1 3006
+-1 4509
++5 9018
+cob=(6)
+cfi=(59)
+cfn=(2030)
+calls=1503 0 
+* 30060
++3 3006
++17 3006
+-2 22554
+1869 2506
++1 2506
++2 2506
+1972 2506
+1869 2506
++4 2506
+-3 2506
++4 2506
+-2 2506
++3 2506
+-2 2506
++3 2506
+-2 2506
++3 2506
+-2 2506
++5 2506
+-4 2506
++1 2506
++3 2506
+1366 2506
+259 2504
+-6 2504
+-3 2504
+1295 2504
+236 2504
+1287 2504
+216 2504
+1661 2504
+-19 10016
++14 2504
++5 5008
+cfi=(63)
+cfn=(858)
+calls=2504 2954 
+* 40064
+cob=(1)
+cfi=(60)
+cfn=(310)
+calls=1 29 
+* 889
++5 5008
++14 20032
+fi=(146)
+29 7512
+fe=(100)
+1711 20032
+cfi=(102) /build/buildd/eglibc-2.15/stdio-common/printf-parsemb.c
+cfn=(860) __parse_one_specmb
+calls=2504 65 
+* 584920
+* 16
+cfi=(102)
+cfn=(860)
+calls=2 65 
+* 276
+-31 5012
++31 2506
+-31 2506
++31 2506
+-31 2506
++2 6
+-2 12520
++43 2504
+-43 2504
++43 2504
++8 7512
+fi=(146)
+28 2504
+fe=(100)
+1731 2504
+fi=(146)
+28 2504
+fe=(100)
+1732 15024
++13 10016
++1 2504
+-1 2504
++1 2504
++1 2504
+-1 5008
++1 17528
+cfi=(71)
+cfn=(348)
+calls=2504 52 
+* 52585
++8 35064
++3 7518
++1 2000
++3 7518
++1 3006
++2 12530
++6 10024
++1 10024
++1 7514
++15 12520
++45 7512
+-44 14020
++38 17530
+-39 20036
++1 22542
++22 9018
+-22 7008
++53 5008
+1672 12520
++3 2504
+-3 2504
++3 2504
++1 12520
++1 5008
+1975 50
+cfi=(98)
+cfn=(852)
+calls=2 452 
+* 212
+* 12
++26 2
++2 2
+-28 85
+-1 51000
+cfi=(133)
+cfn=(2050)
+calls=1000 41 
+* 98845
+* 19000
+cfi=(98)
+cfn=(852)
+calls=1000 452 
+* 53155
+* 17000
+cfi=(139)
+cfn=(2408)
+calls=1000 175 
+* 38372
+* 30539
+cfi=(127)
+cfn=(2036)
+calls=1503 163 
+* 7294502
+* 35024
+
+fl=(121)
+fn=(1832)
+30 1
++7 1
+-7 5
+cfi=(41)
+cfn=(178)
+calls=1 +25 
+* 2
+* 2
++7 2
++4 3
++1 4
+cob=(1)
+cfi=(1)
+cfn=(346)
+calls=1 -42 
+* 2
+* 4
++9 6
+
+fl=(45) /build/buildd/eglibc-2.15/wcsmbs/../sysdeps/i386/i686/multiarch/wcslen.S
+fn=(186) wcslen
+37 1
++3 1
+cfi=(41)
+cfn=(178)
+calls=1 +15 
+* 2
++1 1
++1 1
++1 1
++2 1
++1 1
++1 1
++1 1
++1 1
++3 1
+
+fl=(97)
+fn=(838)
+67 5
+cfi=(41)
+cfn=(178)
+calls=1 -12 
+* 2
+* 3
++7 1
+-7 1
++4 1
++3 1
++3 1
++2 1
+-2 6
+cfi=(98)
+cfn=(840)
+calls=1 648 
+* 50
++1 2
++1 5
+cfi=(99)
+cfn=(844)
+calls=1 -39 
+* 65
++4 3
++1 1
++2 6
+cfi=(100)
+cfn=(848)
+calls=1 211 
+* 2679
++2 2
++2 6
+
+fl=(143)
+fn=(2628)
+31 35
+cfi=(41)
+cfn=(178)
+calls=7 +24 
+* 14
+* 21
++4 28
++4 49
+-4 21
++32 21
++4 56
+-4 21
++12 14
++1 7
++2 35
+-2 7
+cfi=(144)
+cfn=(2630)
+calls=7 -51 
+* 175
+
+fl=(75)
+fn=(376)
+46 80
+cfi=(41)
+cfn=(178)
+calls=16 +9 
+* 32
+* 16
++1 32
++7 96
++2 48
++14 32
++1 48
+-18 16
++21 64
++3 80
+-18 3
+cfi=(63)
+cfn=(324)
+calls=1 3259 
+* 761
++3 1
+-2 1
+-2 1
++2 1
++6 3
+
+fl=(120)
+fn=(1764)
+47 1
++3 1
+-3 1
+cfi=(41)
+cfn=(178)
+calls=1 +8 
+* 2
+* 1
++3 4
+cob=(1)
+cfi=(1)
+cfn=(346)
+calls=1 -50 
+* 2
+* 3
++34 2
+
+fl=(83)
+fn=(598)
+43 12
++1 6
++1 6
++1 6
++1 6
++1 6
++1 6
++1 6
++1 3
++1 3
++1 3
++1 3
++1 3
++1 1
++1 1
++1 1
++3 3
++1 3
++1 3
++1 3
++1 3
++1 3
++1 3
++1 3
++1 3
++2 3
++1 3
++1 3
++1 9
++3 3
++1 3
++1 3
++1 3
++2 1
++1 1
++1 1
++1 1
++2 1
++1 1
++1 1
++1 1
++8 1
++2 1
++1 1
++1 3
+-2 2
++1 2
++1 6
++2 2
++1 2
++1 2
++1 2
++1 6
++8 1
++1 1
++1 1
++1 1
++1 1
++1 1
++1 1
+
+fl=(133)
+fn=(2050)
+41 12515
+cfi=(41)
+cfn=(178)
+calls=2503 +14 
+* 5006
+* 12515
++7 2503
++1 5006
+-1 2503
++3 1000
+-1 1000
++1 1000
+-1 1000
++8 10012
++8 5006
++2 17521
+cfi=(98)
+cfn=(852)
+calls=2503 452 
+* 145019
++4 10012
+-3 2503
++3 7509
+
+fl=(50)
+fn=(236)
+31 5
+cfi=(41)
+cfn=(178)
+calls=1 +24 
+* 2
+* 2
++1 5
++2 3
+cfi=(51)
+cfn=(238)
+calls=1 +3 
+* 114
++1 2
++3 3
++1 3
++2 5
+
+fl=(69)
+fn=(342)
+35 169641
+cfi=(41)
+cfn=(178)
+calls=56547 +20 
+* 113094
+* 282735
++8 395826
++4 113094
++4 37550
++3 47048
+cfi=(70) /build/buildd/eglibc-2.15/misc/../sysdeps/unix/sysv/linux/i386/brk.c
+cfn=(344) brk
+calls=23524 -18 
+* 588100
++1 70572
++3 395829
+-14 1
++1 1
+-1 1
+cfi=(70)
+cfn=(344)
+calls=1 -8 
+* 25
+* 4
++9 33022
++1 66044
+
+fl=(102)
+fn=(860)
+65 12530
++5 2506
+-5 5012
+cfi=(41)
+cfn=(178)
+calls=2506 -10 
+* 5012
+* 2506
++5 10024
++4 2506
+-1 2506
++8 2506
+-3 5012
++1 2506
+-1 2506
++4 5012
++3 17542
++22 27045
++40 5012
++1 1503
++3 1503
++1 1503
++1 4509
+-2 1003
++1 1003
++1 3009
++27 1506
+67 1506
+180 4518
++5 2506
++2 2506
++1 5012
++38 2506
++1 2506
++3 2506
+-2 2506
++2 5012
++3 15036
++52 7518
++7 2506
+-2 7518
++1 2506
++1 5012
++13 5012
+-2 2506
++2 2506
++62 5012
++8 2506
++2 2506
+-2 5012
++6 2506
+fi=(126)
+99 7518
+cfi=(101)
+cfn=(850)
+calls=2506 -61 
+* 48110
+fe=(102)
+385 2506
++5 17542
+107 36048
++38 32545
+-17 1000
++1 1000
+-10 3006
++1 1503
+-5 5006
++1 2503
++8 3006
++1 1503
+305 7518
+-72 10024
+fi=(126)
+77 13527
+fe=(102)
+-15 4509
+fi=(126)
++18 1503
+-3 1503
++2 1503
+-2 1503
++3 1503
+-3 10521
+fe=(102)
+182 1503
+67 3006
++90 2000
++2 4000
++16 1000
++2 1000
+-2 3000
++2 1000
+-1 2000
++14 3006
++1 4509
+367 7518
++4 2506
++1 2506
+-1 5012
+-57 3000
++27 1
++1 1
+-7 3006
++1 9018
++11 2
++1 2
+194 4509
++2 6012
++15 1503
++1 1503
++1 1503
+-2 4509
++2 4509
+318 2000
++2 2000
++3 5000
+-92 10024
++63 10024
++5 10521
+cob=(6)
+cfi=(59)
+cfn=(2022)
+calls=1503 0 
+* 15030
+-1 7515
+
+fl=(70)
+fn=(344)
+36 117625
+cfi=(41)
+cfn=(178)
+calls=23525 +19 
+* 47050
+* 23525
++5 94100
+cob=(1)
+cfi=(1)
+cfn=(346)
+calls=23525 -41 
+* 47050
+* 47050
++2 47050
++8 23525
+-6 47050
++7 94100
+
+fl=(95)
+fn=(830)
+73 2
++10 1
+-10 2
+cfi=(41)
+cfn=(178)
+calls=1 -18 
+* 2
+* 3
++10 1
+-10 1
++10 1
++11 4
++17 4
+cob=(1)
+cfi=(1)
+cfn=(346)
+calls=1 0 
+* 2
+* 3
++1 2
++3 3
++4 2
+238 7
+
+fl=(109) /build/buildd/eglibc-2.15/string/../sysdeps/i386/i686/multiarch/memset.S
+fn=(934) memset
+39 1
++3 1
+cfi=(41)
+cfn=(178)
+calls=1 +13 
+* 2
++1 1
++1 1
++1 1
++2 1
++1 1
++1 1
++1 1
++1 1
++1 1
++2 1
++3 1
+
+fl=(52)
+fn=(240)
+31 1
++2 1
+-2 2
+cfi=(41)
+cfn=(178)
+calls=1 +24 
+* 2
+* 2
++2 7
++2 4
++2 2
++1 2
+-1 2
++1 2
+
+ob=(1)
+fl=(29) /build/buildd/eglibc-2.15/io/../sysdeps/unix/sysv/linux/fxstat64.c
+fn=(112) __fxstat64
+46 9
++3 9
+-3 9
+cfi=(3) /build/buildd/eglibc-2.15/string/../sysdeps/i386/i686/multiarch/../memcmp.S
+cfn=(4) 0x00018bab
+calls=9 +6 
+* 18
+* 9
++3 63
++33 18
+
+fl=(22) /build/buildd/eglibc-2.15/string/../sysdeps/i386/i686/multiarch/../mempcpy.S
+fn=(72) mempcpy
+44 73
++1 73
++2 73
++2 73
++2 73
++2 73
++1 73
++1 73
++1 41
++1 41
++1 41
+-1 32
++1 32
++1 29
++1 286
++2 73
++2 73
++5 73
+
+fl=(47) /build/buildd/eglibc-2.15/elf/dl-init.c
+fn=(208) _dl_init
+93 6
+cfi=(3)
+cfn=(4)
+calls=1 -41 
+* 2
+* 2
++2 1
+-2 1
++1 1
+-1 1
++5 3
++7 2
++27 1
++1 4
++1 9
+cfn=(210) call_init
+calls=1 -98 
+* 34
+* 81
+cfn=(210)
+calls=9 -98 
+* 106304
+-1 20
++7 6
+-40 7
+cfn=(210)
+calls=1 -64 
+* 89
++1 3
+
+fn=(210)
+36 77
++1 11
+-1 11
+cfi=(3)
+cfn=(4)
+calls=11 +16 
+* 22
+* 22
++1 22
++9 10
+-3 30
++3 40
++5 27
++5 16
++8 16
++2 16
++4 40
+cob=(2)
+cfi=(15)
+cfn=(746)
+calls=1 -70 
+* 42
+cob=(2)
+cfi=(15)
+cfn=(724)
+calls=1 -70 
+* 42
+cob=(2)
+cfi=(15)
+cfn=(416)
+calls=1 -70 
+* 42
+cob=(2)
+cfi=(15)
+cfn=(394)
+calls=1 -70 
+* 42
+cob=(2)
+cfi=(15)
+cfn=(278)
+calls=1 -70 
+* 42
+cob=(2)
+cfi=(15)
+cfn=(256)
+calls=1 -70 
+* 42
+cob=(3)
+cfi=(49)
+cfn=(234)
+calls=1 -17 
+* 206
+cob=(2)
+cfi=(15)
+cfn=(212)
+calls=1 -70 
+* 42
+* 8
++4 8
++1 16
++6 3
++2 3
+-2 3
++2 9
+-2 3
++3 30
++1 21
+cob=(8)
+cfi=(77)
+cfn=(438)
+calls=1 -85 
+* 19651
+cob=(6)
+cfi=(59)
+cfn=(300)
+calls=1 -85 
+* 78672
+cob=(3)
+cfi=(53)
+cfn=(242)
+calls=1 -44 
+* 11
+* 14
+cob=(3)
+cfi=(56)
+cfn=(254)
+calls=1 -7 
+* 12
+cob=(3)
+cfi=(54)
+cfn=(244)
+calls=1 552 
+* 7017
+-1 15
++3 66
+-35 2
+-5 3
+
+fl=(14) /build/buildd/eglibc-2.15/elf/dl-object.c
+fn=(34) _dl_new_object
+63 45
+cfi=(3)
+cfn=(4)
+calls=9 -11 
+* 18
+* 18
++1 9
+-1 36
++1 9
+cfi=(11) /build/buildd/eglibc-2.15/string/../sysdeps/i386/i686/multiarch/../../i586/strlen.S
+cfn=(22) strlen
+calls=9 -17 
+* 507
++6 18
+-6 9
++6 9
++7 54
+cfi=(16) /build/buildd/eglibc-2.15/elf/dl-minimal.c
+cfn=(38) calloc
+calls=9 +27 
+* 708
++3 27
+-3 9
++3 9
++4 9
+-20 9
++20 9
+-1 9
++5 18
++1 63
+cfi=(17) /build/buildd/eglibc-2.15/string/../sysdeps/i386/i686/multiarch/../memcpy.S
+cfn=(48) memcpy
+calls=9 -45 
+* 237
+* 9
++2 9
+-2 9
++4 9
++1 9
+-1 9
++1 45
++3 18
++6 9
++3 9
+-7 9
++4 9
++3 11
++2 1
+-2 3
++2 15
+-2 45
++12 9
++4 9
+-4 9
++6 9
+-5 9
++5 27
++2 24
++3 19
++4 28
++4 32
++8 1
++3 2
++3 4
+-3 16
++3 32
++2 24
+cfi=(11)
+cfn=(22)
+calls=8 47 
+* 727
++4 8
+-4 8
++4 8
+-4 8
++4 8
++68 63
+70 90
++67 24
+-39 18
++31 1
++8 4
++24 16
+cfi=(16)
+cfn=(42) malloc
+calls=8 -66 
+* 368
+* 8
++1 24
++45 48
+cfi=(22)
+cfn=(72)
+calls=8 44 
+* 184
+* 8
++5 128
++1 128
+-1 128
++1 136
+-1 8
++1 8
++2 16
++3 8
++3 16
+
+fn=(50) _dl_add_to_namespace_list
+34 27
+cfi=(3)
+cfn=(4)
+calls=9 +18 
+* 18
+* 54
++2 27
+cfi=(2)
+cfn=(52)
+calls=9 843 
+* 27
++2 46
++3 168
++2 8
++2 8
++4 8
++1 8
++3 8
+-4 8
++1 16
++1 8
+-1 8
++1 24
++2 8
+cfi=(2)
+cfn=(54)
+calls=8 849 
+* 24
+-4 1
++1 1
++3 1
+-4 1
++1 2
++1 1
+-1 1
++1 3
++2 1
+cfi=(2)
+cfn=(54)
+calls=1 849 
+* 3
++1 54
+-6 2
+
+fl=(19) /build/buildd/eglibc-2.15/posix/../sysdeps/unix/syscall-template.S
+fn=(62) uname
+82 7
++1 1
+
+fl=(142)
+fn=(2600) _dl_sort_fini
+34 7
+cfi=(3)
+cfn=(4)
+calls=1 +18 
+* 2
+* 1
++2 1
+-2 3
++50 1
+-48 1
++5 2
++1 1
+-1 2
++1 1
+-1 1
++1 1
++1 1
+-1 4
++1 4
+cfi=(30) /build/buildd/eglibc-2.15/string/../sysdeps/i386/i686/multiarch/../memset.S
+cfn=(114) memset
+calls=1 +9 
+* 23
+* 1
++15 6
++62 5
++3 64
+cfi=(30)
+cfn=(114)
+calls=8 -71 
+* 207
+* 24
+-76 48
++1 32
++4 8
+-4 8
++4 16
+-5 18
++1 12
++4 3
+-4 3
++4 28
++6 11
++1 11
+-1 11
++1 11
+-26 30
++28 20
++1 20
+-1 60
++1 70
++3 252
+-1 336
++31 114
++21 76
+-57 114
++61 40
++3 1
++4 6
+-56 4
+-1 18
+cfi=(36) /build/buildd/eglibc-2.15/string/../sysdeps/i386/i686/multiarch/../memmove.S
+cfn=(140) memmove
+calls=2 -17 
+* 43
++4 2
+-2 2
++2 2
+-2 2
++2 2
++8 8
++7 16
+cfi=(36)
+cfn=(140)
+calls=2 -36 
+* 41
++1 8
++2 2
+
+fn=(2598)
+133 6
+cfi=(3)
+cfn=(4)
+calls=1 -81 
+* 2
+* 4
++19 1
+-6 1
+-1 1
+-13 2
++23 5
+-23 7
+241 1
+132 1
+241 2
+-83 4
+cfi=(2)
+cfn=(52)
+calls=1 843 
+* 3
++3 2
++3 2
++2 6
++11 3
++2 3
++3 7
++11 6
++2 20
++2 20
++2 10
++1 10
++1 10
++4 10
+-12 31
++14 2
++5 6
+cfn=(2600)
+calls=1 34 
+* 1872
++9 1
+-9 1
++9 2
+cfi=(2)
+cfn=(54)
+calls=1 849 
+* 3
++4 5
++2 2
++2 3
+-2 18
++2 27
++3 20
++3 30
++4 4
++7 16
++4 2
++1 2
+-1 2
++1 4
++2 12
++1 2
+cob=(6)
+cfi=(59)
+cfn=(2752)
+calls=1 0 
+* 317
+cob=(8)
+cfi=(77)
+cfn=(2680)
+calls=1 0 
+* 3468
+-1 8
++5 24
++1 24
+cob=(2)
+cfi=(15)
+cfn=(2796)
+calls=1 0 
+* 1746
+cob=(2)
+cfi=(15)
+cfn=(2776)
+calls=1 0 
+* 1746
+cob=(2)
+cfi=(15)
+cfn=(2730)
+calls=1 0 
+* 1746
+cob=(2)
+cfi=(15)
+cfn=(2710)
+calls=1 0 
+* 1746
+cob=(2)
+cfi=(15)
+cfn=(2660)
+calls=1 0 
+* 1746
+cob=(2)
+cfi=(15)
+cfn=(2638)
+calls=1 0 
+* 1746
+cob=(2)
+cfi=(15)
+cfn=(2612)
+calls=1 0 
+* 1122
+cob=(2)
+cfi=(15)
+cfn=(2602)
+calls=1 0 
+* 26
++5 70
++16 10
+-55 30
+-70 3
+285 6
+-49 24
++3 12
++52 2
++7 6
+
+fl=(18) /build/buildd/eglibc-2.15/string/../sysdeps/i386/i686/multiarch/../strcmp.S
+fn=(56) strcmp
+34 1940
++1 1940
++4 1940
++1 1940
++1 1940
+-2 5039
++1 5039
++1 5039
++1 5373
++1 5373
++1 5373
++1 5373
++2 334
++6 334
++3 1606
++1 1606
++1 1606
++12 1606
+
+fl=(10) /build/buildd/eglibc-2.15/elf/../sysdeps/unix/sysv/linux/i386/brk.c
+fn=(18) brk
+36 5
+cfi=(3)
+cfn=(4)
+calls=1 +16 
+* 2
+* 1
++5 6
++2 1
++8 1
+-6 2
++7 4
+
+fl=(28) /build/buildd/eglibc-2.15/elf/dl-misc.c
+fn=(132) _dl_sysdep_read_whole_file
+44 3
+cfi=(3)
+cfn=(4)
+calls=1 +8 
+* 2
+* 6
++7 3
+cfi=(21) /build/buildd/eglibc-2.15/io/../sysdeps/unix/syscall-template.S
+cfn=(106) open
+calls=1 +31 
+* 10
+-6 1
++7 1
+-1 1
++1 1
++2 5
+cfi=(29)
+cfn=(112)
+calls=1 -8 
+* 15
+* 2
++2 1
++3 1
+-3 1
++3 1
++13 2
+cfi=(21)
+cfn=(118) close
+calls=1 +10 
+* 8
++3 7
+-14 7
+cfi=(23) /build/buildd/eglibc-2.15/misc/../sysdeps/unix/sysv/linux/i386/mmap.S
+cfn=(74) mmap
+calls=1 -26 
+* 23
+* 2
+
+fn=(98) _dl_name_match_p
+305 4506
+cfi=(3)
+cfn=(4)
+calls=751 52 
+* 1502
+* 1502
++1 3004
+cfi=(18)
+cfn=(56)
+calls=751 34 
+* 6766
++1 751
+-1 1502
++3 751
++8 751
+-6 1502
++4 742
+-4 1484
++1 3104
+cfi=(18)
+cfn=(56)
+calls=776 34 
+* 18952
+* 1552
++1 34
++5 921
+-1 717
++1 3585
+
+fl=(8) /build/buildd/eglibc-2.15/elf/../elf/dl-sysdep.c
+fn=(196) _dl_sysdep_start_cleanup
+252 1
+
+fn=(66) _dl_important_hwcaps
+354 6
+cfi=(3)
+cfn=(4)
+calls=1 52 
+* 2
+* 4
++3 1
+-3 1
++3 1
+-1 5
++1 3
++9 2
+-10 1
++10 5
++1 7
+-1 1
++1 1
++1 1
+-2 1
++2 1
+-2 6
++1 182
+-1 26
++1 26
++1 26
+-2 26
++2 26
+-2 318
++10 1
+-1 1
++1 2
+-2 1
++2 2
++44 5
+cfi=(21)
+cfn=(68) access
+calls=1 82 
+* 18
+* 3
+-2 2
++17 3
+-17 1
++17 2
++3 2
++27 9
++1 270
++2 10
++1 48
++1 2
+-1 4
++1 16
++1 2
+-1 10
+-5 140
++8 3
++2 2
++1 1
+-1 1
++1 3
++4 1
++4 1
+-4 2
++1 1
++3 1
++3 1
++1 1
+-1 1
++4 3
++1 2
++18 7
++1 5
+cfi=(16)
+cfn=(42)
+calls=1 95 
+* 46
++1 2
+-1 1
++1 1
++7 2
++22 3
++3 1
+-3 2
++3 1
++7 18
++6 1
+-3 1
++3 5
+cfi=(22)
+cfn=(72)
+calls=1 44 
+* 16
+* 3
+-3 3
++3 15
+cfi=(22)
+cfn=(72)
+calls=3 44 
+* 48
+* 4
++3 4
+-3 4
++3 24
++1 32
++1 28
+cfi=(22)
+cfn=(72)
+calls=4 44 
+* 60
+* 12
+-2 8
++5 24
+cfi=(22)
+cfn=(72)
+calls=4 44 
+* 60
+* 8
++2 8
++5 7
++1 16
+-1 50
++8 1
+-3 4
++3 5
+-3 12
++3 18
++1 96
++1 32
+-1 32
++1 64
+-2 32
++1 64
+-1 96
++4 8
++3 1
++1 1
++1 3
+-2 1
++1 1
+-1 1
++2 1
+-2 1
++2 3
+352 6
+592 9
++3 3
+-6 6
++2 18
+352 6
+594 6
++1 3
+-6 6
+352 5
+602 2
+352 1
+602 5
++1 1
++2 2
+-3 21
++1 7
++2 14
++3 4
++3 7
+494 1
++1 5
++1 2
+-1 3
++1 2
+-1 3
++2 2
++1 2
++2 2
+-1 1
++1 1
+-1 2
++5 4
+-56 2
+-12 2
+
+fn=(14) _dl_sysdep_start
+89 7
+cfi=(3)
+cfn=(4)
+calls=1 -37 
+* 2
+* 1
++25 1
+-1 1
++1 176
++6 1
+-6 1
+-23 1
++26 1
+-3 1
++3 1
++3 1
+-2 1
+-28 1
++30 15
+-10 1
++10 6
+-29 2
++30 105
++3 3
+-4 1
+-34 2
++34 13
+-34 20
++34 47
++93 2
+-93 4
++93 1
+fi=(9) /build/buildd/eglibc-2.15/elf/../sysdeps/unix/sysv/linux/dl-sysdep.c
+36 2
+cfi=(10)
+cfn=(18)
+calls=1 * 
+* 22
+fi=(5) /build/buildd/eglibc-2.15/elf/../sysdeps/i386/dl-machine.h
+267 5
+fe=(8)
+-38 2
+cfi=(12) /build/buildd/eglibc-2.15/elf/../misc/sbrk.c
+cfn=(24) sbrk
+calls=1 35 
+* 23
+* 3
++12 3
++3 8
+cfi=(2)
+cfn=(26) dl_main
+calls=1 896 
+* 283138
++2 7
+-67 1
+-59 1
++59 1
+-93 2
++34 3
++34 1
+-34 1
++34 1
+-68 2
++34 3
++43 1
+-43 1
+-34 2
++34 1
++43 1
+-43 2
++40 1
+-40 1
++40 1
+-74 2
++34 1
++40 2
+-40 2
++37 1
+-37 1
+-34 2
++34 1
++37 1
+-37 3
++13 1
+-13 1
+-34 2
++34 1
++13 1
+-13 2
++10 1
+-10 1
+-34 2
++34 1
++10 1
+-10 2
++7 1
+-7 1
++7 1
+-41 2
++34 3
+227 2
+cfi=(11)
+cfn=(22)
+calls=1 47 
+* 29
+* 2
+
+fl=(24) /build/buildd/eglibc-2.15/string/../sysdeps/i386/i686/multiarch/../../i586/strchr.S
+fn=(76) index
+49 32
++2 32
++3 32
++2 32
++3 32
++1 32
++3 32
++2 32
++6 32
++1 32
++2 32
++1 32
++2 32
++1 32
++2 32
++2 24
++1 24
++2 21
++1 21
++2 21
++1 21
++2 21
++1 21
++2 21
++1 21
++2 21
++1 21
++2 21
++1 21
++2 21
++2 13
++2 13
++1 13
++2 13
++1 13
++2 13
++10 13
++1 13
++2 13
++1 13
++25 13
++1 13
++2 13
++1 13
+-33 19
++1 19
++2 19
++1 19
++25 19
++1 19
++2 19
++1 19
+-4 2
++1 2
++2 2
++1 2
++2 34
++1 34
++2 34
++1 34
++2 34
++1 34
++2 34
++1 34
++2 34
++1 34
++2 34
++1 34
++2 34
++1 34
++2 34
++1 34
++2 33
++1 33
++2 33
++1 33
++2 25
++1 25
++2 25
++1 25
++2 22
++1 22
++2 22
++1 22
++2 22
++1 22
++2 22
++1 22
++2 22
++1 22
++2 22
++1 22
++2 22
++1 22
++2 22
++1 22
++2 22
++1 22
++2 22
++1 22
++2 19
++1 19
++2 19
++1 19
++2 19
++1 19
++2 19
++1 19
++2 19
++1 19
++2 19
++1 19
++2 19
++1 19
++2 19
++1 19
++2 18
++1 18
++2 18
++1 18
++2 2
++1 2
++2 2
++1 2
++2 2
++1 2
++2 2
++1 2
++2 2
++1 2
++2 2
++2 2
++4 1
++1 1
++2 1
++17 32
++3 32
++4 32
++3 32
++5 32
++9 31
++1 31
++2 31
++2 31
++1 31
++2 26
++2 26
++1 26
++2 26
++1 26
++2 11
++1 11
++2 11
++1 11
++2 11
++1 11
++2 8
++3 8
++1 8
++2 31
++2 31
+
+fl=(60)
+fn=(310)
+29 61
++2 61
++2 61
++2 61
++1 61
++1 61
+cfi=(61) /build/buildd/eglibc-2.15/elf/dl-runtime.c
+cfn=(312) _dl_fixup
+calls=61 +37 
+* 84407
++1 61
++2 61
++1 61
++1 61
++1 61
+
+fl=(35) /build/buildd/eglibc-2.15/elf/dl-tls.c
+fn=(154) _dl_determine_tlsoffset
+113 5
+cfi=(3)
+cfn=(4)
+calls=1 -61 
+* 2
+* 2
++6 4
++3 4
++36 3
++2 10
+-2 6
++5 1
+-1 1
++5 1
+-4 1
+-1 2
++3 4
++2 2
++12 2
+-12 4
++16 4
++2 2
++1 1
+-3 2
++2 2
++10 1
+-12 2
++15 8
++52 1
+-51 1
++51 1
++1 6
+
+fn=(192) _dl_add_to_slotinfo
+817 3
+cfi=(3)
+cfn=(4)
+calls=1 52 
+* 2
+* 5
++6 1
++3 2
++5 3
++42 1
+-1 1
++2 2
+-1 2
++1 4
+
+fn=(156) _dl_allocate_tls_storage
+329 3
+cfi=(3)
+cfn=(4)
+calls=1 52 
+* 2
+* 4
++2 1
++11 4
+cfi=(16)
+cfn=(46) __libc_memalign
+calls=1 53 
+* 73
++1 1
+-1 1
++1 1
++7 1
++4 318
++11 2
+cfn=(158) allocate_dtv
+calls=1 -76 
+* 95
++1 2
++5 6
+
+fn=(138) _dl_next_tls_modid
+51 3
+cfi=(3)
+cfn=(4)
+calls=1 +1 
+* 2
+* 4
++3 3
++48 2
++4 6
+
+fn=(194) _dl_allocate_tls_init
+377 6
+cfi=(3)
+cfn=(4)
+calls=1 52 
+* 2
+* 1
++1 1
+-1 1
++1 1
++4 1
++3 1
++5 1
+-6 1
+-2 1
++8 3
++5 8
++6 4
+-25 2
++47 2
++1 6
++2 2
++1 3
++8 3
++1 1
+-1 1
++2 6
+cfi=(22)
+cfn=(72)
+calls=1 44 
+* 16
+* 6
+cfi=(30)
+cfn=(114)
+calls=1 52 
+* 33
+-42 4
++6 5
++3 1
++1 2
++6 1
++3 1
+-3 2
++2 2
++38 2
++3 7
+
+fn=(158)
+289 3
+cfi=(3)
+cfn=(4)
+calls=1 52 
+* 2
+* 4
++8 1
+-1 1
++1 3
+cfi=(16)
+cfn=(38)
+calls=1 104 
+* 69
++1 2
+-2 2
++11 2
++6 6
+
+fl=(20) /build/buildd/eglibc-2.15/elf/dl-load.c
+fn=(78) fillin_rpath
+491 5
+cfi=(3)
+cfn=(4)
+calls=1 52 
+* 2
+* 4
++2 2
++2 5
+cfi=(16)
+cfn=(80) strsep
+calls=1 320 
+* 301
+* 5
+cfi=(16)
+cfn=(80)
+calls=1 320 
+* 26
+* 6
++3 2
+cfi=(11)
+cfn=(22)
+calls=1 47 
+* 53
++4 1
+-4 1
++4 1
++7 4
++5 2
++3 3
++4 18
++1 8
++18 4
++4 2
++1 1
+-1 1
+-1 4
+cfi=(16)
+cfn=(42)
+calls=1 95 
+* 46
++3 3
+-3 1
++3 1
++5 1
+-1 1
++2 5
+cfi=(22)
+cfn=(72)
+calls=1 44 
+* 19
++3 1
+-3 1
++3 1
+-2 1
++2 1
++6 4
++1 4
++1 1
+-1 3
++1 15
+-1 45
++4 1
+-1 1
++1 1
+-1 1
++1 1
++7 1
++4 1
+-3 1
+-1 1
++4 5
++5 3
++3 6
+-14 2
+
+fn=(124) cache_rpath
+688 88
++1 22
++1 22
+-2 22
++1 44
++3 2
++1 2
+-1 2
++14 88
+-11 8
++3 2
++1 2
+
+fn=(64) _dl_init_paths
+712 6
+cfi=(3)
+cfn=(4)
+calls=1 52 
+* 2
+* 3
++15 6
+cfi=(8)
+cfn=(66)
+calls=1 354 
+* 2430
+* 2
++5 2
+cfi=(16)
+cfn=(42)
+calls=1 95 
+* 46
++1 1
+-1 1
+-1 1
++2 1
++8 1
+-1 1
++1 1
+-1 4
++5 3
+cfi=(16)
+cfn=(42)
+calls=1 95 
+* 86
+-1 1
++3 1
+-3 1
++3 1
++15 2
++2 3
++3 2
++2 2
++7 1
+-65 1
++65 1
+-65 1
++42 1
+-42 1
++43 1
++11 1
++3 1
++8 1
+-65 1
++62 20
++1 4
+-1 12
++1 60
+-1 184
++3 8
+-14 3
++2 3
++12 3
+-7 3
+-7 6
++2 3
++4 3
++1 3
+-7 3
++5 3
+-2 3
++3 3
+-1 3
++2 3
++3 3
+-3 6
++3 6
+-3 3
+-7 3
++10 3
+-10 3
++10 6
++15 1
+-11 1
++7 1
+-1 1
++6 1
+-5 1
++5 1
++2 4
++2 3
++32 6
++8 3
+cfi=(24)
+cfn=(76)
+calls=1 49 
+* 112
+* 2
++2 3
+cfi=(11)
+cfn=(22)
+calls=1 47 
+* 54
+* 11
+cfi=(17)
+cfn=(48)
+calls=1 44 
+* 25
+* 1
++17 7
++2 1
++1 2
++1 1
+-4 3
++2 13
++1 26
++1 13
+-4 40
++8 2
+cfi=(16)
+cfn=(42)
+calls=1 95 
+* 46
++1 1
+-2 1
++2 1
++6 10
+cfn=(78)
+calls=1 491 
+* 640
++4 4
++6 1
++4 6
+-72 1
+-2 1
++2 2
++11 2
+
+fn=(100) expand_dynamic_string_token
+421 3
+cfi=(3)
+cfn=(4)
+calls=1 52 
+* 2
+* 1
++10 2
+-10 6
++10 1
+cfi=(24)
+cfn=(76)
+calls=1 49 
+* 260
+* 2
++4 1
++11 5
+-11 1
+cfn=(102) local_strdup
+calls=1 160 
+* 230
+
+fn=(102)
+160 24
+cfi=(3)
+cfn=(4)
+calls=8 52 
+* 16
+* 8
++1 8
+-1 24
++1 8
+cfi=(11)
+cfn=(22)
+calls=8 47 
+* 776
+* 8
++1 16
+cfi=(16)
+cfn=(42)
+calls=8 -67 
+* 368
+* 8
++3 8
+-1 16
++3 32
+cfi=(17)
+cfn=(48)
+calls=8 44 
+* 253
++1 40
+
+fn=(104) open_verify
+1857 180
++36 30
+-36 60
+cfi=(3)
+cfn=(4)
+calls=30 52 
+* 60
+* 60
++36 30
+-36 60
++36 117
++21 120
+cfi=(21)
+cfn=(106)
+calls=30 82 
+* 498
++1 30
+-1 30
++1 30
++11 8
+-1 8
++1 40
+cfi=(21)
+cfn=(108) read
+calls=8 82 
+* 80
+* 8
++7 8
+-7 16
++7 8
++16 40
+cfi=(3)
+cfn=(32) bcmp
+calls=8 58 
+* 248
+* 16
++2 16
+-2 16
++4 56
+cfi=(3)
+cfn=(32)
+calls=8 58 
+* 288
+-4 16
++60 24
++5 16
++2 24
++6 24
++7 8
++1 8
+-1 16
++1 24
++1 24
++15 352
++2 148
++4 40
++1 48
++13 8
++1 8
+-1 8
++1 8
+-1 8
++1 8
+-2 8
++4 24
++5 2
++1 2
+-13 10
+cfi=(3)
+cfn=(32)
+calls=2 58 
+* 78
+* 40
+cfi=(3)
+cfn=(32)
+calls=8 58 
+* 272
+* 20
++16 8
++3 2
++1 2
++1 2
++1 6
++1 6
+-4 2
++1 4
++1 2
+-1 4
+-1 2
++4 4
++28 234
+
+fn=(110) _dl_map_object_from_fd
+916 48
+cfi=(3)
+cfn=(4)
+calls=8 52 
+* 16
+* 24
++11 8
+-11 8
++11 16
+cfi=(25) /build/buildd/eglibc-2.15/elf/dl-debug.c
+cfn=(82) _dl_debug_initialize
+calls=8 49 
+* 200
+* 8
++4 48
+cfi=(29)
+cfn=(112)
+calls=8 46 
+* 120
+* 16
++11 48
++1 56
+-1 132
++1 352
++17 24
++25 16
++10 16
++22 32
++31 16
+928 8
+1051 80
+cfi=(14)
+cfn=(34)
+calls=8 63 
+* 4245
+* 8
++1 8
+-1 8
++1 8
++11 8
++2 8
+-2 8
++2 8
+-1 8
+-1 8
++5 8
+-3 8
++2 8
+-3 8
++4 24
++1 16
++24 8
+-19 8
++19 40
++8 8
+-8 24
++8 32
++96 8
+-96 32
++96 16
+-95 104
++6 16
++1 32
+-8 366
++1 344
++60 3
++4 1
++1 1
++1 1
+-1 1
++1 1
++4 1
++3 1
+-3 1
++7 4
++6 1
+cfi=(35)
+cfn=(138)
+calls=1 51 
+* 20
+* 3
++1 1
+-67 112
++6 16
++1 16
+-1 96
++8 80
++1 96
++1 32
++3 16
+-3 32
++3 16
++1 16
+-3 16
++3 16
++4 16
+-7 16
++3 16
++4 16
++1 48
++5 56
++10 8
+-10 56
++10 8
+-46 4
++1 2
+1244 16
++1 16
++1 8
+-6 16
++1 8
+-70 5
++78 24
++13 8
+-3 8
+1064 8
+1262 16
+1064 8
+1262 32
++2 8
+-2 8
++2 8
++19 80
+-5 8
++5 16
+cfi=(23)
+cfn=(74)
+calls=8 35 
+* 184
++4 8
+-4 8
++4 8
++7 24
++1 16
++2 8
+-2 8
++2 8
++10 8
++35 64
++1 24
++2 48
++7 64
++7 8
+-1 8
++1 8
++1 8
+-2 8
++2 16
++1 16
+-1 40
++8 16
++3 16
++11 64
+cfi=(30)
+cfn=(114)
+calls=8 52 
+* 1711
++1 32
++5 16
++15 16
+-73 96
++2 32
++2 96
+cfi=(23)
+cfn=(74)
+calls=8 35 
+* 184
+* 16
++73 8
+-77 8
++77 16
++9 16
+fi=(4) /build/buildd/eglibc-2.15/elf/dynamic-link.h
+115 8
+fe=(20)
+1416 16
+fi=(4)
+115 8
++4 16
++2 24
+fe=(20)
+913 16
+fi=(4)
+124 140
++15 140
+-18 420
++18 8
+-18 24
++2 376
++5 192
++1 120
++10 40
+-18 120
++25 24
++20 28
++1 40
++1 40
++1 40
++2 24
++3 40
++2 40
++1 38
++1 40
++6 24
++7 24
++5 24
++4 24
++1 24
++12 24
++5 2
++2 2
+-2 2
++2 2
++2 4
++2 4
++3 24
++2 2
++2 2
++3 24
+fe=(20)
+1422 32
++16 24
++19 16
++2 40
++55 24
++1 2
++3 3
+cfi=(21)
+cfn=(118)
+calls=1 82 
+* 8
+* 21
+cfi=(21)
+cfn=(118)
+calls=7 82 
+* 56
+* 16
++8 16
++3 24
++2 8
+-2 8
++2 8
++16 16
+cfi=(7) /build/buildd/eglibc-2.15/elf/dl-lookup.c
+cfn=(12) _dl_setup_hash
+calls=8 861 
+* 296
++4 16
++19 16
++3 8
++5 8
+-8 16
++3 16
++1 8
++4 8
+-5 8
++1 24
++4 8
++6 24
+cfi=(14)
+cfn=(50)
+calls=8 34 
+* 528
++4 24
++20 56
+-56 24
+fi=(4)
+130 32
++3 32
++3 32
++2 8
+-1 8
++1 24
+fe=(20)
+1346 30
++1 42
++1 30
+-1 12
++3 24
++42 30
+cfi=(23)
+cfn=(74)
+calls=3 35 
+* 69
++3 6
+fi=(4)
+191 16
+fe=(20)
+
+fn=(126) open_path
+2127 42
++1 7
+-1 7
+cfi=(3)
+cfn=(4)
+calls=7 52 
+* 14
+* 21
++1 7
++6 7
+-6 7
++6 7
++5 7
+-7 7
+-1 7
++8 84
++34 21
+-22 21
++7 49
+cfi=(22)
+cfn=(72)
+calls=7 44 
+* 133
+* 7
++1 49
++20 32
+-20 529
++3 224
++4 198
+cfi=(22)
+cfn=(72)
+calls=22 44 
+* 356
+* 132
+cfi=(22)
+cfn=(72)
+calls=22 44 
+* 413
+* 22
++6 22
+-3 22
++3 44
++3 242
+cfn=(104)
+calls=22 1857 
+* 1166
++2 22
+-2 22
++2 66
++26 24
++2 12
+-46 30
++85 42
++5 7
++2 7
+-2 7
++2 28
++3 21
++13 7
++1 49
+-84 48
++1 96
++6 64
++2 96
+cfi=(32) /build/buildd/eglibc-2.15/io/../sysdeps/unix/sysv/linux/xstat64.c
+cfn=(128) __xstat64
+calls=16 47 
+* 285
+* 32
++1 4
++2 30
++7 32
+-5 3
+
+fn=(96) _dl_map_object
+2276 161
++7 23
+-7 23
+cfi=(3)
+cfn=(4)
+calls=23 52 
+* 46
+* 46
++7 46
++1 69
++3 138
++12 268
+-12 402
++5 447
++1 298
++2 447
+cfi=(28)
+cfn=(98)
+calls=149 305 
+* 11345
+* 298
+2570 105
+2322 8
+-1 40
++11 24
++26 16
+-2 8
++2 8
+cfi=(24)
+cfn=(76)
+calls=8 49 
+* 815
+* 16
+2501 6
+cfn=(100)
+calls=1 421 
+* 514
++1 1
++1 1
+-4 1
++3 1
++4 10
+cfn=(104)
+calls=1 1857 
+* 303
++3 1
+-3 1
++3 1
++12 32
++2 16
++45 8
+-1 8
++1 24
+-1 8
++1 88
+cfn=(110)
+calls=8 916 
+* 14848
++2 24
+-2 8
++2 32
+2321 16
++41 14
+cfi=(11)
+cfn=(22)
+calls=7 47 
+* 380
+* 7
++2 7
+-2 7
++2 7
++7 35
++35 14
++1 133
+cfn=(126)
+calls=7 2127 
+* 4940
++6 7
+-6 7
++6 7
++80 14
+-80 14
++1 49
+cfn=(124)
+calls=7 688 
+* 100
+* 14
++7 28
++5 14
+cfi=(33) /build/buildd/eglibc-2.15/elf/dl-cache.c
+cfn=(130) _dl_load_cache_lookup
+calls=7 183 
+* 11688
++2 7
+-2 7
++2 7
++5 21
++8 14
++27 77
+cfn=(104)
+calls=7 1857 
+* 2246
++3 7
+-3 7
++3 7
++2 21
+cfn=(102)
+calls=7 160 
+* 1383
++1 14
+-1 7
++1 7
+-99 7
++5 7
+-5 7
++5 21
++3 14
+-3 7
++3 14
+-3 24
++1 48
+cfn=(124)
+calls=8 688 
+* 113
+* 16
++14 28
++1 56
++1 56
+cfn=(124)
+calls=7 688 
+* 91
+* 14
+-97 402
++3 91
++1 182
++1 273
+cfi=(18)
+cfn=(56)
+calls=91 34 
+* 2443
+* 182
+
+fl=(31) /build/buildd/eglibc-2.15/elf/dl-deps.c
+fn=(120) _dl_map_object_deps
+149 7
++1 1
++22 1
+-22 3
++15 1
+-16 1
++1 3
++15 1
++1 1
+-2 1
++2 1
++6 1
+-23 1
+cfi=(3)
+cfn=(4)
+calls=1 -97 
+* 2
+* 1
++23 3
++10 2
+-14 1
++14 2
+-36 1
++36 3
++1 1
+-1 1
+-18 1
++2 1
+-1 1
++7 1
++10 1
+-10 3
++10 7
++23 1
+-19 3
++21 1
+-2 1
+349 1
+208 4
+349 1
+212 1
++1 1
+-1 1
++5 1
++4 3
+-9 9
++1 9
+-1 9
++5 9
++4 27
++12 30
++2 8
++11 8
+-4 8
+-1 8
+-6 8
++7 8
+-7 8
++5 8
++3 16
++3 56
++50 66
++1 80
+-51 792
++1 396
++6 132
+cfi=(24)
+cfn=(76)
+calls=22 49 
+* 2172
+* 66
++2 22
++4 44
+-1 132
+cfi=(26) /build/buildd/eglibc-2.15/elf/dl-error.c
+cfn=(88) _dl_catch_error
+calls=22 -98 
+* 55548
++2 22
+-2 22
++2 44
++15 22
++2 44
++11 8
+-6 24
++8 8
+-3 8
+-2 8
++1 8
++2 8
++4 48
+-59 12
+-19 2
+477 30
++2 32
++3 8
+-1 24
+cfi=(16)
+cfn=(42)
+calls=8 95 
+* 368
++2 16
+-2 8
++2 8
++4 8
+-1 8
++1 56
+cfi=(17)
+cfn=(48)
+calls=8 44 
+* 232
++1 56
+cfi=(17)
+cfn=(48)
+calls=8 44 
+* 232
++4 8
+-1 8
++5 50
++2 10
++1 65
+222 74
++2 8
++2 8
+-2 8
++2 24
++2 42
+499 1
+206 1
+499 2
++4 5
++1 2
++3 5
++11 2
+-1 2
+cfi=(16)
+cfn=(42)
+calls=1 95 
+* 46
++3 1
+-3 1
++3 1
++5 3
++1 2
+-1 1
++1 2
+-1 1
++1 1
++4 40
++4 40
++4 10
+-10 30
++13 3
++51 6
++2 4
++43 1
++1 1
+-6 1
++5 6
++1 4
+cfi=(30)
+cfn=(114)
+calls=1 52 
+* 23
+* 1
+146 1
+636 2
++2 1
+146 1
+638 1
+146 1
+642 2
++1 1
+-1 1
++7 1
+-6 1
++6 1
+-6 2
++6 1
+-7 20
++1 10
+-1 10
++7 10
+-6 10
++6 10
+-6 20
++6 10
+146 50
+651 20
++1 20
+-1 60
++1 70
++3 252
+-1 336
++23 76
+-28 76
++31 36
++3 64
+cfi=(30)
+cfn=(114)
+calls=8 52 
+* 207
+* 32
+213 2
+660 4
+-1 4
++1 2
+-1 18
+cfi=(36)
+cfn=(140)
+calls=2 53 
+* 43
++2 2
++2 2
+-2 2
++2 6
++20 1
++7 3
++2 1
++1 1
++8 1
+-9 1
++9 2
++3 3
++3 6
+-38 4
++1 18
+cfi=(36)
+cfn=(140)
+calls=2 53 
+* 41
++2 6
++2 2
+299 704
+630 8
+cfi=(17)
+cfn=(48)
+calls=1 44 
+* 36
++2 3
+
+fn=(122) openaux
+62 22
++3 22
+-3 88
++7 22
+-2 22
+-2 22
++2 22
+-2 220
+cfi=(20)
+cfn=(96)
+calls=22 2276 
+* 53656
+* 44
++5 110
+
+fl=(33)
+fn=(130)
+183 35
+cfi=(3)
+cfn=(4)
+calls=7 52 
+* 14
+* 21
++8 14
++3 28
++45 24
++6 28
++11 7
+fi=(34) /build/buildd/eglibc-2.15/elf/../sysdeps/i386/dl-procinfo.h
+101 42
++3 21
+cfi=(18)
+cfn=(56)
+calls=7 -70 
+* 112
+* 63
+cfi=(18)
+cfn=(56)
+calls=21 -70 
+* 497
+* 56
+-2 84
+fe=(33)
+260 7
++19 7
+-19 21
+cfi=(21)
+cfn=(68)
+calls=7 82 
+* 126
++4 7
++15 14
+-19 7
++4 49
++1 7
++14 7
+-15 14
++15 7
+-25 7
++25 7
+-25 7
++25 7
+-25 14
++25 14
+-25 7
++25 866
+cfn=(136) _dl_cache_libcmp
+calls=61 140 
+* 7526
+* 263
++21 49
+fi=(34)
+105 7
+fe=(33)
+258 70
+-61 4
+cfi=(28)
+cfn=(132)
+calls=1 44 
+* 103
++8 1
+-8 1
++8 5
++1 6
+cfi=(3)
+cfn=(32)
+calls=1 58 
+* 40
+* 2
++4 2
++3 3
++3 2
++1 2
+-1 1
++1 1
++1 5
+cfi=(3)
+cfn=(32)
+calls=1 58 
+* 43
+* 2
++18 3
++43 91
+cfn=(136)
+calls=7 140 
+* 851
+* 147
++16 28
+-16 182
+
+fn=(136)
+140 340
++1 300
++2 387
++2 387
+-2 1161
++2 774
+-2 387
++2 14
++7 7
+-1 7
++1 35
++1 7
+-2 14
++2 28
++2 42
++2 14
++6 760
++2 1140
++4 319
++1 319
+-29 1276
++32 7
++1 28
+-1 7
++1 68
+-8 61
++8 61
+-8 61
++8 61
+-8 122
++8 183
+
+fn=(198) _dl_unload_cache
+309 2
+cfi=(3)
+cfn=(4)
+calls=1 52 
+* 2
+* 2
++1 4
++2 4
+cfi=(46) /build/buildd/eglibc-2.15/misc/../sysdeps/unix/syscall-template.S
+cfn=(200) munmap
+calls=1 82 
+* 9
++1 1
++2 3
+
+fl=(32)
+fn=(128)
+47 16
++3 16
+-3 16
+cfi=(3)
+cfn=(4)
+calls=16 +5 
+* 32
+* 16
++3 112
++34 2
+-34 45
++34 30
+
+fl=(27) /build/buildd/eglibc-2.15/setjmp/../sysdeps/i386/setjmp.S
+fn=(92) __sigsetjmp
+34 23
++4 23
++1 23
++1 23
++1 23
++4 23
++1 23
++4 23
++2 23
++4 23
++1 23
+
+fl=(3)
+fn=(4)
+52 1790
++1 1790
+
+fn=(32)
+58 31
++2 31
++1 31
++1 31
++2 31
++1 31
++18 31
++2 31
++2 31
++2 31
++1 31
++2 31
+cfn=(4)
+calls=31 -40 
+* 62
+* 62
++1 31
++1 31
++1 31
++14 1
++1 1
++1 1
++1 1
++2 11
++1 11
++1 11
++1 11
++2 12
++1 12
++1 12
++1 12
++2 12
++1 12
++1 12
++1 12
++2 12
++1 12
++1 12
++1 12
++2 12
++3 12
++1 24
+268 1
++1 1
++1 1
++1 1
++2 11
++1 11
++1 11
++1 11
++2 10
++1 10
++1 10
++1 10
++1 10
++1 10
++1 10
++1 10
++1 10
++1 10
++3 10
++1 20
++70 9
++1 9
++11 9
++1 9
++1 9
++3 18
+
+fl=(61)
+fn=(312)
+74 366
++3 61
+-1 61
+-2 61
+cfi=(3)
+cfn=(4)
+calls=61 -22 
+* 122
+* 61
++3 122
++3 122
++1 61
++1 61
+-1 305
++6 61
+-5 122
+-1 61
++1 61
++5 61
++4 183
++4 61
+-2 61
++2 122
++4 120
++1 180
++2 180
++7 183
+-1 61
++11 671
+cfi=(7)
+cfn=(170) _dl_lookup_symbol_x
+calls=61 716 
+* 78962
+* 122
++4 183
++10 427
++16 61
+-8 61
++8 183
++4 183
+fi=(5)
+277 183
+fe=(61)
+157 366
+fi=(81) /build/buildd/eglibc-2.15/elf/../sysdeps/i386/dl-irel.h
+33 5
+cob=(3)
+cfi=(119)
+cfn=(1748)
+calls=1 +6 
+* 15
+cob=(3)
+cfi=(109)
+cfn=(934)
+calls=1 +6 
+* 15
+cob=(3)
+cfi=(84)
+cfn=(608)
+calls=2 +7 
+* 30
+cob=(3)
+cfi=(82)
+cfn=(596)
+calls=1 +7 
+* 15
+* 5
+fe=(61)
+
+fl=(7)
+fn=(170)
+716 549
+476 183
+716 915
+477 366
+716 183
+cfi=(3)
+cfn=(4)
+calls=183 52 
+* 366
+* 366
+477 549
++1 183
+-1 183
++1 549
+-1 183
++1 183
+-1 366
++1 2246
+-1 2246
++1 6738
+-1 2246
++1 2246
+-1 4492
+726 183
+-4 183
+-4 183
++8 183
+-7 366
++7 499
++5 183
++2 183
+-2 183
++2 183
+-2 183
+-1 183
++7 1281
++8 76
+-8 76
++2 3843
+cfn=(172) do_lookup_x
+calls=183 82 
+* 159284
++3 366
+-5 366
++33 366
++23 656
++1 984
++35 656
++14 492
++3 656
++5 328
++2 1281
+-81 152
++17 19
++1 19
+-1 19
++1 19
++54 2
+
+fn=(172)
+82 915
+-5 366
++5 549
+cfi=(3)
+cfn=(4)
+calls=183 -30 
+* 366
+* 366
+-5 1281
++6 183
++5 183
+230 183
+114 183
+-25 183
++25 183
+230 366
+114 183
+-16 183
+-3 183
++1 183
++2 366
++3 183
+-3 183
++3 183
+-3 1253
+-3 1253
++1 1253
++2 2506
++3 1253
+-3 1253
++3 1253
++4 2872
++4 2872
++4 2872
++7 5744
++4 4308
++1 4308
+226 1436
++1 2872
++4 2872
++3 1436
+-5 1436
++5 1436
++4 1436
+-4 2872
++4 1436
+-1 2872
++1 1436
+-1 2872
++21 1274
++24 2548
+462 10812
++1 926
+cfi=(28)
+cfn=(98)
+calls=463 305 
+* 31625
+* 1389
++3 3816
++3 19
++1 114
+282 2
++2 4
++3 1376
++17 492
++1 328
+470 164
+306 164
+470 820
+291 75
+-50 714
+-1 476
++2 476
++2 223
++6 223
+-6 223
++6 446
++4 1156
+-7 1804
++2 984
++1 656
+cfn=(174) check_match.8823
+calls=164 132 
+* 30815
++1 652
++12 122
+
+fn=(174)
+132 1148
++1 164
+-1 164
+cfi=(3)
+cfn=(4)
+calls=164 -80 
+* 328
+* 164
++1 164
++2 328
++2 492
+-2 328
++12 492
++3 820
+cfi=(18)
+cfn=(56)
+calls=82 34 
+* 7874
+* 164
++5 164
+-1 164
++1 164
+-1 164
++1 164
++2 316
++19 316
++1 1106
++46 1148
+-18 12
++2 12
++1 6
+-1 6
++1 6
+-1 6
++1 12
+-1 12
++4 4
++1 10
+-34 948
+cfi=(18)
+cfn=(56)
+calls=158 34 
+* 12476
+* 474
++36 2
++2 4
+-81 489
+
+fn=(12)
+861 10
++3 10
+-3 20
+cfi=(3)
+cfn=(4)
+calls=10 52 
+* 20
+* 20
++3 10
+-3 20
++3 10
++4 10
++4 20
++2 10
+-1 10
++3 30
++1 10
++1 20
++2 10
++1 10
++2 10
++2 10
+-1 10
++1 10
+-7 10
++7 10
++14 60
+
+fl=(30)
+fn=(114)
+52 27
++1 27
++2 27
++1 27
++5 27
++2 27
++1 27
++2 27
++1 27
++1 12
++1 8
++1 8
++1 8
++1 10
++1 10
++1 10
++1 10
++1 10
++1 2
++1 2
++1 2
++1 2
++1 2
++2 2
++2 2
+-6 23
++1 23
++1 23
++2 23
++2 1606
++2 25
++1 57
++5 27
++3 27
++8 27
+
+fl=(39) /build/buildd/eglibc-2.15/elf/dl-reloc.c
+fn=(164) _dl_relocate_object
+154 80
+cfi=(3)
+cfn=(4)
+calls=10 52 
+* 20
+* 20
++10 30
++1 20
++4 10
+-4 10
++4 10
++1 50
++6 20
++6 30
++4 20
++8 30
+-33 10
++78 10
+fi=(5)
+104 10
+fe=(39)
+239 20
+fi=(5)
+104 10
+fe=(39)
+265 574
+152 50
+fi=(6) /build/buildd/eglibc-2.15/elf/do-rel.h
+-45 20
+-40 10
+-11 10
+fe=(39)
+265 10
+fi=(6)
+56 10
++11 10
+fe=(39)
+265 10
+fi=(6)
+55 10
++12 30
+-11 10
+fe=(39)
+265 10
+fi=(6)
+56 10
++11 10
+fe=(39)
+265 10
+fi=(6)
+55 10
++12 20
++3 18
+fi=(5)
+384 27
+655 9
+-1 18
++1 9
++2 18
+-2 2003
+-1 4006
++1 2003
++2 4006
++2 8032
++1 4016
+fi=(6)
+70 6096
++99 20
+fe=(39)
++96 490
+fi=(5)
+603 10
+fe=(39)
+265 20
+fi=(5)
+603 10
+fi=(6)
+93 10
+-37 10
+-1 10
++1 10
++39 10
++12 10
+-15 20
++3 30
++12 10
+-14 10
+-37 10
+-1 10
++1 10
++39 10
++12 10
+-15 20
++3 30
++12 10
++10 60
++10 60
++3 18
++3 18
+-3 18
++3 18
++36 20
+fe=(39)
++96 40
++3 30
++40 10
++3 30
++17 30
++1 20
+cfn=(188) _dl_protect_relro
+calls=10 +6 
+* 390
+* 10
++1 60
+fi=(5)
+104 27
++6 18
++4 27
++13 9
+-8 9
++8 18
++13 27
+fe=(39)
++44 60
+fi=(6)
+-91 11
++14 22
+-14 11
++2 11
+-2 22
++14 11
++7 27
++6 16
+fi=(5)
+633 8
+fi=(6)
+121 8
+fi=(5)
+633 8
+fi=(6)
+121 8
+fe=(39)
++31 24
+fi=(6)
+-31 2796
+fi=(5)
+633 2796
+fi=(6)
+120 1406
+fi=(5)
+634 1406
+fi=(6)
+120 2812
++7 44
++3 10
++3 10
+-3 10
++3 10
+fi=(5)
+460 36
+fi=(6)
+145 18
++2 9
+-2 9
+fi=(5)
+311 9
+fi=(6)
+145 18
++1 9
++1 9
+-1 9
+fi=(5)
+311 9
+fi=(6)
+145 9
++3 18
+fi=(5)
+314 9
+fi=(6)
+147 9
+-1 9
++2 9
+-2 9
+fi=(5)
+314 9
+fi=(6)
+145 254
++2 127
+-2 127
+fi=(5)
+311 127
+fi=(6)
+145 254
++1 127
++1 127
+-1 127
+fi=(5)
+311 127
+fi=(6)
+145 127
++3 254
+fi=(5)
+314 127
+fi=(6)
+147 127
+-1 127
++2 127
+-2 127
+fi=(5)
+314 127
++17 408
++7 3395
+fi=(6)
+146 113
+fi=(5)
+338 339
+fi=(6)
+146 113
+fi=(5)
+338 339
+fi=(6)
+147 113
+fi=(5)
+338 458
+fi=(6)
+146 6
+fi=(5)
+338 18
+fi=(6)
+146 6
+fi=(5)
+338 18
+fi=(6)
+147 6
+fi=(5)
+338 2047
+cfi=(7)
+cfn=(170)
+calls=119 716 
+* 117407
+* 714
++1 646
++2 272
++1 476
++6 816
++98 12
+fi=(6)
+133 12
+fi=(5)
+446 12
+fi=(6)
+133 26
+fi=(5)
+365 4
++1 4
+fi=(6)
+133 2
+fi=(5)
+366 2
+fi=(6)
+133 4
+fi=(5)
+366 111
+fi=(6)
+133 111
+fi=(5)
+366 111
+fi=(6)
+133 229
+fi=(5)
+433 33
++2 33
++1 11
+fi=(6)
+133 11
+fi=(5)
+436 33
+fi=(6)
+133 11
+fi=(5)
+436 11
+fi=(6)
+133 11
+fe=(39)
+265 46
+152 40
+265 63
+fi=(6)
+-96 1
+fi=(5)
+460 2
+fi=(6)
+169 2
++10 1
++1 3
+-1 1
+fi=(5)
+311 1
+fi=(6)
+179 3
+fi=(5)
+314 1
+-3 1
+fi=(6)
+179 1
+fi=(5)
+314 1
+fi=(6)
+179 2
++1 6
+-1 2
+fi=(5)
+311 2
+fi=(6)
+179 6
+fi=(5)
+314 2
+-3 2
+fi=(6)
+179 2
+fi=(5)
+314 2
++17 9
++7 123
+cfi=(7)
+cfn=(170)
+calls=3 716 
+* 2605
+* 21
++1 15
++2 6
++1 4
++6 18
+-10 21
+fi=(6)
+169 10
+fi=(5)
+366 9
+fi=(6)
+120 36
++49 4
+fe=(39)
++96 100
+fi=(5)
+665 8
+338 150
+712 8
++2 12
++1 12
++1 4
+cob=(3)
+cfi=(45)
+cfn=(186)
+calls=1 37 
+* 13
+cob=(3)
+cfi=(44)
+cfn=(184)
+calls=1 45 
+* 14
+cob=(3)
+cfi=(43)
+cfn=(182)
+calls=1 27 
+* 15
+cob=(3)
+cfi=(40)
+cfn=(176)
+calls=1 37 
+* 83
++1 8
+fe=(39)
+
+fn=(188)
+335 10
++1 10
+-1 20
+cfi=(3)
+cfn=(4)
+calls=10 52 
+* 20
+* 10
++1 10
+-1 20
++2 20
+-1 20
++2 20
++3 20
++1 50
+cfi=(46)
+cfn=(190) mprotect
+calls=10 82 
+* 100
+* 20
++6 40
+
+fl=(16)
+fn=(38)
+104 120
++7 20
+-3 20
++3 20
+-7 20
+cfi=(3)
+cfn=(4)
+calls=20 -52 
+* 40
+* 20
++4 20
++3 40
++4 40
+cfn=(42)
+calls=20 -20 
+* 1007
++1 100
+
+fn=(42)
+95 100
+cfi=(3)
+cfn=(4)
+calls=50 -43 
+* 100
+* 100
++1 200
+cfn=(46)
+calls=50 -43 
+* 1777
++1 150
+
+fn=(46)
+53 204
+cfi=(3)
+cfn=(4)
+calls=51 -1 
+* 102
+* 204
++1 204
++11 51
++1 51
+-1 51
++3 102
+-3 51
++3 239
++4 16
++1 8
++6 28
+cfi=(23)
+cfn=(74)
+calls=4 -44 
+* 92
++2 8
++2 12
++2 12
++3 4
++1 4
++2 24
+-3 47
++1 47
++2 282
+-31 3
++1 1
+-2 3
+
+fn=(80)
+320 28
+cfi=(3)
+cfn=(4)
+calls=4 52 
+* 8
+* 4
++3 16
++2 8
++1 4
+-1 4
++1 4
++4 18
++5 4
+-5 171
++5 232
++2 472
++8 59
+-15 179
++18 4
++4 28
+
+fl=(17)
+fn=(48)
+44 36
++1 36
++1 36
++1 36
++2 36
++1 36
++1 36
++1 36
++1 36
++1 36
++2 22
++1 22
++2 22
++1 22
++11 22
++1 22
++1 22
++1 22
++1 120
++2 22
++1 32
++2 22
++2 22
++1 22
++1 22
++4 22
+-6 14
++1 14
++1 14
++4 14
++6 14
++1 14
++1 8
++1 8
++1 8
+-1 6
++1 6
++1 7
++1 86
++2 14
+
+fl=(12)
+fn=(24)
+35 3
+cfi=(3)
+cfn=(4)
+calls=1 +17 
+* 2
+* 4
++8 6
++4 2
++11 6
+
+fl=(11)
+fn=(22)
+47 36
++2 36
++2 36
++2 36
++1 21
++2 18
++1 18
++2 17
++1 17
++2 17
++2 17
++1 17
++2 17
++2 14
++1 14
++2 14
++1 14
++26 14
++1 14
++2 14
++1 14
++2 14
++1 14
+-7 49
++1 49
++2 49
++1 49
++2 49
++1 49
++2 61
++2 61
++2 61
++3 60
++1 60
++2 60
++1 60
++2 60
++1 60
++2 57
++2 57
++2 57
++3 52
++1 52
++2 52
++1 52
++2 52
++1 52
++2 48
++2 48
++2 48
++3 46
++1 46
++2 46
++1 46
++2 46
++1 46
++2 41
++2 41
++2 41
++3 35
++1 35
++2 35
++1 35
++2 30
++1 30
++2 30
++2 9
++1 9
++2 9
++1 9
++2 5
++3 5
++4 5
+-4 31
++4 31
+
+fl=(13) /build/buildd/eglibc-2.15/elf/dl-environ.c
+fn=(30) _dl_next_ld_env_entry
+30 3
++1 3
++1 3
++2 13
++2 84
++11 40
+-13 120
++17 9
+-14 18
++5 2
+-3 2
++3 2
++2 2
+
+fl=(1)
+fn=(204) 0x000011c0
+0 2
+
+fn=(346)
+0 47144
+
+fn=(0) 0x000011d0
+0 2
+cfi=(2)
+cfn=(2) _dl_start
+calls=1 368 
+0 284533
+0 2
+cfn=(204)
+calls=1 0 
+0 2
+0 17
+cfi=(47)
+cfn=(208)
+calls=1 93 
+0 106577
+0 3
+cob=(11)
+cfi=(89)
+cfn=(770)
+calls=1 0 
+0 4926115989
+
+fl=(36)
+fn=(140)
+53 8
++3 8
++1 8
++2 8
++1 8
++5 8
++1 8
++1 8
++1 8
++2 8
++1 8
++1 8
++1 2
++1 2
++1 2
+-1 6
++1 6
++1 4
++1 18
++2 8
++3 8
++4 8
++5 8
+
+fl=(25)
+fn=(82)
+49 40
+cfi=(3)
+cfn=(4)
+calls=10 +3 
+* 20
+* 10
++3 10
+-3 30
++4 10
+-1 10
++5 40
++4 2
+-1 1
++1 1
++1 1
++5 1
+-6 1
++6 1
+-5 2
++1 1
++4 1
+-4 1
++4 2
+-10 27
++10 45
+
+fn=(84) _dl_debug_state
+77 2
+
+fl=(46)
+fn=(190)
+82 90
++1 10
+
+fn=(200)
+82 8
++1 1
+
+fl=(26)
+fn=(88)
+160 69
+cfi=(3)
+cfn=(4)
+calls=23 52 
+* 46
+* 115
++9 23
++2 23
+cfi=(2)
+cfn=(90) _dl_initial_error_catch_tsd
+calls=23 801 
+* 138
+* 23
++1 23
++2 23
+-2 23
++2 69
+cfi=(27)
+cfn=(92)
+calls=23 34 
+* 253
++1 23
+-1 23
++1 23
++2 69
++1 69
+cfi=(31)
+cfn=(122)
+calls=22 62 
+* 54250
+cfi=(2)
+cfn=(94) map_doit
+calls=1 631 
+* 2823
++1 69
++1 23
++1 23
+-1 23
++2 23
+-1 23
++1 23
++10 115
+
+fn=(142) _dl_receive_error
+198 3
+cfi=(3)
+cfn=(4)
+calls=1 52 
+* 2
+* 7
++1 1
+cfi=(2)
+cfn=(90)
+calls=1 801 
+* 6
++5 1
++4 1
+-5 1
++4 1
++3 5
+cfi=(2)
+cfn=(144) version_check_doit
+calls=1 663 
+* 27928
++2 2
++1 1
++1 2
+-2 1
++2 1
+-1 1
++1 3
+
+fl=(37) /build/buildd/eglibc-2.15/elf/dl-version.c
+fn=(146) _dl_check_all_versions
+387 3
++2 1
+-2 4
+cfi=(3)
+cfn=(4)
+calls=1 52 
+* 2
+* 1
++4 1
+-4 1
++4 3
++1 30
++1 40
+cfn=(148) _dl_check_map_versions
+calls=10 180 
+* 27747
+-2 10
++1 40
+-1 20
++5 7
+
+fn=(148)
+180 80
++15 20
+-15 10
+cfi=(3)
+cfn=(4)
+calls=10 52 
+* 20
+* 20
++15 20
++4 10
+-2 10
++2 10
++3 10
+-2 10
+-3 10
++5 10
+-2 10
++2 10
++3 32
++4 8
+-4 8
++4 48
++17 16
+62 16
+226 16
+62 32
+226 22
+62 22
+226 22
+62 82
++1 120
+-1 240
++2 417
+cfi=(28)
+cfn=(98)
+calls=139 305 
+* 10658
+* 278
+230 38
++4 57
++5 76
++20 34
+-16 925
+cfn=(150) match_symbol
+calls=7 82 
+* 1047
+* 414
+cfn=(150)
+calls=46 82 
+* 8286
+* 53
++8 53
+-8 53
++8 53
+-8 159
++11 159
++9 76
++5 22
++1 11
+-80 2
+-8 2
++96 30
++3 24
++3 12
+-3 18
++6 30
++4 6
+-7 12
++7 12
+-4 18
++4 53
+-7 106
++7 106
+-4 165
++8 30
++87 28
+-81 54
+cfi=(16)
+cfn=(38)
+calls=9 104 
+* 621
+-1 9
++2 9
+-1 9
+-1 9
++2 9
++11 9
++2 9
+-5 9
++3 9
++2 9
+-2 9
++2 9
++3 32
++4 76
++18 34
+-15 34
++2 136
+-2 19
++2 76
++2 106
++1 53
+-1 53
++1 53
++1 53
+-2 53
++3 53
+-1 106
++1 159
++3 178
++8 57
++5 11
++1 11
++4 27
++3 36
++20 59
+-14 59
+-2 59
++2 65
+-2 6
++2 6
++4 59
++2 59
+-1 177
++1 59
+-1 118
++1 59
++1 59
++3 195
++10 42
+
+fn=(150)
+82 371
+cfi=(3)
+cfn=(4)
+calls=53 -30 
+* 106
+* 106
++1 53
+-1 53
++1 53
++8 53
+-8 53
++8 53
++6 212
++15 53
++1 106
++2 106
++5 106
++14 722
++12 924
++4 308
+-30 616
++19 424
+cfi=(18)
+cfn=(56)
+calls=53 34 
+* 4272
+* 159
++3 53
++32 371
+
+fl=(2)
+fn=(26)
+896 6
+cfi=(3)
+cfn=(4)
+calls=1 52 
+* 2
+* 2
++19 2
++3 2
++4 2
++1 2
++5 2
++3 2
+cfn=(28) process_envvars
+calls=1 2561 
+* 625
++7 4
+1126 7
+cfi=(14)
+cfn=(34)
+calls=1 63 
+* 275
+* 1
++2 1
+-2 1
++2 1
++1 2
++1 1
++1 2
+-2 1
++6 1
+-5 1
++1 2
++4 2
+cfi=(14)
+cfn=(50)
+calls=1 34 
+* 46
++1 2
+905 1
+1157 1
++8 1
+-3 1
++3 3
+-8 1
++1 1
++2 1
++5 1
++56 1
+-34 1
++21 1
++13 1
+902 1
+1187 1
++34 2
+-13 3
+-42 24
+-1 27
++1 47
+-1 3
+1268 4
++3 2
++2 2
++2 3
++13 3
++1 8
+cfi=(18)
+cfn=(56)
+calls=1 34 
+* 9
+* 2
++17 2
+fi=(4)
+106 2
++9 2
++4 1
++2 1
+-2 1
++2 6
++3 44
+-3 22
++18 22
+fe=(2)
+892 44
+fi=(4)
+121 70
++18 4
+fe=(2)
+892 8
+fi=(4)
+121 12
++2 52
++5 16
++1 15
+fe=(2)
+1261 2
++1 2
++1 1
+-6 2
++1 1
+-88 3
++1 1
++50 6
+-1 2
++2 4
++1 1
++3 2
++1 2
+-1 2
++1 2
++1 2
++1 6
++1 2
+-43 1
+-2 2
++2 1
++7 1
+-10 1
++10 2
++18 2
+-37 3
++1 1
+fi=(4)
+146 4
++38 4
++7 3
++5 4
++4 4
++1 3
++12 4
++14 4
++7 4
+fe=(2)
+1311 2
+cfi=(7)
+cfn=(12)
+calls=1 861 
+* 37
++3 2
++20 3
++94 1
+cfi=(9)
+cfn=(60) _dl_discover_osversion
+calls=1 67 
+* 100
+* 8
++5 2
+cfi=(20)
+cfn=(64)
+calls=1 712 
+* 4042
++3 3
+cfi=(25)
+cfn=(82)
+calls=1 49 
+* 32
+* 1
++2 1
++5 3
++4 1
++1 1
++2 1
+-2 1
+-1 3
++1 2
++3 2
++5 1
+-7 1
++7 1
++5 1
++2 2
++2 1
+-1 1
+892 2
+1465 1
++4 1
++1 2
++1 2
+-1 1
++1 2
++2 2
++1 2
++5 3
++5 3
+911 1
+1665 4
++3 2
++4 3
++5 2
++1 1
+cfi=(25)
+cfn=(84)
+calls=1 77 
+* 1
++4 3
++15 4
++4 3
++31 5
+cfi=(21)
+cfn=(68)
+calls=1 82 
+* 18
+* 2
++77 4
++17 2
++1 3
+-1 1
++1 6
+cfi=(31)
+cfn=(120)
+calls=1 149 
+* 64023
+* 1
++1 1
++2 3
++3 1
+-3 1
++3 5
++1 3
+-1 2
++1 27
+-1 18
++4 3
++1 3
++1 1
++2 2
++1 24
+-1 24
++47 2
++2 1
+-2 2
++1 3
+-1 1
++2 1
+-1 1
++1 2
+cfi=(26)
+cfn=(142)
+calls=1 198 
+* 27967
++11 1
+-1 1
++1 1
+-1 1
++1 1
++3 3
++3 1
+cfn=(160) security_init
+calls=1 857 
+* 28
++2 3
+2137 4
++56 2
++11 1
+-11 1
++4 3
++4 1
+-4 2
++4 1
++3 1
++8 2
+1296 1
++3 1
+-5 1
++3 1
++2 2
++1 2
++4 2
+fi=(4)
+130 4
+fe=(2)
+2258 5
++7 1
++2 2
++1 1
+-1 1
++1 3
++1 1
++2 10
+-2 10
++2 30
++5 20
++2 20
++5 10
++2 20
++1 99
+cfi=(39)
+cfn=(164)
+calls=9 154 
+* 171079
++4 32
++1 2
+cfi=(35)
+cfn=(192)
+calls=1 817 
+* 26
+* 10
+-22 22
++24 1
++2 3
++6 1
+-6 1
++6 2
++9 5
++1 1
++5 2
+cfi=(35)
+cfn=(194)
+calls=1 377 
+* 140
++4 2
++14 3
++2 4
++15 2
++3 1
+-1 1
++1 1
+-3 1
++3 6
+cfi=(39)
+cfn=(164)
+calls=1 154 
+* 8481
++1 1
++2 4
++8 1
+cfi=(8)
+cfn=(196)
+calls=1 252 
+* 1
++4 3
++20 3
+cfi=(25)
+cfn=(82)
+calls=1 49 
+* 25
++1 1
++1 1
+cfi=(25)
+cfn=(84)
+calls=1 77 
+* 1
++4 1
+cfi=(33)
+cfn=(198)
+calls=1 309 
+* 27
++5 6
+fi=(4)
+133 4
+fe=(2)
+1842 1
++13 1
+-1 1
++1 1
+-1 1
++1 1
++2 1
++2 3
++2 1
+-4 1
++5 1
+-1 2
++14 2
++1 2
++1 3
+2139 1
+904 2
+1852 2
+1330 3
+fi=(4)
+136 4
++1 1
++1 3
+fe=(2)
+1457 4
+-11 4
+729 1
+-4 1
++4 1
+-4 1
++4 2
+cfn=(152) init_tls.part.3
+calls=1 -7 
+* 777
+* 2
+1708 2
+cfi=(11)
+cfn=(22)
+calls=1 47 
+* 123
+* 10
+cfi=(17)
+cfn=(48)
+calls=1 44 
+* 32
+* 1
++3 2
++7 2
+-7 2
+-12 2
++19 1
+-4 4
+cfi=(16)
+cfn=(80)
+calls=1 320 
+* 890
+* 4
+cfi=(16)
+cfn=(80)
+calls=1 320 
+* 26
+* 6
++1 2
++1 3
++2 5
+cfn=(86) do_preload
+calls=1 810 
+* 2916
+* 2
++2 1
++1 2
++1 3
+fi=(4)
+191 2
+fe=(2)
+2280 1
++1 1
+-3 2
+1813 4
++1 1
+-1 3
++4 1
++1 1
+-1 1
++2 2
++1 2
+
+fn=(54)
+849 11
++1 11
++1 11
+
+fn=(160)
+857 3
+cfi=(3)
+cfn=(4)
+calls=1 52 
+* 2
+* 2
++2 1
+fi=(38) /build/buildd/eglibc-2.15/elf/../sysdeps/unix/sysv/linux/dl-osinfo.h
+74 2
++23 1
++2 2
+fe=(2)
+861 1
++6 3
++2 1
+fi=(38)
+114 2
++11 1
+fe=(2)
+872 1
++2 1
++6 1
++1 4
+
+fn=(90)
+801 24
+cfi=(21)
+cfn=(70) 0x00018ba7
+calls=24 84 
+* 48
+* 24
++3 48
+
+fn=(28)
+2561 6
+cfi=(3)
+cfn=(4)
+calls=1 52 
+* 2
+* 3
++8 2
+-7 1
++7 1
+-7 1
++7 2
+-4 1
+2727 1
+2564 1
++5 1
+2727 2
+2571 2
+cfi=(13)
+cfn=(30)
+calls=1 30 
+* 59
+* 4
+cfi=(13)
+cfn=(30)
+calls=2 30 
+* 242
+* 9
++4 46
++1 19
+-1 57
++3 4
++6 12
+2733 2
++4 3
++33 2
++22 6
+2660 6
+cfi=(3)
+cfn=(32)
+calls=1 58 
+* 35
+* 3
+-53 6
+cfi=(3)
+cfn=(32)
+calls=1 58 
+* 30
+* 3
++7 6
+cfi=(3)
+cfn=(32)
+calls=1 58 
+* 36
+* 3
++2 2
++1 1
++45 2
++1 1
+
+fn=(94)
+631 1
++2 1
+-2 2
++2 7
+cfi=(20)
+cfn=(96)
+calls=1 2276 
+* 2807
+* 2
++2 3
+
+fn=(144)
+663 1
++2 1
+-2 2
+cfi=(3)
+cfn=(4)
+calls=1 52 
+* 2
+* 3
++2 3
+cfi=(37)
+cfn=(146)
+calls=1 387 
+* 27910
+* 2
++4 4
+
+fn=(86)
+810 5
+cfi=(3)
+cfn=(4)
+calls=1 52 
+* 2
+* 2
++6 1
++6 3
+-5 1
++5 1
+-10 1
++6 1
++4 1
+-2 1
++2 3
+cfi=(26)
+cfn=(88)
+calls=1 160 
+* 2882
+* 2
++1 2
++10 3
++4 5
+
+fn=(2)
+368 7
+cfi=(3)
+cfn=(4)
+calls=1 52 
+* 2
+* 2
++18 2
+fi=(4)
+121 1
+fi=(5)
+-61 1
+fe=(2)
+386 1
+fi=(5)
+60 2
+fe=(2)
+415 1
+fi=(4)
+121 1
+fe=(2)
+412 1
+fi=(4)
+121 4
++7 20
++1 12
++10 4
+fe=(2)
+367 8
+fi=(4)
+121 12
++2 36
++15 13
++1 13
+fe=(2)
+367 26
+fi=(4)
+121 39
++18 1
+fe=(2)
+367 2
+fi=(4)
+121 4
++25 2
++20 4
++1 4
++1 4
++1 4
++5 4
++2 4
++1 4
++1 4
++6 3
++3 2
++13 3
++1 3
++4 3
++2 3
++3 3
++1 3
+fe=(2)
+543 3
+291 1
+550 1
+291 82
++12 2
+cfi=(7)
+cfn=(12)
+calls=1 861 
+* 37
++1 2
++1 2
++1 2
++1 2
++21 2
++10 3
+-10 1
++4 1
++6 2
+cfi=(8)
+cfn=(14)
+calls=1 89 
+* 283732
+* 1
++9 1
++3 2
++4 1
+-4 2
++4 1
+575 7
+fi=(4)
+130 4
++3 4
+fe=(2)
+
+ob=(4)
+fl=(48)
+fn=(216)
+0 4
+cfn=(218) 0x00000427
+calls=1 0 
+0 2
+0 9
+
+fn=(2614)
+0 5
+cfn=(218)
+calls=1 0 
+0 2
+0 10
+cob=(3)
+cfi=(143)
+cfn=(2628)
+calls=1 31 
+0 72
+cob=(1)
+cfi=(60)
+cfn=(310)
+calls=1 29 
+0 1011
+
+ob=(1)
+fl=(2)
+fn=(2)
+548 30
+fi=(6)
+93 1
+-1 2
++3 2
++25 2
+fi=(5)
+633 1
+fi=(6)
+121 1
+fi=(5)
+633 1
+fi=(6)
+121 1
+fe=(2)
+367 2
+fi=(6)
+121 20
+fi=(5)
+633 20
+fi=(6)
+120 11
+fi=(5)
+634 11
+fi=(6)
+120 22
++5 3
++8 2
+fi=(5)
+404 3
+fi=(6)
+133 3
++13 1
+fi=(5)
+339 1
+fi=(6)
+148 2
+-2 1
+fi=(5)
+311 1
+fi=(6)
+146 3
+fi=(5)
+311 1
++28 2
++3 4
+fi=(6)
+146 7
+fi=(5)
+339 7
+fi=(6)
+148 14
+-2 7
+fi=(5)
+311 7
+fi=(6)
+146 21
+fi=(5)
+311 7
++28 14
++3 28
++6 56
+fi=(4)
+136 4
++1 1
++1 3
+fi=(5)
+352 8
+fi=(6)
+133 25
+fe=(2)
+
+fn=(52)
+843 11
++1 11
++1 11
+
+fn=(152)
+722 3
+cfi=(3)
+cfn=(4)
+calls=1 52 
+* 2
+* 2
++17 1
+-4 1
++4 3
+cfi=(16)
+cfn=(38)
+calls=1 104 
+* 69
+-4 1
++15 1
+-12 1
+-3 1
++11 1
++4 1
++2 1
+-1 2
++3 20
++4 1
++2 1
+-7 1
+-1 2
++1 9
+-1 20
++10 2
++3 1
+cfi=(35)
+cfn=(154)
+calls=1 113 
+* 85
++7 1
+cfi=(35)
+cfn=(156)
+calls=1 329 
+* 514
++1 1
+-1 1
++1 1
++6 1
++8 1
+-8 1
++8 13
++3 1
+-3 4
++4 1
++3 5
+
+fl=(9)
+fn=(60)
+67 5
+cfi=(3)
+cfn=(4)
+calls=1 -15 
+* 2
+* 2
++2 4
++40 3
+cfi=(19)
+cfn=(62)
+calls=1 -27 
+* 8
++15 1
+-15 2
++20 1
+-1 1
++3 15
++2 6
++2 3
+-2 6
++2 9
++7 3
+-1 3
++2 3
++2 13
++8 1
++1 7
+-4 2
+
+fl=(21)
+fn=(108)
+82 72
++1 8
+
+fn=(68)
+82 72
++1 18
+cfn=(70)
+calls=9 +1 
+* 18
+* 54
+
+fn=(70)
+84 110
+
+fn=(106)
+82 279
++1 53
+cfn=(70)
+calls=22 +1 
+* 44
+* 132
+
+fn=(118)
+82 63
++1 9
+
+fl=(23)
+fn=(74)
+35 24
++2 24
++2 24
++2 24
++3 24
++2 24
++1 24
++1 24
++2 24
++2 24
++2 24
++1 24
++1 24
++1 24
++2 24
++3 24
+
+ob=(4)
+fl=(48)
+fn=(2614)
+0 14
+
+fn=(226)
+0 5
+cfn=(218)
+calls=1 0 
+0 2
+0 4
+
+ob=(1)
+fl=(23)
+fn=(74)
+65 24
++3 24
++3 24
++3 24
++24 24
++1 24
++4 24
+
+ob=(4)
+fl=(48)
+fn=(226)
+0 4
+
+fn=(218)
+0 6
+
+ob=(5)
+fl=(104)
+fn=(888)
+27 148
++1 74
+-1 74
+cfi=(58) /build/buildd/eglibc-2.15/math/../sysdeps/i386/fpu/s_cbrt.S
+cfn=(262) 0x00004747
+calls=74 +67 
+* 148
+* 74
++1 74
+-1 148
++1 148
+cfi=(105) /build/buildd/eglibc-2.15/math/../sysdeps/i386/fpu/e_powf.S
+cfn=(890) __powf_finite
+calls=74 +44 
+* 4590
+* 74
++1 148
+cfi=(107) /build/buildd/eglibc-2.15/math/../sysdeps/i386/fpu/s_finitef.S
+cfn=(894) finitef
+calls=74 -21 
+* 444
+* 148
++30 444
++15 370
+-15 74
+
+fl=(86)
+fn=(694)
+28 3
++4 2
++2 1
+-6 1
+cfi=(58)
+cfn=(262)
+calls=1 +66 
+* 2
+* 1
++8 1
+-2 1
++4 1
+-4 2
++4 1
++1 1
++3 3
++5 1
++2 2
++2 1
++4 1
+-1 1
++1 2
+
+fl=(106) /build/buildd/eglibc-2.15/math/../sysdeps/i386/fpu/e_pow.S
+fn=(892) 0x000070b7
+76 14148
+
+fl=(107)
+fn=(894)
+8 74
++1 74
++1 74
++1 74
++1 74
++1 74
+
+fl=(111)
+fn=(964)
+29 34004
+cfi=(58)
+cfn=(262)
+calls=8501 +65 
+* 17002
+* 51006
++2 25503
+cfi=(112) /build/buildd/eglibc-2.15/math/../sysdeps/ieee754/dbl-64/s_fpclassify.c
+cfn=(966) __fpclassify
+calls=8501 -3 
+* 162018
++1 8501
+-1 8501
++1 17002
+cfi=(112)
+cfn=(966)
+calls=8501 -4 
+* 153018
++2 42505
++29 17002
++44 8501
++1 8501
+-1 8501
++1 42505
+-43 34004
+-7 8501
+fi=(147) /build/buildd/eglibc-2.15/math/../sysdeps/i386/fpu/bits/mathinline.h
+762 8501
+fi=(148) /build/buildd/eglibc-2.15/math/../math/math_private.h
+216 51006
+fe=(111)
+73 17002
+
+fl=(57)
+fn=(270)
+0 5
+cfi=(58)
+cfn=(262)
+calls=1 94 
+0 2
+0 8
+
+fn=(2798)
+0 5
+cfi=(58)
+cfn=(262)
+calls=1 94 
+0 2
+0 10
+cob=(3)
+cfi=(143)
+cfn=(2628)
+calls=1 31 
+0 72
+cob=(1)
+cfi=(60)
+cfn=(310)
+calls=1 29 
+0 1635
+0 14
+
+fn=(260)
+0 4
+cfi=(58)
+cfn=(262)
+calls=1 94 
+0 2
+0 9
+
+fl=(114)
+fn=(1042)
+69 7000
++1 7000
++1 7000
++1 14000
+cfi=(106)
+cfn=(892)
+calls=7000 +4 
+* 14000
+* 7000
++4 7000
++1 7000
++1 7000
++1 7000
++1 7000
++1 7000
++2 7000
++1 7000
++6 7000
++1 7000
++1 7000
++4 7000
++1 7000
++1 7000
++1 7000
++1 7000
++1 7000
++1 7000
++1 7000
++1 7000
++1 7000
++1 7000
++1 7000
++1 7000
++1 7000
++1 7000
++1 7000
++1 7000
++1 7000
++1 7000
++1 7000
++1 7000
++1 7000
+
+fl=(58)
+fn=(262)
+94 17158
+
+fl=(112)
+fn=(966)
+28 34004
++4 68008
++1 51006
++1 34004
++1 34004
++1 17002
+-1 17002
++8 51006
+-6 1500
++1 1500
+-1 1500
++2 1500
+-9 1500
++9 1500
+
+fl=(105)
+fn=(890)
+72 74
++1 148
+cfi=(106)
+cfn=(892)
+calls=74 +3 
+* 148
+* 74
++6 74
++1 74
++1 74
++1 74
++1 74
++2 74
++1 74
++2 74
++1 74
++2 74
++2 74
++3 74
++1 74
++1 74
++1 74
++1 74
++1 74
++2 74
++1 74
++2 74
++3 74
++1 74
++1 74
++1 74
++1 74
++1 74
++4 74
++1 74
++1 74
++1 74
++1 74
++1 74
++1 74
++38 74
++1 74
++1 74
++1 74
++1 74
++1 74
++1 74
++1 74
++1 74
++1 74
++1 74
++1 1
++1 1
++1 1
++2 73
++1 73
++1 73
++1 73
++1 73
++1 73
++1 73
++1 73
++1 73
++1 73
++2 73
++1 73
+-11 1
++1 1
++1 1
++1 1
++1 1
++1 1
++1 1
++1 1
++1 1
++2 1
++1 1
+
+totals: 4926507125

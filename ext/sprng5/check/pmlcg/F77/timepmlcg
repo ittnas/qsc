@@ -1,0 +1,3 @@
+echo
+echo pmlcg: Timing FORTRAN interface
+././time.fpmlcg

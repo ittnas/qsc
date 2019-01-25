@@ -1,0 +1,15 @@
+/constants.f90/1.1/Wed Jul  1 11:06:49 2015//
+/utils.f90/1.2/Tue Jul  7 08:19:44 2015//
+/equation_solvers.f90/1.4/Wed Mar  9 14:29:03 2016//
+/fclass.f90/1.8/Wed Mar  9 14:14:33 2016//
+/ode_s_solvers.f90/1.6/Wed Nov 11 10:51:09 2015//
+/ode_solvers.f90/1.5/Tue Jul  5 10:09:46 2016//
+/sclass.f90/1.6/Tue Mar 15 14:20:55 2016//
+/sde_solvers.f90/1.5/Wed Mar 16 13:15:23 2016//
+/operators.f90/1.5/Fri Oct 21 09:07:31 2016//
+/envelopes.f90/1.7/Tue Nov 21 13:45:38 2017//
+/hamiltonians.f90/1.11/Thu Aug 17 13:43:11 2017//
+/linfuncs.f90/1.9/Tue Jun 27 13:32:06 2017//
+/random.f90/1.5/Fri Jun 30 09:11:30 2017//
+/signals.f90/1.9/Tue Nov 21 13:43:04 2017//
+D

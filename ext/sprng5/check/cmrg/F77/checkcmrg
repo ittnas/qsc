@@ -1,0 +1,6 @@
+echo
+echo cmrg: Checking Default FORTRAN interface:
+./check.fcmrg < ./cmrg.data 2> /dev/null
+echo
+echo cmrg: Checking Simple FORTRAN interface:
+./check_sim.fcmrg < ./cmrg.data 2> /dev/null

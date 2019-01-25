@@ -1,0 +1,6 @@
+echo
+echo mlfg: Checking Default FORTRAN interface:
+./check.fmlfg < ./mlfg.data 2> /dev/null
+echo
+echo mlfg: Checking Simple FORTRAN interface:
+./check_sim.fmlfg < ./mlfg.data 2> /dev/null

@@ -1,0 +1,3 @@
+echo
+echo cmrg: Timing FORTRAN interface
+././time.fcmrg

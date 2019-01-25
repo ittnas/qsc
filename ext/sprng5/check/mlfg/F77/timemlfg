@@ -1,0 +1,3 @@
+echo
+echo mlfg: Timing FORTRAN interface
+././time.fmlfg

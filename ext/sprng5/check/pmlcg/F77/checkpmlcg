@@ -1,0 +1,6 @@
+echo
+echo pmlcg: Checking Default FORTRAN interface:
+./check.fpmlcg < ./pmlcg.data 2> /dev/null
+echo
+echo pmlcg: Checking Simple FORTRAN interface:
+./check_sim.fpmlcg < ./pmlcg.data 2> /dev/null
